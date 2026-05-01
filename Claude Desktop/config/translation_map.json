@@ -1,0 +1,202 @@
+{
+  "meta": {
+    "version": "1.0.0",
+    "default_locale": "zh-CN",
+    "default_city_context": "national",
+    "fallback_policy": "gb_baseline_with_local_check_note",
+    "last_updated": "2026-05-01"
+  },
+  "enums": {
+    "category": [
+      "authority",
+      "approval_workflow",
+      "role",
+      "regulation",
+      "planning_metric",
+      "fire_life_safety",
+      "accessibility",
+      "sustainability",
+      "contract_admin",
+      "project_delivery",
+      "document_submission",
+      "typology"
+    ],
+    "discipline_context": [
+      "general",
+      "planning",
+      "architecture",
+      "structure",
+      "mep",
+      "fire",
+      "cost",
+      "construction_admin"
+    ],
+    "city_context": [
+      "national",
+      "beijing",
+      "shanghai",
+      "shenzhen",
+      "guangzhou",
+      "chengdu",
+      "hangzhou"
+    ],
+    "confidence_flag": [
+      "high",
+      "medium",
+      "low"
+    ],
+    "mapping_status": [
+      "canonical",
+      "contextual",
+      "approximate"
+    ]
+  },
+  "style_rules": {
+    "identity_mode": "role_based_no_personal_name",
+    "unit_area_primary": "m2",
+    "unit_land_secondary": "mu",
+    "decimal_convention": {
+      "ratio_digits": 2,
+      "area_digits": 2,
+      "height_digits": 2
+    }
+  },
+  "term_mappings": [
+    {
+      "id": "tm-001",
+      "category": "approval_workflow",
+      "hk_term": "Occupation Permit (OP)",
+      "mainland_term": "竣工验收备案",
+      "discipline_context": "construction_admin",
+      "city_scope": [
+        "national"
+      ],
+      "mapping_status": "contextual",
+      "confidence_flag": "medium",
+      "confidence_score": 0.83,
+      "review_required": true,
+      "notes": "Some municipalities operationalize as 竣工联合验收后备案."
+    },
+    {
+      "id": "tm-002",
+      "category": "authority",
+      "hk_term": "Building Department (BD)",
+      "mainland_term": "住建局/规自局（按事项分工）",
+      "discipline_context": "general",
+      "city_scope": [
+        "national"
+      ],
+      "mapping_status": "contextual",
+      "confidence_flag": "medium",
+      "confidence_score": 0.8,
+      "review_required": true,
+      "notes": "Planning and construction permissions are split by function."
+    },
+    {
+      "id": "tm-003",
+      "category": "authority",
+      "hk_term": "Fire Services Department (FSD)",
+      "mainland_term": "消防救援局",
+      "discipline_context": "fire",
+      "city_scope": [
+        "national"
+      ],
+      "mapping_status": "canonical",
+      "confidence_flag": "high",
+      "confidence_score": 0.95,
+      "review_required": false,
+      "notes": ""
+    },
+    {
+      "id": "tm-004",
+      "category": "planning_metric",
+      "hk_term": "Plot Ratio",
+      "mainland_term": "容积率",
+      "discipline_context": "planning",
+      "city_scope": [
+        "national"
+      ],
+      "mapping_status": "canonical",
+      "confidence_flag": "high",
+      "confidence_score": 0.98,
+      "review_required": false,
+      "notes": ""
+    },
+    {
+      "id": "tm-005",
+      "category": "regulation",
+      "hk_term": "FS Code 2011",
+      "mainland_term": "GB 50016（及现行修订）",
+      "discipline_context": "fire",
+      "city_scope": [
+        "national"
+      ],
+      "mapping_status": "canonical",
+      "confidence_flag": "high",
+      "confidence_score": 0.99,
+      "review_required": false,
+      "notes": ""
+    }
+  ],
+  "city_overrides": {
+    "national": {
+      "disclaimer": "基于国家标准（如 GB 50016）提供建议，请结合项目所在地最新地方标准和审查口径复核。"
+    },
+    "beijing": {
+      "local_standard_prefixes": [
+        "DB11",
+        "BJ"
+      ]
+    },
+    "shanghai": {
+      "local_standard_prefixes": [
+        "DGJ",
+        "DB31"
+      ]
+    },
+    "shenzhen": {
+      "local_standard_prefixes": [
+        "DB4403",
+        "SZ"
+      ]
+    },
+    "guangzhou": {
+      "local_standard_prefixes": [
+        "DBJ44",
+        "GZ"
+      ]
+    },
+    "chengdu": {
+      "local_standard_prefixes": [
+        "DB51",
+        "CD"
+      ]
+    },
+    "hangzhou": {
+      "local_standard_prefixes": [
+        "DB33",
+        "HZ"
+      ]
+    }
+  },
+  "validation_rules": {
+    "required_mapping_keys": [
+      "id",
+      "category",
+      "hk_term",
+      "mainland_term",
+      "discipline_context",
+      "city_scope",
+      "mapping_status",
+      "confidence_flag",
+      "confidence_score",
+      "review_required",
+      "notes"
+    ],
+    "confidence_score_range": [
+      0.0,
+      1.0
+    ],
+    "id_pattern": "^tm-[0-9]{3}$"
+  }
+}

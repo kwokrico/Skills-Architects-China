@@ -1,0 +1,20 @@
+{
+  "regulatory_basis": "GB/T 50353 (national baseline)",
+  "categories": {
+    "above_ground_main": {
+      "countable": true
+    },
+    "below_ground_main": {
+      "countable": true
+    },
+    "equipment_room": {
+      "countable": true
+    },
+    "refuge_space": {
+      "countable": false
+    },
+    "open_balcony": {
+      "countable": false
+    }
+  }
+}

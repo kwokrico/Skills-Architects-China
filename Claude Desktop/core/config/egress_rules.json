@@ -1,0 +1,33 @@
+{
+  "regulatory_basis": "GB 50016 (national baseline)",
+  "occupancy_limits_m": {
+    "residential": {
+      "sprinklered": 45,
+      "unsprinklered": 30
+    },
+    "office": {
+      "sprinklered": 45,
+      "unsprinklered": 30
+    },
+    "commercial": {
+      "sprinklered": 45,
+      "unsprinklered": 30
+    },
+    "assembly": {
+      "sprinklered": 30,
+      "unsprinklered": 20
+    }
+  },
+  "occupancy_load_density_m2_per_person": {
+    "office": 9.3,
+    "commercial": 3.0,
+    "assembly": 1.5,
+    "residential": 25.0
+  },
+  "min_stair_width_m": {
+    "office": 1.1,
+    "commercial": 1.2,
+    "assembly": 1.3,
+    "residential": 1.1
+  }
+}
