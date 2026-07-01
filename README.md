@@ -1,15 +1,15 @@
 # Mainland Architect Skills (China)
 
-### A Claude Desktop skill suite for Mainland China architectural practice
+### A Tier 2 professional skill suite for Mainland China architectural practice
 
 `Skills-Architect-China` is a localized architecture plugin built around one master router (`mainland-architect-master`) and a set of specialist `cn-*` sub-skills. It is tuned for PRC statutory, technical, and delivery workflows: national vs local standards hierarchy (GB/GB-T/JGJ → DB/DGJ/DBJ), planning indicators (容积率/建筑密度/绿地率), 施工图审查 logic, fire and accessibility baselines, and construction-to-acceptance workflows (施工许可证 → 消防验收 → 竣工联合验收/备案).
 
 ---
 
-- `Claude Desktop/SKILL.md`: Main entry skill (`mainland-architect-master`) with routing rules and quick-reference baselines.
-- `Claude Desktop/sub_skills/`: Domain sub-skills for focused expertise (codes, planning, fire, sustainability, delivery, contract/admin, documentation, etc.).
-- `Claude Desktop/core/calculators.py`: Calculation helpers used by calculator workflows.
-- `Claude Desktop/main.py`: Runtime entry point for loading sub-skills and tool dispatch.
+- `mainland-architect-master/SKILL.md`: Main entry skill (`mainland-architect-master`) with routing rules and quick-reference baselines.
+- `mainland-architect-master/subskills/`: Domain sub-skills for focused expertise (codes, planning, fire, sustainability, delivery, contract/admin, documentation, etc.).
+- `mainland-architect-master/scripts/calculators.py`: Calculation helpers used by calculator workflows.
+- `mainland-architect-master/scripts/dispatcher.py`: Runtime entry point for loading sub-skills and tool dispatch.
 
 - [Quick Start](#quick-start)
 - [What You Get](#what-you-get)
@@ -29,28 +29,33 @@
 
 1. Copy or clone this folder into your Claude Desktop skills workspace.
 2. Keep the package structure unchanged:
-   - `Claude Desktop/SKILL.md`
-   - `Claude Desktop/sub_skills/`
-   - `Claude Desktop/core/`
-   - `Claude Desktop/main.py`
-3. Load the skill package from this directory.
+   - `mainland-architect-master/SKILL.md`
+   - `mainland-architect-master/subskills/`
+   - `mainland-architect-master/scripts/`
+   - `mainland-architect-master/references/`
+3. Load the skill package from `mainland-architect-master/`.
 4. Start a new chat and ask a Mainland China architecture question.
 
 ### Option 2: Plugin directory launch
 
 ```bash
-claude --plugin-dir "/path/to/Skills-Architect-China/Claude Desktop"
+claude --plugin-dir "/path/to/Skills-Architect-China/mainland-architect-master"
 ```
+
+### Option 3: Cursor project activation
+
+See [`AGENTS.md`](AGENTS.md) for automatic routing in Cursor.
 
 ---
 
 ## What You Get
 
-- **1 master router skill**: `mainland-architect-master` in `Claude Desktop/SKILL.md`
+- **1 master router skill**: `mainland-architect-master` in `mainland-architect-master/SKILL.md`
 - **A library of `cn-*` sub-skills** across compliance, design, engineering, and delivery
 - **Built-in quick-reference layer** for common PRC workflow terms and baselines (GB-first, then local supplements)
-- **Calculation support** via `Claude Desktop/core/calculators.py`
+- **Calculation support** via `mainland-architect-master/scripts/calculators.py`
 - **Structured routing** through `load_sub_skill` and calculator dispatch (`run_arch_calculator`)
+- **Eval pack** in `mainland-architect-master/evals/evals.json` with sibling workspace `mainland-architect-master-workspace/`
 
 ---
 
@@ -84,7 +89,7 @@ This keeps routine queries fast while preserving deep, domain-specific responses
 - `cn-alterations-additions`
 - `cn-lease-compliance`
 - `cn-unauthorised-building-works`
-- `cn-fsd-licensing-compliance`
+- `cn-fire-acceptance-closeout` (alias: `cn-fsd-licensing-compliance`)
 - `cn-certificate-of-compliance`
 
 ### 2) Technical and Performance Design
@@ -131,7 +136,7 @@ The calculator module currently supports:
 
 ### Optional dependency (schema validation)
 
-If you want schema validation for `Claude Desktop/config/translation_map.json`, install:
+If you want schema validation for `mainland-architect-master/scripts/config/translation_map.json`, install:
 
 ```powershell
 python -m pip install jsonschema
@@ -144,24 +149,34 @@ If `jsonschema` is not installed, the dispatcher still runs but will skip schema
 ## Folder Structure
 
 ```text
-Claude Desktop/
+mainland-architect-master/
 ├── SKILL.md                      # Master router: mainland-architect-master
-├── main.py                       # Runtime entry and dispatch
-├── core/
-│   ├── calculators.py            # Calculator workflows
+├── main.py                       # Backward-compatible shim → scripts/dispatcher.py
+├── subskills/
+│   └── cn-*/                     # 35 specialist modules
+├── references/
+│   ├── compliance.md
+│   ├── operational.md
+│   ├── domain_terms.json
+│   ├── config.json
+│   ├── heritage-impact-checklist.md
+│   └── templates/
+├── scripts/
+│   ├── dispatcher.py
+│   ├── calculators.py
 │   └── config/
-│       ├── area_rules.json       # Area category rules (GB/T 50353 baseline)
-│       └── egress_rules.json     # Egress rule tables (GB 50016 baseline)
-├── config/
-│   ├── translation_map.json      # Terminology + city context mapping
-│   └── translation_map.schema.json
-└── sub_skills/
-    ├── cn-building-codes/
-    ├── cn-fire-life-safety/
-    ├── cn-spatial-planning/
-    ├── ... (specialist skills)
-    └── cn-heritage-conservation/
+├── evals/
+│   ├── evals.json
+│   └── files/
+└── docs/
+    ├── golden-questions.md
+    └── _archive/hk-migration-notes.md
+
+mainland-architect-master-workspace/   # sibling eval outputs (gitignored)
+└── iteration-1/
 ```
+
+Project root: [`AGENTS.md`](AGENTS.md) wires Cursor agents to the master skill.
 
 ---
 

@@ -1,0 +1,19 @@
+{
+  "skill_metadata": {
+    "name": "mainland-architect-master",
+    "version": "2.0.0",
+    "strict_mode": true
+  },
+  "operational_boundaries": {
+    "allow_assumptions": false,
+    "fallback_to_standard_baselines": true,
+    "maximum_iteration_depth": 3,
+    "require_city_context_for_local_binding": true,
+    "require_approval_stage_for_submission_advice": true
+  },
+  "compliance_verification": {
+    "require_framework_citations": true,
+    "enforce_jurisdictional_bounds": true,
+    "target_governance_framework": "PRC national GB/GB-T/JGJ with municipal DB/DGJ/DBJ supplements"
+  }
+}

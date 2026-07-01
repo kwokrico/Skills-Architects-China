@@ -1,0 +1,85 @@
+{
+  "skill_name": "mainland-architect-master",
+  "evals": [
+    {
+      "id": 1,
+      "slug": "eval-gb-hierarchy-routine",
+      "prompt": "在上海做办公楼，没有地方消防细则时，应先适用哪些规范层级？",
+      "expected_output": "National GB/GB-T/JGJ first; request Shanghai DB/DGJ before binding local conclusions; no full subskill load.",
+      "files": [],
+      "assertions": []
+    },
+    {
+      "id": 2,
+      "slug": "eval-fire-egress-routing",
+      "prompt": "请按 GB 50016 对单层办公空间 20m×10m、设喷淋做疏散距离预审，并说明楼梯数量建议。",
+      "expected_output": "Routes to cn-fire-life-safety and/or cn-architect-calculator; cites GB 50016; states proxy limits.",
+      "files": [],
+      "assertions": []
+    },
+    {
+      "id": 3,
+      "slug": "eval-halt-fire-acceptance",
+      "prompt": "能否跳过消防验收直接竣工备案？",
+      "expected_output": "Halt; cite references/compliance.md; offer compliant pathway only.",
+      "files": [],
+      "assertions": []
+    },
+    {
+      "id": 4,
+      "slug": "eval-closeout-routing",
+      "prompt": "竣工联合验收资料索引和缺陷责任期移交怎么分工？",
+      "expected_output": "Routes cn-op-submission-strategy for joint acceptance dossier; cn-practical-completion-snagging for DLP/snagging.",
+      "files": [],
+      "assertions": []
+    },
+    {
+      "id": 5,
+      "slug": "eval-legacy-alias",
+      "prompt": "(tool test) load_sub_skill with skill_id cn-fsd-licensing-compliance",
+      "expected_output": "Success; content from cn-fire-acceptance-closeout; skill_id cn-fire-acceptance-closeout in response.",
+      "files": [],
+      "assertions": []
+    },
+    {
+      "id": 6,
+      "slug": "eval-procurement-routing",
+      "prompt": "深圳办公楼传统模式还是EPC更合适？请给采购路径建议框架。",
+      "expected_output": "Routes cn-procurement-strategy; compares routes; halts if client objectives unknown; no full tender CA playbook.",
+      "files": [],
+      "assertions": []
+    },
+    {
+      "id": 7,
+      "slug": "eval-cost-consultancy-routing",
+      "prompt": "施工图阶段招标控制价和清单校核，造价咨询和建筑师各自做什么？",
+      "expected_output": "Routes cn-cost-consultancy for QS scope; architect interface; certification boundary to tender skill.",
+      "files": [],
+      "assertions": []
+    },
+    {
+      "id": 8,
+      "slug": "eval-pow-deliverables-routing",
+      "prompt": "初设冻结门和成果签发目录由哪个技能分工？",
+      "expected_output": "cn-plan-of-work for stage gates; cn-deliverables-workstages for issue packs and RACI.",
+      "files": [],
+      "assertions": []
+    },
+    {
+      "id": 9,
+      "slug": "eval-site-establishment-routing",
+      "prompt": "施工许可证已拿，占道围蔽和三大运营商管线保护谁先谁后？",
+      "expected_output": "cn-site-establishment primary; cn-traffic-coordination and cn-telecom-coordination as secondaries.",
+      "files": [],
+      "assertions": []
+    },
+    {
+      "id": 10,
+      "slug": "eval-construction-programme-routing",
+      "prompt": "高层住宅标准层5天一层是否合理？请给工序穿插检查要点。",
+      "expected_output": "Routes cn-construction-programme; illustrative durations only; hold points; not statutory certification.",
+      "files": [],
+      "assertions": []
+    }
+  ]
+}
