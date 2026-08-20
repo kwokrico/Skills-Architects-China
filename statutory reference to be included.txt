@@ -1,0 +1,161 @@
+You’re right — **Mainland China**, not Hong Kong. For your `skill.md`, distinguish between the nationwide legal framework and the **city/province-specific submission catalogue**. Local rules control the exact package and online workflow, but the following are the statutory documents to acknowledge first. [moj.gov](https://www.moj.gov.cn/pub/sfbgw/flfggz/flfggzbmgz/201307/t20130726_145338.html)
+
+## Planning submission
+
+1. **《中华人民共和国城乡规划法》**
+   This is the primary basis for planning approvals. For construction in urban or town planning areas, the developer applies for a **建设工程规划许可证** (Construction Project Planning Permit, “工程规划许可证”); the statutory application includes land-use proof and the construction design proposal, plus a detailed site plan where required. [mee.gov](https://www.mee.gov.cn/ywgz/fgbz/fl/201906/t20190605_705768.shtml)
+
+2. **Planning conditions and controlling plan**
+   Acknowledge the applicable **控制性详细规划** (regulatory detailed plan), **规划条件** (planning conditions), land parcel boundary/red-line, land-use right document, and the **国有建设用地使用权出让合同** where land is granted. These establish permitted use, development intensity, height, setbacks, FAR/plot ratio, site coverage, parking, public facilities, and other parcel controls. [dnr.yn.gov](https://dnr.yn.gov.cn/html/2023/liuyanhuifu_1128/43891.html)
+
+3. **Project approval basis**
+   Include the applicable **approval,核准, or备案** document for the investment project, together with the land-use documentation and planning/design proposal required by the local natural-resources and planning authority. A typical municipal permit submission also calls for qualified design drawings and a site plan. [english.beijing.gov](https://english.beijing.gov.cn/investinginbeijing/Start_Your_Business/project_construction/construction_permit/202005/t20200525_1908384.html)
+
+4. **Specialist approval opinions**
+   Require a local check for parallel or prerequisite specialist opinions, such as civil-air-defence (**人防**), landscape/green-space, transport, heritage, environmental impact assessment, utilities, and airport/height-control constraints. Which ones are mandatory depends on the city and project type. [english.beijing.gov](https://english.beijing.gov.cn/investinginbeijing/Start_Your_Business/project_construction/construction_permit/202005/t20200525_1908384.html)
+
+## Drawing-review checking
+
+The primary document is **《房屋建筑和市政基础设施工程施工图设计文件审查管理办法》** (MOHURD Order No. 13, as amended), read with the **《建设工程质量管理条例》**. It applies to building and municipal-infrastructure construction-drawing review nationwide; drawings that have not passed review cannot be used. [beijing.gov](https://www.beijing.gov.cn/zhengce/gwywj/202206/t20220617_2744828.html)
+
+Your mandatory review headings should mirror the regulated review scope:
+
+- Compliance with **engineering construction mandatory standards** (工程建设强制性标准). [hunan.gov](http://www.hunan.gov.cn/zqt/zcsd/201812/t20181229_13561282.html)
+- Safety of **ground/foundation and primary structure**. [hunan.gov](http://www.hunan.gov.cn/zqt/zcsd/201812/t20181229_13561282.html)
+- **Fire safety**; for example, apply the mandatory national code **GB 55037-2022, 建筑防火通用规范**, where relevant. [hunan.gov](http://www.hunan.gov.cn/zqt/zcsd/202301/t20230131_29211615.html)
+- **Civil-air-defence protection safety** where a 人防 project is involved. [hunan.gov](http://www.hunan.gov.cn/zqt/zcsd/201812/t20181229_13561282.html)
+- Mandatory requirements for **energy efficiency**, and green-building standards where the project must implement them. [hunan.gov](http://www.hunan.gov.cn/zqt/zcsd/201812/t20181229_13561282.html)
+- Valid qualifications, registered-professional signatures, and required seals on the drawings and documents. [hunan.gov](http://www.hunan.gov.cn/zqt/zcsd/201812/t20181229_13561282.html)
+- Any further matters expressly required by national, provincial, or municipal law. [hunan.gov](http://www.hunan.gov.cn/zqt/zcsd/201812/t20181229_13561282.html)
+
+## Suggested skill rule
+
+> Treat national laws, administrative regulations, compulsory engineering-construction codes, and the current local planning/permit and drawing-review rules as the compliance hierarchy. Never infer approval solely from national rules: identify the project city, district, project category, and local submission catalogue before confirming documents or drawing requirements.
+
+A crucial correction for the wording: **“施工图审查合格书” is not itself the design standard**—it is the review outcome. Your skill should check that the construction drawings, geological-investigation documents, calculations, specialist designs, signatures/seals, and required approvals form a reviewable package before expecting that outcome. [gd.gov](http://www.gd.gov.cn/zwgk/wjk/zcfgk/content/post_2531576.html)
+
+Which municipality will the skill target first—for example Shenzhen, Shanghai, Beijing, Guangzhou, or another city?
+
+When drafting a `skill.md` file for architectural planning submissions and drawing/building regulations checking in Mainland China, you must acknowledge a strict hierarchy of statutory laws, administrative regulations, and technical codes overseen by the **Ministry of Housing and Urban-Rural Development (MOHURD)** and local Natural Resources/Construction bureaus.
+
+The primary statutory framework and documentation required for planning submission and drawing review include:
+
+---
+
+### 1. Overarching National Laws (法律)
+
+These are the foundational legislative acts passed by the National People's Congress that dictate legal liabilities, responsibilities, and procedural requirements:
+
+* **Urban and Rural Planning Law of the PRC (中华人民共和国城乡规划法):** Governs spatial planning, land-use allocations, and the "Two Permits" system.
+* **Construction Law of the PRC (中华人民共和国建筑法):** Regulates the entire construction process, including building permits, contractor/designer qualifications, and quality control.
+* **Fire Protection Law of त्याचा PRC (中华人民共和国消防法):** Mandates statutory fire safety compliance for all building designs.
+
+---
+
+### 2. Core Administrative Regulations & Decrees (行政法规与部令)
+
+These set the operational rules for handling planning permits and mandatory drawing reviews (施工图审查):
+
+* **Regulations on Quality Management of Construction Engineering (建设工程质量管理条例):** Mandates that construction drawings must undergo independent third-party technical review (Construction Drawing Review / 施工图审查) before applying for a construction permit.
+* **Administrative Measures for Construction Project Planning Permits (建设工程规划许可证管理办法):** Details the compliance parameters for project layouts, heights, and volumes.
+
+---
+
+### 3. Essential Statutory Submissions & Permits (法定报建证照)
+
+In a Mainland workflow, your skill must account for the sequential acquisition of these mandatory project milestones:
+
+* **Construction Land Planning Permit (建设用地规划许可证):** Confirms that the land-use aligns with the local controlled detailed planning (控制性详细规划).
+* **Construction Project Planning Permit (建设工程规划许可证):** Granted after the architectural scheme design passes urban planning review. It legally seals the geometric, massing, and functional bounds of the project.
+* **Construction Drawing Review Certificate (施工图设计文件审查合格书):** Issued after a certified third-party review agency checks the architectural, structural, MEP, and geotechnical drawings against mandatory national codes.
+
+---
+
+### 4. Mandatory National Technical Codes (国家强制性工程建设规范)
+
+When checking drawings, standard practice requires compliance with a unified system of standards. Mentioning these specific code frameworks ensures technical validity:
+
+* **General Specifications for Building Engineering and Construction (工程建设规范全文本 / 强制性工程建设规范):** The updated consolidated system of mandatory technical requirements (replacing older standalone forced clauses).
+* **Unified Standard for Reliability Design of Engineering Structures (工程结构通用规范) & related structural codes.**
+* **Code for Fire Protection Design of Buildings (建筑设计防火规范 - GB 50016):** The core statutory benchmark for layouts, compartmentation, and evacuation routes.
+* **Accessbility, Energy Saving, and Green Building Codes (建筑节能与可再生能源利用通用规范, etc.):** Enforcing national carbon-peak and environmental targets.
+
+---
+
+> 💡 **Implementation Tip for your `skill.md`:** Structure your validation logic so that a drawing package cannot pass "Drawing Regulation Checking" unless it inherently satisfies the **Mandatory National Codes** and holds a formal **Construction Drawing Review Report** stamped by a licensed institutional reviewer.
+
+Would you like this structured into a ready-to-paste Markdown template tailored for an AI coding or drafting agent?
+
+**Key statutory documents to acknowledge for mainland China planning submission (规划报建 / 建设工程规划许可) and construction drawing / building regulations checking (施工图设计文件审查).**
+
+Focus is on the national framework that applies across mainland China (local rules and detailed checklists add city/province specifics and must also be followed).
+
+### 1. Core laws and regulations (highest-level statutory basis)
+
+| Document | Key relevance |
+|----------|---------------|
+| **中华人民共和国城乡规划法** (Urban and Rural Planning Law) | Foundation for all planning permits (选址意见书, 建设用地规划许可证, 建设工程规划许可证). Requires design schemes and drawings to comply with detailed plans / planning conditions. |
+| **中华人民共和国建筑法** (Construction Law) | Overall framework for construction quality, design responsibility, and permits. |
+| **中华人民共和国消防法** (Fire Protection Law) | Fire safety design and review requirements. |
+| **建设工程质量管理条例** (Regulations on the Quality Management of Construction Projects) | Quality and safety obligations of design units; basis for mandatory drawing review. |
+| **建设工程勘察设计管理条例** (Regulations on the Administration of Survey and Design of Construction Projects) | Survey/design quality, seals/signatures, and review obligations. |
+| **房屋建筑和市政基础设施工程施工图设计文件审查管理办法** (MOHURD Order No. 13, as amended 2015 & 2018) | **Core statutory instrument for construction drawing review.** Defines what must be reviewed, who can review, review content, and outcomes. |
+
+These are the documents that a skill.md should explicitly acknowledge as the primary legal basis.
+
+### 2. Construction drawing review – mandatory content (per Order No. 13)
+
+Review institutions must check (at minimum):
+
+- Compliance with **engineering construction mandatory standards** (工程建设强制性标准 / 强条).
+- Safety of foundation and main structure.
+- Fire safety.
+- Civil air-defence (人防) protection safety (excluding command works).
+- Compliance with civil building energy-saving mandatory standards; for green-building projects, also green-building standards.
+- Whether survey/design enterprises and registered practitioners have properly sealed and signed the drawings.
+- Other content required by laws, regulations or rules.
+
+Review is mandatory for almost all new, expansion and reconstruction house-building and municipal infrastructure projects (with limited local exemptions for very small / low-risk works in some cities).
+
+### 3. Planning submission side – key statutory / quasi-statutory documents
+
+- Planning conditions / 规划设计要点 issued by the planning & natural resources authority.
+- 建设用地规划许可证 and related land-use approval documents.
+- Approved detailed plan / control detailed plan requirements.
+- Local technical regulations on urban planning administration (e.g., Shanghai, Beijing, Shenzhen equivalents).
+- Design scheme / architectural scheme approval documents (scheme review stage often precedes full construction drawings).
+
+Drawings submitted for the **建设工程规划许可证** must match the approved planning conditions, red-line, setbacks, height, FAR, greening, parking, sunlight, etc.
+
+### 4. Supporting standards and technical documents that must be referenced
+
+- **Current national / industry mandatory standards and codes** (the “强条” system). Key families include:
+  - General architectural: *民用建筑设计统一标准* GB 50352, *住宅设计规范* GB 50096, etc.
+  - Fire: relevant GB 50016 and related codes.
+  - Structure, seismic, energy-saving, accessibility (无障碍), green building, civil defence, etc.
+- **建筑工程设计文件编制深度规定** (Depth of Design Documents for Construction Projects – 2016 edition or current).
+- Local construction-drawing review technical guidelines / checklists (各省市施工图审查要点 or 导则). These operationalise the national Order and list the exact clauses checked.
+- Drawing standards: *房屋建筑制图统一标准* GB/T 50001 and related professional drawing standards.
+
+### 5. Practical notes for a skill.md
+
+- Always state that **national laws + MOHURD Order No. 13** form the baseline; local planning & housing authorities issue additional technical provisions and checklists that take precedence for local submissions.
+- Distinguish the two main stages:
+  1. **Planning permit stage** (规划许可 / 报建) – compliance with planning conditions, overall layout, indicators.
+  2. **Construction drawing review stage** (施工图审查) – technical compliance with mandatory standards, structure/fire/人防/energy safety.
+- Emphasise that review focuses on public interest, public safety and mandatory standards; it is not a full design audit.
+- Note the ongoing national reform toward digital / multi-department joint review and the trend of simplified or post-event checks for small low-risk projects (still subject to designer responsibility).
+- Require that any skill output acknowledge the need to use the **version of standards valid at the time of the design contract** (with the one-year transition rule for new mandatory norms that many provinces apply).
+
+### Recommended minimal acknowledgement list for the skill.md
+
+1. 中华人民共和国城乡规划法
+2. 中华人民共和国建筑法
+3. 中华人民共和国消防法
+4. 建设工程质量管理条例
+5. 建设工程勘察设计管理条例
+6. 房屋建筑和市政基础设施工程施工图设计文件审查管理办法（住建部令第13号及其修正）
+7. Current national mandatory engineering construction standards (强条) and the relevant professional codes
+8. Local planning technical regulations and construction-drawing review points applicable to the project location
+
+This set covers the statutory backbone for both planning submission and drawing/building-regulations checking in mainland China. Local detailed lists (Beijing, Shanghai, Guangdong, Zhejiang, etc.) should be added when the skill is used for a specific city.
