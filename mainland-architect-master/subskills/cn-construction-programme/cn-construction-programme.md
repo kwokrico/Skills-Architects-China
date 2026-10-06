@@ -1,100 +1,110 @@
 ---
 name: cn-construction-programme
-description: Activate for Mainland construction sequencing—高层标准层循环, 工序穿插, fast-tracking, hold points, follow-the-structure façade, and 4-week look-ahead programme templates.
+description: Mainland construction sequencing for high-rise and podium projects, including swimlanes, hold points, and look-ahead planning. Durations are illustrative, not norms.
 user-invocable: true
 disable-model-invocation: true
 ---
 
 # Mainland Construction Programme
-Construction sequencing narratives and programme artefacts for architect/PM interface. Durations are illustrative—project-specific programme required.
 
-Swimlanes: [cn-construction-sequence-swimlanes.md](../../references/cn-construction-sequence-swimlanes.md). Look-ahead template: [construction-look-ahead.md](../../references/templates/construction-look-ahead.md).
-
----
-
-## 1. Archetype Defaults
-
-| Typology | Dominant sequence |
-|----------|-------------------|
-| 高层混凝土塔楼 | 土方→桩基→地下室→主体标准层循环→幕墙跟随结构→装修穿插 |
-| 装配式塔楼 | 标准层拆分吊装节点; 现浇节点与模块吊装交替 |
-| 低层公建 | 框架→屋面→幕墙→内装顺序更线性 |
-
----
-
-## 2. Swimlane Index
-
-Typical lanes: 土方基坑 | 结构 | 幕墙 | 机电 | 精装 | 验收.
-
-Cross-trade rules:
-
-- Concealed MEP before slab close.
-- Fire compartment boundaries before ceiling close.
-- Façade pressure test before interior wet trades (project-specific).
-
----
-
-## 3. Mainland Substitution Notes
-
-| HK / generic term | Mainland practice |
-|-------------------|-------------------|
-| Follow-the-structure curtain wall | 幕墙随结构进度、样板层验收后展开 |
-| Standard floor cycle | 标准层5–8天/层 (illustrative; verify locally) |
-| Fast-track | 工序穿插、平行作业、提前招采 |
-
----
-
-## 4. Architect / PM Early Freezes
-
-Freeze before bulk production:
-
-- Standard floor layout and core.
-- Façade module and opening schedule.
-- MEP shaft and riser routes.
-- Lobby and typical floor finish level.
-
-Link freezes to `cn-deliverables-workstages`.
-
----
-
-## 5. Hold-Point Register
-
-| Hold point | Witness | Typical trigger |
-|------------|---------|-----------------|
-| 桩基验收 | 监理、检测 | 承载力报告 |
-| 隐蔽工程 | 监理、设计 | 钢筋、防水、管线 |
-| 消防系统试压 | 监理、消防 | 管网压力 |
-| 分部分项 | 住建 | 主体结构验收等 |
-
----
-
-## 6. Programme Artefacts
-
-- Master schedule (contractor-led).
-- 4-week look-ahead (rolling).
-- Interface matrix with procurement (`cn-procurement-strategy`).
-
-**Hard stop:** Illustrative durations only—not submission-ready programme certificates.
-
----
-
-## 7. Output Checklist
-
-- Sequence narrative or swimlane reference.
-- Hold-point list with owners.
-- Look-ahead template issued.
-- Interface assumptions to site supervision.
-- Fast-track risks flagged.
-
----
+Sequences the works. It does not certify a contractor's programme or a statutory duration.
 
 ## When to Use This Skill
 
 | Question type | This skill | Use instead |
 |---------------|------------|-------------|
-| Sequence / 穿插 / 标准层 | `cn-construction-programme` | `cn-site-supervision` |
-| Site RFI | `cn-construction-programme` | `cn-site-supervision` |
-| Approval programme | `cn-construction-programme` | `cn-consent-scheduling` |
+| 工序穿插, floor cycle, look-ahead, hold points | `cn-construction-programme` | `cn-project-management` |
+| Governance and client reports | `cn-construction-programme` | `cn-project-management` |
+| Design-representative inspections | `cn-construction-programme` | `cn-site-supervision` |
+
+## Halt Criteria
+
+- Do not state that a floor cycle "complies" with a code.
+- Do not copy a Hong Kong typical cycle as a Mainland norm.
+- If ground conditions, crane strategy, or prefabrication scope are unknown, label durations as assumptions.
+
+## 1. Archetype Defaults (Illustrative Only)
+
+| Archetype | Pattern to test | Do not treat as a norm |
+|-----------|-----------------|------------------------|
+| High-rise residential tower | Core and typical floor, then facade and fit-out follow | "5 days a floor" without a method |
+| Podium plus tower | Podium structure may lag or lead the tower; services plant often on the podium roof | Assuming the podium is finished first |
+| Basement in a dense city | Excavation, strutting, and neighbours dominate the start | Starting the tower on a calendar date |
+| Prefabricated residential | Factory slot and transport govern the cycle | Site-poured assumptions |
+
+Ask for the contractor's method before commenting on a duration.
+
+## 2. Swimlane Index
+
+Use [cn-construction-sequence-swimlanes.md](../../references/cn-construction-sequence-swimlanes.md). Typical lanes:
+
+| Lane | Owner | Architect input |
+|------|-------|-----------------|
+| Structure | Contractor | Grid, load paths, temporary openings |
+| Facade | Specialist | Setting-out, embedments, waterproofing line |
+| MEP risers | MEP contractor | Shaft sizes frozen before the floor closes |
+| Lifts | Specialist | Shaft dimensions and machine-room access |
+| Fit-out | Fit-out contractor | Wet areas and fire compartments frozen |
+| External works | Civil | Red line, 绿地率 areas, site levels |
+| Inspections | 监理 / design representative | Hold points, not a second programme |
+
+## 3. Substitution Table
+
+| Diagram idea | Mainland reading |
+|--------------|------------------|
+| Statutory hold before excavation | 施工许可证 and 危大工程 scheme where required |
+| Follow-the-structure facade | Embedments issued before the floor is cast |
+| Standard-floor learning curve | First three floors are not the sustained cycle |
+| Commissioning | Fire, lift, and waterproof tests before acceptance dossiers |
+| Partial possession | Contract sectional completion plus a statutory path for the part occupied |
+
+## 4. Early Freezes (Design to Site)
+
+| Freeze | Latest useful point | If late |
+|--------|---------------------|---------|
+| Basement outline and pile layout | Before excavation tender | Retaining redesign |
+| Facade embedments | Before the affected slab | Break-out |
+| Fire compartment and exit widths | Before 审图, and again before wall build | Opening-up |
+| Shaft and plant sizes | Before riser slabs close | Services clash |
+| Prefabricated module geometry | Before factory release | Site rework |
+| Landscape levels | Before podium slab edges | 绿地率 and drainage errors |
+
+## 5. Interface Rules
+
+- Structure does not cover a services opening that is still "to be confirmed".
+- Facade does not close a floor that has not passed the waterproofing hold point at the slab edge.
+- Fit-out does not conceal a fire damper or a compartment line that 监理 has not seen.
+- Lift installation does not start until shaft verticality is recorded.
+- External works do not finish 绿地 until the planning area calculation method is agreed (`cn-spatial-planning`).
+
+## 6. Programme Artefacts
+
+| Artefact | Use |
+|----------|-----|
+| Master programme | Permits, design freezes, construction, commissioning, acceptance |
+| 90-day look-ahead | Procurement of specialists |
+| 4-week look-ahead | Site coordination; template `references/templates/construction-look-ahead.md` |
+| Hold-point register | Activities that stop until an inspection or a drawing |
+| Information-required schedule | Drawings the contractor needs, with dates |
+| Change impact note | Added duration, not only added cost |
+
+## 7. Six Checks Before Accepting a Programme Narrative
+
+1. Permit predecessors are on the critical path.
+2. 危大工程 expert review is a predecessor of the dangerous activity, not a footnote.
+3. Design-information dates are earlier than the work.
+4. Commissioning and statutory acceptance are separate from contract completion.
+5. Weather allowance matches the contract, not a Hong Kong typhoon table (`cn-procurement-strategy`).
+6. Learning-curve floors are not used as the average cycle.
+
+## 8. Output Checklist
+
+- Durations marked illustrative or taken from the contractor's programme.
+- Hold points listed.
+- Facade and prefabrication freezes dated.
+- Acceptance path not collapsed into "practical completion".
+- Look-ahead template offered when the user wants a table.
+
 ## References
 
 Load from parent `references/` when needed (one hop):
@@ -104,4 +114,4 @@ Load from parent `references/` when needed (one hop):
 * [domain_terms.json](../../references/domain_terms.json) — vocabulary
 * [templates/](../../references/templates/) — output structures
 * [cn-construction-sequence-swimlanes.md](../../references/cn-construction-sequence-swimlanes.md) — swimlanes
-* [construction-look-ahead.md](../../references/templates/construction-look-ahead.md) — look-ahead shell
+* [construction-look-ahead.md](../../references/templates/construction-look-ahead.md) — four-week shell

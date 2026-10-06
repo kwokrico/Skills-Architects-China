@@ -80,6 +80,14 @@
       "expected_output": "Routes cn-construction-programme; illustrative durations only; hold points; not statutory certification.",
       "files": [],
       "assertions": []
+    },
+    {
+      "id": 11,
+      "slug": "eval-fire-code-summaries-not-hk-fsd",
+      "prompt": "办公楼防火分区和疏散应按哪份文件？请不要用香港消防处的表格。",
+      "expected_output": "Points to GB 55037-2022 as the mandatory floor and GB 50016 only where it does not conflict; reads cn_s_reference/Fire and Rescue summaries GB_55037_2022_Building_Fire_CS.md and GB_50016_Fire_Code_Relationship_CS.md; does not use Hong Kong FSD documents.",
+      "files": [],
+      "assertions": []
     }
   ]
 }

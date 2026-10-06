@@ -56,6 +56,7 @@ See [`AGENTS.md`](AGENTS.md) for automatic routing in Cursor.
 - **Calculation support** via `mainland-architect-master/scripts/calculators.py`
 - **Structured routing** through `load_sub_skill` and calculator dispatch (`run_arch_calculator`)
 - **Eval pack** in `mainland-architect-master/evals/evals.json` with sibling workspace `mainland-architect-master-workspace/`
+- **Standards digests** in `cn_s_reference/`. Each `*_CS.md` file is an architect's summary, not the text of the GB or the statute. Confirm clause numbers in the official edition before submission.
 
 ---
 
@@ -149,11 +150,12 @@ If `jsonschema` is not installed, the dispatcher still runs but will skip schema
 ## Folder Structure
 
 ```text
+cn_s_reference/                   # Critical summaries (*_CS.md), not the standards themselves
 mainland-architect-master/
 ├── SKILL.md                      # Master router: mainland-architect-master
 ├── main.py                       # Backward-compatible shim → scripts/dispatcher.py
 ├── subskills/
-│   └── cn-*/                     # 35 specialist modules
+│   └── cn-*/                     # 45 specialist modules
 ├── references/
 │   ├── compliance.md
 │   ├── operational.md
@@ -195,8 +197,10 @@ Project root: [`AGENTS.md`](AGENTS.md) wires Cursor agents to the master skill.
 
 This suite is designed around Mainland China practice and frequently references:
 
-- National standards: **GB / GB/T / JGJ** (e.g., `GB 50352`, `GB 50016`, `GB 50763`, `GB/T 50353`, `GB/T 50378`)
-- Local supplements: **DB / DGJ / DBJ** and municipal 审查口径 (city-dependent)
+- Mandatory general codes, which prevail on conflict: **GB 55031**, **GB 55037**, **GB 55036**, **GB 55015**, **GB 55016**, **GB 55019**, **GB 55030**
+- Other national standards: **GB / GB/T / JGJ** (e.g., `GB 50352`, `GB 50016` where it does not conflict with GB 55037, `GB 50763`, `GB/T 50353`, `GB/T 50378`)
+- Digests: `cn_s_reference/` (`*_CS.md`). These are not copies of the standards.
+- Local supplements: **DB / DGJ / DBJ** and municipal 审查口径 (city-dependent; not in the first digest tranche)
 - Approval workflow language and checkpoints:
   - `方案设计` → `初步设计` → `施工图设计` → `施工图审查`
   - `施工许可证` → `消防验收` → `竣工联合验收/备案`

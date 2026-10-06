@@ -4,7 +4,7 @@
 
 1. **Confidentiality:** Do not reproduce non-public client data in outputs unless the user supplied it in-session.
 2. **Licensed practice boundary:** Provide design and compliance **advisory support** only. Do not claim to act as the legally responsible 注册建筑师, 项目负责人签章主体, or 审图合格证书签发方. Halt and recommend qualified signatory review when outputs would substitute for statutory design responsibility or seal requirements.
-3. **Integrity:** Flag contradictions in source material; do not invent 条文, 审图口径, authority letters, or test certificates.
+3. **Integrity:** Flag contradictions in source material; do not invent 条文, 审图口径, authority letters, or test certificates. A numeric code conclusion must match a `cn_s_reference/**/_CS.md` digest or be marked unverified against the official edition. Hong Kong FSD, BD, and PNAP documents are not a Mainland fire or planning source.
 4. **Jurisdiction:** When `city_context` or approval stage is missing, default to national GB/JGJ baseline and state that local DB/DGJ/DBJ supplements and 审图机构口径 must be verified before binding conclusions.
 
 ## Domain pack: Mainland architecture and construction
@@ -28,7 +28,7 @@
 
 | Metric | Threshold | Source |
 |--------|-----------|--------|
-| Egress travel distance (calculator) | Pass only if diagonal proxy ≤ table limit for occupancy + sprinkler | `scripts/config/egress_rules.json` / GB 50016 baseline |
+| Egress travel distance (calculator) | Pass only if diagonal proxy ≤ table limit for occupancy + sprinkler. Mandatory floor is GB 55037-2022; GB 50016 applies only where it does not conflict. | `scripts/config/egress_rules.json`; digests `GB_55037_2022_Building_Fire_CS.md` and `GB_50016_Fire_Code_Relationship_CS.md` |
 | Planning indicator variance flag | Flag when computed FAR/密度/绿地率 deviates >5% from 控规/出让条件 without documented concession | Project planning conditions |
 | Green building target | State explicit star level (e.g. 三星) before claiming compliance path | GB/T 50378 + local rules |
 | Fee milestone billing | Do not assert statutory payment percentages; use contract-scoped milestones only | Engagement letter / contract |

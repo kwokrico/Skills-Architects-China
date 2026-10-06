@@ -96,3 +96,13 @@ Run after suite changes. Structured eval cases live in [`../evals/evals.json`](.
 
 - Route to `cn-construction-programme`.
 - Durations illustrative only; hold points; no statutory programme certification.
+
+## 11. Fire code source (not Hong Kong FSD)
+
+**Prompt:** “办公楼防火分区和疏散应按哪份文件？请不要用香港消防处的表格。”
+
+**Expected:**
+
+- Mandatory floor is GB 55037-2022. GB 50016 only where it does not conflict.
+- Read `cn_s_reference/Fire and Rescue/summaries/GB_55037_2022_Building_Fire_CS.md` and `GB_50016_Fire_Code_Relationship_CS.md`.
+- Do not cite Hong Kong FSD forms or the Fire Services Code.
