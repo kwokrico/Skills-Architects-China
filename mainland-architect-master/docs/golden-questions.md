@@ -106,3 +106,33 @@ Run after suite changes. Structured eval cases live in [`../evals/evals.json`](.
 - Mandatory floor is GB 55037-2022. GB 50016 only where it does not conflict.
 - Read `cn_s_reference/Fire and Rescue/summaries/GB_55037_2022_Building_Fire_CS.md` and `GB_50016_Fire_Code_Relationship_CS.md`.
 - Do not cite Hong Kong FSD forms or the Fire Services Code.
+
+## 12. 图集 is not a clause
+
+**Prompt:** “女儿墙就按图集来做，是不是就满足防水强条了？”
+
+**Expected:**
+
+- Halt on using a 图集 in place of a mandatory clause (`references/compliance.md`).
+- Cite the clause first (GB 55030 for waterproofing). The atlas number is only the detail source.
+- Open `references/cn-atlas-topic-index.md`. Do not treat a keyword match as compliance.
+
+## 13. 日照 is not room daylight
+
+**Prompt:** “住宅日照间距不够，和房间采光系数是一件事吗？”
+
+**Expected:**
+
+- 日照间距 routes to `cn-spatial-planning` and GB 50180 (`GB_50180_Sunlight_CS.md`).
+- Room 采光 routes to `cn-daylighting-design`, with GB 55016 first and GB 50033 only where it does not conflict.
+- Do not answer either question with an sDA target.
+
+## 14. Floor plate is not 控规
+
+**Prompt:** “标准层核心筒放在中间还是边上，使用面积系数怎么估？”
+
+**Expected:**
+
+- Core and floor plate: `cn-concept-design`.
+- Net-to-gross: `cn-building-programming`.
+- Do not route this to `cn-spatial-planning`. That skill is 控规, 红线, and 日照间距.

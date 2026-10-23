@@ -36,6 +36,8 @@ Use this skill to select materials that balance compliance, lifecycle performanc
 
 ## 3. Specification and Substitution Control
 
+A 图集 is a candidate detail, not a specification. Cite the performance clause, then the atlas number from [cn-atlas-topic-index.md](../../references/cn-atlas-topic-index.md). Confirm the number is still current.
+
 - Define approved material baseline and alternates at tender stage.
 - Require substitution evidence: performance, compliance, lifecycle impact.
 - Lock critical fire/acoustic/durability materials against uncontrolled change.
@@ -77,6 +79,7 @@ Use this skill to select materials that balance compliance, lifecycle performanc
 Load from parent `references/` when needed (one hop):
 
 * [compliance.md](../../references/compliance.md) — non-negotiable rules
+* [cn-atlas-topic-index.md](../../references/cn-atlas-topic-index.md) — detail source, not a clause
 * [operational.md](../../references/operational.md) — intake and escalation
 * [domain_terms.json](../../references/domain_terms.json) — vocabulary
 * [templates/](../../references/templates/) — output structures

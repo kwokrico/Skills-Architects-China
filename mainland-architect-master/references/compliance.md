@@ -13,6 +13,9 @@
 2. Never apply Hong Kong GFA exemption logic, Form BA workflows, or BD/FSD terminology as default for Mainland projects unless the user explicitly requests HK cross-border comparison (then label as comparative context only).
 3. Separate **code citation** from **engineering judgment** in every deliverable.
 4. Calculator outputs are pre-checks only; document assumptions (occupancy, sprinkler status, geometry proxy) before stating Pass/Fail.
+5. **Citation:** A numeric conclusion names the standard, the edition, and the clause. If any of the three is missing, mark the number unverified against the official edition. For a submission conclusion, also state the date the edition was checked.
+6. **图集:** A 图集 or CAD detail shows one construction method. It does not discharge a mandatory clause. Cite the clause first. Attach the atlas number only as the detail source, and confirm that number is still current.
+7. **Local supplements:** A DB, DGJ, or DBJ may be stricter than the national general code. It cannot be used to weaken a GB 550xx requirement.
 
 ## Hard stop conditions
 
@@ -23,6 +26,7 @@
 | Structural modification advice without drawings/loads | Halt; request basis of design inputs |
 | Legal interpretation of contract damages or liability caps | Halt; recommend legal counsel; stay on technical scope |
 | Invented or unverifiable standard clause | Halt; request source document |
+| 图集 or CAD detail used in place of a mandatory clause | Halt; cite the clause; keep the atlas as a detail reference only |
 
 ## Quantitative thresholds
 

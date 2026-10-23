@@ -1,6 +1,6 @@
 ---
 name: cn-building-codes
-description: Mainland China building code skill for GB/GB-T/JGJ baseline + local DB/DGJ/DBJ supplements, covering planning indicators, building area measurement, fire/accessibility baseline, and authority workflow.
+description: Mainland China building code skill for GB 550xx general codes, older GB/GB-T/JGJ where they do not conflict, and local DB/DGJ/DBJ supplements. Covers planning indicators, building area, fire and accessibility baselines, and authority workflow.
 user-invocable: true
 disable-model-invocation: true
 ---
@@ -15,24 +15,40 @@ Use this skill for code applicability, compliance logic, and code-citation disci
 
 | Level | Typical References | Usage Rule |
 |---|---|---|
-| National baseline | GB, GB/T, JGJ | Default basis when city not specified |
+| Mandatory general codes | `GB 550xx` | Prevail over conflicting older mandatory clauses |
+| Other national standards | GB, GB/T, JGJ | Cite only where the general code does not conflict |
 | Ministry guidance | MOHURD circulars, technical guides | Use where mandatory or explicitly adopted |
-| Local supplement | DB, DBJ, DGJ, local审查口径 | Apply after confirming project city |
+| Local supplement | DB, DBJ, DGJ, local审查口径 | Apply after confirming project city. May be stricter. Cannot weaken a general code |
+
+Force ranking when two texts disagree:
+
+1. Mandatory general code and any remaining 强条.
+2. Recommended standards (`GB/T`, many JGJ) where the general code still points at them.
+3. Guides and 图集. A 图集 shows a construction method. It does not discharge a mandatory clause.
+4. 主管口径. Record it, and still cite the clause it sits beside.
+
+A number in a conclusion names the standard, the edition, and the clause. If any of the three is missing, mark the number unverified. Full citation rules are in [compliance.md](../../references/compliance.md).
 
 ---
 
 ## 2. Core National Standards (high frequency)
 
-| Standard | Topic |
-|---|---|
-| `GB 50352` | General civil building design baseline |
-| `GB 50016` | Fire code baseline |
-| `GB 50011` | Seismic design |
-| `GB 50007` | Geotechnical and foundations |
-| `GB 50010` | Concrete structures |
-| `GB 50763` | Accessibility |
-| `GB/T 50353` | Building area measurement |
-| `GB/T 50378` | Green building evaluation |
+Open the general code first. The older standard in the same row applies only where it does not conflict.
+
+| General code | Topic | Older standard, where it does not conflict |
+|---|---|---|
+| `GB 55031-2022` | Civil building design | `GB 50352` |
+| `GB 55037-2022` | Building fire | `GB 50016` |
+| `GB 55036-2022` | Fire facilities | Specialist fire-system standards |
+| `GB 55015-2021` | Energy | `GB 50189` and the climate-zone residential energy standards |
+| `GB 55016-2021` | Indoor environment (sound, light, thermal) | The detailed environment standards |
+| `GB 55019-2021` | Accessibility | `GB 50763` |
+| `GB 55030-2022` | Waterproofing | The detailed waterproofing standards |
+| — | Seismic | `GB 50011` |
+| — | Geotechnical and foundations | `GB 50007` |
+| — | Concrete structures | `GB 50010` |
+| — | Building area | `GB/T 50353`, with area rules in `GB 55031` |
+| — | Green-building stars | `GB/T 50378` (a rating above the energy floor, not a substitute for `GB 55015`) |
 
 ---
 
@@ -69,9 +85,9 @@ When city-specific category handling is uncertain, explicitly request city and�
 
 | Domain | Baseline |
 |---|---|
-| Fire strategy | `GB 50016` + local fire review practice |
-| Accessibility | `GB 50763` + local implementation details |
-| Green building | `GB/T 50378` + local star target requirements |
+| Fire strategy | `GB 55037` first; `GB 50016` only where it does not conflict; facilities under `GB 55036` |
+| Accessibility | `GB 55019` first; `GB 50763` where it does not conflict |
+| Green building | `GB 55015` mandatory floor, then `GB/T 50378` star target |
 
 ---
 
@@ -97,20 +113,21 @@ When city-specific category handling is uncertain, explicitly request city and�
 
 ---
 
-*Baseline references: GB 50352, GB 50016, GB 50011, GB 50010, GB 50007, GB/T 50353, GB 50763, GB/T 50378, plus applicable local DB/DGJ/DBJ standards.*
+*Baseline references: GB 55031, GB 55037, GB 55036, GB 55015, GB 55016, GB 55019, GB 55030, then GB 50352, GB 50016, GB 50011, GB 50010, GB 50007, GB/T 50353, GB 50763, GB 50189, GB/T 50378 where they do not conflict, plus applicable local DB/DGJ/DBJ standards. See [cn-code-catalog.md](../../references/cn-code-catalog.md).*
 
 ## When to Use This Skill
 
 | Question type | This skill | Use instead |
 |---------------|------------|-------------|
 | 控规 / FAR / red lines | `cn-building-codes` | `cn-spatial-planning` |
-| Fire egress strategy | `cn-building-codes` | `cn-fire-life-safety` |
+| Fire egress strategy | `cn-building-codes` | `cn-fire-life-safety` (GB 55037 first) |
 | Numeric egress/area only | `cn-building-codes` | `cn-architect-calculator` |
 ## References
 
 Load from parent `references/` when needed (one hop):
 
 * [compliance.md](../../references/compliance.md) — non-negotiable rules
+* [cn-code-catalog.md](../../references/cn-code-catalog.md) — standards still missing a digest, and city series
 * [operational.md](../../references/operational.md) — intake and escalation
 * [domain_terms.json](../../references/domain_terms.json) — vocabulary
 * [templates/](../../references/templates/) — output structures

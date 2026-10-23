@@ -49,7 +49,16 @@ Use this skill to convert business/program goals into area schedules and discipl
 
 ---
 
-## 5. Required Inputs (ask if missing)
+## 5. Adjacency, room data, and site capacity
+
+- Build an adjacency matrix before drawing a plan: required, preferred, and must-separate pairs. Vertical stacking of wet rooms and plant is part of the matrix.
+- Issue a room data sheet for every repeated room: net area, occupants, daylight, acoustic target, and services. The sheet is a brief, not a code quotation.
+- Capacity check: programme gross area against 计容建筑面积 from the 控规 and the land contract. If the programme does not fit, say so before massing options multiply. 计容 rules are `cn-spatial-planning` and `cn-building-codes`.
+- Area standards by use (住宅, 办公, 中小学, 医院, 旅馆) come from the current sector code under GB 55031. Confirm the edition in [cn-code-catalog.md](../../references/cn-code-catalog.md). Do not invent a square-metre allowance.
+
+Net-to-gross belongs in this skill. It is not a 控规 question.
+
+## 6. Required Inputs (ask if missing)
 
 - City and project typology
 - Current planning indicator limits
@@ -65,7 +74,7 @@ Use this skill to convert business/program goals into area schedules and discipl
 
 | Question type | This skill | Use instead |
 |---------------|------------|-------------|
-| Functional brief and areas | `cn-building-programming` | `cn-building-typology` |
+| Functional brief, adjacency, net-to-gross | `cn-building-programming` | `cn-spatial-planning` for 控规 |
 | Planning compliance | `cn-building-programming` | `cn-spatial-planning` |
 ## References
 

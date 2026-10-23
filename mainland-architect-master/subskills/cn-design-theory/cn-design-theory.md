@@ -76,7 +76,25 @@ High-intensity mixed-use is common in tier-1/2 cities, but it must be reconciled
 
 ---
 
-## 7. Required Inputs (ask if missing)
+## 7. Precedent and critique
+
+Precedent, in order:
+
+1. Name the project, the city, and the year.
+2. Separate what was built from what the author claimed.
+3. Note the plan type, the structure, and the climate response.
+4. Say which move is usable on this site and which move fails 审图, cost, or the way the building is managed.
+5. Stop. A precedent is not a code compliance opinion.
+
+Critique checklist for a scheme under discussion:
+
+| Lens | Question |
+|---|---|
+| 审图 | Which mandatory floor is still unchecked? |
+| Cost | Which move adds structure, facade, or area that the brief did not pay for? |
+| Use | Can the operator staff the circulation the drawing relies on? |
+
+## 8. Required Inputs (ask if missing)
 
 - City and target client/audience (SOE developer / private / gov)
 - Building type and delivery mode

@@ -159,8 +159,8 @@ START
 ├─ Fire strategy, GB 55037 / GB 50016, compartmentation, egress, smoke control, or sprinklers?
 │   └─► [cn-fire-life-safety]  (summaries: GB 55037, GB 50016 — not Hong Kong FSD)
 │
-├─ 控规, 出让条件, 规划许可, 容积率/建筑密度/绿地率/限高, 日照, or 城市设计?
-│   └─► [cn-spatial-planning]
+├─ 控规, 出让条件, 规划许可, 容积率/建筑密度/绿地率/限高, 日照间距, or 城市设计?
+│   └─► [cn-spatial-planning]  (日照 is GB 50180, not room 采光)
 │
 ├─ 绿建星级, GB 55015 / GB 50189, 双碳, energy performance, or 环评 trigger?
 │   └─► [cn-building-sustainability]
@@ -183,19 +183,19 @@ START
 ├─ Structural system, seismic, transfer structure, foundation, or 超限?
 │   └─► [cn-structural-systems]
 │
-├─ Area programme, 任务书, unit mix, or schedule of accommodation?
-│   └─► [cn-building-programming]
+├─ Area programme, 任务书, unit mix, net-to-gross, adjacency, or schedule of accommodation?
+│   └─► [cn-building-programming]  (not cn-spatial-planning — that skill is 控规)
 │
 ├─ 施工图 depth, 审图意见闭环, specification, or compliance drawing set?
 │   └─► [cn-construction-documentation]
 │
-├─ Concept design, massing, 限高/红线 fit, or 方案阶段 options?
-│   └─► [cn-concept-design]
+├─ Concept design, massing, floor plate, 核心筒, 限高/红线 fit, or 方案阶段 options?
+│   └─► [cn-concept-design]  (core and plate layout; 控规 indicators stay with cn-spatial-planning)
 │
 ├─ Acoustic criteria, GB 55016 sound environment, or construction noise?
 │   └─► [cn-acoustic-design]
 │
-├─ Daylight, 采光, 日照 spacing, or shading?
+├─ Daylight, 采光, glare, or shading (not 日照间距)?
 │   └─► [cn-daylighting-design]
 │
 ├─ Material selection, combustibility class, or durability spec?
@@ -343,6 +343,17 @@ Digests live in [`cn_s_reference/`](../cn_s_reference/). Each `*_CS.md` is an ar
 | Registered architect | `cn_s_reference/ASC/summaries/` |
 | Green building | `cn_s_reference/Green Building/summaries/` |
 
+Open these digests by number when the question needs them:
+
+| Standard | Digest |
+|----------|--------|
+| GB 51251 smoke control | `cn_s_reference/Fire and Rescue/summaries/GB_51251_Smoke_CS.md` |
+| GB 50176 climate zones | `cn_s_reference/MOHURD/summaries/GB_50176_Thermal_CS.md` |
+| GB 50180 sunlight spacing | `cn_s_reference/MOHURD/summaries/GB_50180_Sunlight_CS.md` |
+| GB 50009 structural actions | `cn_s_reference/MOHURD/summaries/GB_50009_Loads_CS.md` |
+
+Standards with no digest yet are listed in [references/cn-code-catalog.md](references/cn-code-catalog.md). 图集 numbers are in [references/cn-atlas-topic-index.md](references/cn-atlas-topic-index.md).
+
 ---
 
 ## 8. Sub-skill Routing (Canonical `cn-*` IDs)
@@ -353,9 +364,9 @@ Dispatcher auto-discovers all folders under `subskills/cn-*`. Legacy `hk-*` IDs 
 |-------|--------------|-----------|
 | Code applicability, GB hierarchy, area measurement rules | `cn-building-codes` | 规范适用、条文、建筑面积口径 |
 | 控规, 出让条件, FAR/密度/绿地率/限高 | `cn-spatial-planning` | 规划指标、红线、日照 |
-| Fire egress, compartmentation, 性能化 | `cn-fire-life-safety` | GB 50016, 疏散, 防火分区 |
+| Fire egress, compartmentation, 性能化 | `cn-fire-life-safety` | GB 55037 first, GB 50016 where it does not conflict, 疏散, 防火分区 |
 | Green building, 双碳, 三星 | `cn-building-sustainability` | 绿色建筑、节能低碳 |
-| Accessibility | `cn-accessibility-design` | GB 50763, 无障碍 |
+| Accessibility | `cn-accessibility-design` | GB 55019 first, GB 50763 where it does not conflict |
 | Drawing packages, 审图闭环 | `cn-construction-documentation` | 施工图、审查意见回复 |
 | Numeric egress/area checks | `cn-architect-calculator` | 计算、疏散距离、面积汇总 |
 | EPC/traditional contracts, variations | `cn-tender-contract-administration` | 合同、变更、索赔 |

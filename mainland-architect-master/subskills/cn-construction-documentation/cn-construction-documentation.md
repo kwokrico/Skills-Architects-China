@@ -48,6 +48,12 @@ This skill manages documentation strategy from concept through construction draw
 
 ---
 
+## 3.1 设计说明, 图集, and changes
+
+- 设计说明 states the standards, editions, and decisions. Drawings show the geometry. A dimension on a drawing does not replace a missing clause in the 设计说明.
+- A 图集 callout names the atlas number and the sheet, and still points at the clause that the detail is satisfying. Open [cn-atlas-topic-index.md](../../references/cn-atlas-topic-index.md). A withdrawn atlas number is not a detail.
+- 设计变更 and 工程洽商 are the construction-stage change records. An RFI finds a gap. A 变更 changes the issued design. Keep both in the revision log. Do not use AIA layer or lineweight rules as the Mainland standard.
+
 ## 4. Quality-Control Rules for Documentation
 
 - Keep one source of truth for indicators (`容积率`, `建筑密度`, `绿地率`, `限高`).
@@ -91,6 +97,7 @@ This skill manages documentation strategy from concept through construction draw
 Load from parent `references/` when needed (one hop):
 
 * [compliance.md](../../references/compliance.md) — non-negotiable rules
+* [cn-atlas-topic-index.md](../../references/cn-atlas-topic-index.md) — 图集 numbers that are not code citations
 * [operational.md](../../references/operational.md) — intake and escalation
 * [domain_terms.json](../../references/domain_terms.json) — vocabulary
 * [templates/](../../references/templates/) — output structures

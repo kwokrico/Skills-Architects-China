@@ -13,6 +13,10 @@ Use this skill to manage acoustic performance from planning stage through constr
 
 ## 1. Acoustic Design Scope
 
+Reverberation time for school, assembly, and hotel public rooms is part of this skill. Route it to GB 50118 where GB 55016 does not conflict. Confirm the GB 50118 edition in [cn-code-catalog.md](../../references/cn-code-catalog.md). Do not quote a second from memory.
+
+Airborne separation, impact noise, and flanking are already in the controls below.
+
 - Environmental noise impact at site boundary and sensitive receivers
 - Facade sound insulation strategy
 - Internal room-to-room acoustic separation
@@ -74,6 +78,7 @@ Use this skill to manage acoustic performance from planning stage through constr
 Load from parent `references/` when needed (one hop):
 
 * [compliance.md](../../references/compliance.md) — non-negotiable rules
+* [cn-code-catalog.md](../../references/cn-code-catalog.md) — GB 50118 under GB 55016
 * [operational.md](../../references/operational.md) — intake and escalation
 * [domain_terms.json](../../references/domain_terms.json) — vocabulary
 * [templates/](../../references/templates/) — output structures

@@ -88,6 +88,30 @@
       "expected_output": "Points to GB 55037-2022 as the mandatory floor and GB 50016 only where it does not conflict; reads cn_s_reference/Fire and Rescue summaries GB_55037_2022_Building_Fire_CS.md and GB_50016_Fire_Code_Relationship_CS.md; does not use Hong Kong FSD documents.",
       "files": [],
       "assertions": []
+    },
+    {
+      "id": 12,
+      "slug": "eval-atlas-is-not-a-clause",
+      "prompt": "女儿墙就按图集来做，是不是就满足防水强条了？",
+      "expected_output": "Halt. A 图集 does not discharge a mandatory clause. Cite GB 55030 first. Atlas number is a detail source only. See references/cn-atlas-topic-index.md and references/compliance.md.",
+      "files": [],
+      "assertions": []
+    },
+    {
+      "id": 13,
+      "slug": "eval-sunlight-versus-daylight",
+      "prompt": "住宅日照间距不够，和房间采光系数是一件事吗？",
+      "expected_output": "No. 日照间距 routes to cn-spatial-planning and GB 50180. Room 采光 routes to cn-daylighting-design under GB 55016, with GB 50033 only where it does not conflict. sDA is not the compliance path.",
+      "files": [],
+      "assertions": []
+    },
+    {
+      "id": 14,
+      "slug": "eval-floor-plate-not-konggui",
+      "prompt": "标准层核心筒放在中间还是边上，使用面积系数怎么估？",
+      "expected_output": "Core and floor plate route to cn-concept-design. Net-to-gross routes to cn-building-programming. cn-spatial-planning is 控规, red lines, and 日照间距.",
+      "files": [],
+      "assertions": []
     }
   ]
 }

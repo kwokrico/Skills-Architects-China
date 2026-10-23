@@ -40,7 +40,7 @@ Core indicator checks:
 - `绿地率`
 - `建筑限高`
 - `退界控制`
-- `日照分析`
+- `日照分析` — sunlight spacing under GB 50180 plus the city rule. Room daylight (采光) is `cn-daylighting-design`. Digest: [GB_50180_Sunlight_CS.md](../../../cn_s_reference/MOHURD/summaries/GB_50180_Sunlight_CS.md). Floor plates and cores are `cn-concept-design`. Net-to-gross is `cn-building-programming`.
 
 ---
 
@@ -95,13 +95,15 @@ If city context is unknown, output national baseline + request local procedural 
 
 | Question type | This skill | Use instead |
 |---------------|------------|-------------|
-| Planning indicators / 控规 | `cn-spatial-planning` | `cn-building-codes` |
+| Planning indicators / 控规 / 日照间距 | `cn-spatial-planning` | `cn-concept-design` for floor plates; `cn-daylighting-design` for 采光 |
 | Fire egress | `cn-spatial-planning` | `cn-fire-life-safety` |
 ## References
 
 Load from parent `references/` when needed (one hop):
 
 * [compliance.md](../../references/compliance.md) — non-negotiable rules
+* [GB_50180_Sunlight_CS.md](../../../cn_s_reference/MOHURD/summaries/GB_50180_Sunlight_CS.md) — sunlight spacing
+* [cn-code-catalog.md](../../references/cn-code-catalog.md) — city DB series to ask for
 * [operational.md](../../references/operational.md) — intake and escalation
 * [domain_terms.json](../../references/domain_terms.json) — vocabulary
 * [templates/](../../references/templates/) — output structures

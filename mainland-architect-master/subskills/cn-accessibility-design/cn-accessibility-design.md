@@ -1,16 +1,17 @@
 ---
 name: cn-accessibility-design
-description: Mainland accessibility design skill based on GB 50763 and local supplements, covering routes, ramps, lifts, sanitary spaces, signage/tactile systems, and review acceptance focus.
+description: Mainland accessibility design skill. GB 55019-2021 is the mandatory floor; GB 50763 applies where it does not conflict. Covers routes, doors, ramps, lifts, sanitary spaces, and tactile, visual, and audible wayfinding.
 user-invocable: true
 disable-model-invocation: true
 ---
 
 # Mainland Accessibility Design
 
-Primary baseline: `GB 50763` + local implementation supplements.
+Primary baseline: `GB 55019-2021`. Use `GB 50763` where it does not conflict. Local supplements may be stricter.
 
 Regulatory hierarchy:
-- National baseline first: `GB / GB-T / JGJ`
+- Mandatory general code first: `GB 55019`
+- Then `GB 50763` where it does not conflict
 - Then local supplements: `DB / DGJ / DBJ` (city/province)
 
 If city is not specified, treat guidance as national baseline pre-check and request local supplement confirmation.
@@ -18,6 +19,8 @@ If city is not specified, treat guidance as national baseline pre-check and requ
 ---
 
 ## 1. Compliance Principles
+
+Mandatory floor: GB 55019-2021. GB 50763 applies where it does not conflict. Local supplements may be stricter.
 
 1. Provide continuous step-free routes from site entry to key functional spaces.
 2. Keep accessibility strategy aligned across architecture, structure, and MEP.
@@ -30,11 +33,12 @@ If city is not specified, treat guidance as national baseline pre-check and requ
 
 | Domain | Typical Deliverable |
 |---|---|
-| External access | Site arrival and barrier-free entrance strategy |
+| External access | Site arrival, entrance door clear width, and barrier-free entrance strategy |
+| Ramps | Slope, landings, and handrails checked against GB 55019. Do not quote a slope from memory |
 | Internal route | Horizontal and vertical accessible circulation map |
 | Lift and platform interfaces | Dimensioned access details and control heights |
 | Sanitary spaces | Accessible toilet layout and transfer clearances |
-| Wayfinding | Tactile/visual signage system |
+| Wayfinding | Tactile, visual, and audible alarm or voice prompt as one system |
 | Parking and drop-off | Accessible parking and boarding/alighting arrangements |
 
 ---
@@ -71,13 +75,13 @@ If city is not specified, treat guidance as national baseline pre-check and requ
 
 ---
 
-*Baseline reference: GB 50763 and local municipal supplements for accessibility implementation.*
+*Baseline reference: GB 55019-2021 first, GB 50763 where it does not conflict, plus local municipal supplements.*
 
 ## When to Use This Skill
 
 | Question type | This skill | Use instead |
 |---------------|------------|-------------|
-| GB 50763 and accessibility design | `cn-accessibility-design` | `cn-building-codes` |
+| GB 55019 / GB 50763 and accessibility design | `cn-accessibility-design` | `cn-building-codes` |
 | Planning indicators only | `cn-accessibility-design` | `cn-spatial-planning` |
 | 审图 drawing package structure | `cn-accessibility-design` | `cn-construction-documentation` |
 ## References

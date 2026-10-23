@@ -13,6 +13,8 @@ Primary baseline includes `GB 50011`, `GB 50010`, and `GB 50007`, with city-spec
 
 ## 1. Structural Strategy Principles
 
+Do not size a beam, column, wall, or foundation from a span table in this skill. Actions are looked up in GB 50009. Digest: [GB_50009_Loads_CS.md](../../../cn_s_reference/MOHURD/summaries/GB_50009_Loads_CS.md). Seismic intensity is a city lookup in GB 50011, not a member size.
+
 - Seismic requirements are a primary design driver in many Mainland regions.
 - Lateral system choice must reflect height, function, seismic intensity, and construction capability.
 - Structural concept must align with architectural module and MEP shaft logic early.
@@ -69,7 +71,7 @@ Primary baseline includes `GB 50011`, `GB 50010`, and `GB 50007`, with city-spec
 
 ---
 
-*Baseline references: GB 50011, GB 50010, GB 50007, and corresponding city-level structural supplements.*
+*Baseline references: GB 50009 for actions, GB 50011 for seismic intensity, GB 50010, GB 50007, and corresponding city-level structural supplements. Member sizes come from the structural calculation.*
 
 ## When to Use This Skill
 
@@ -82,6 +84,7 @@ Primary baseline includes `GB 50011`, `GB 50010`, and `GB 50007`, with city-spec
 Load from parent `references/` when needed (one hop):
 
 * [compliance.md](../../references/compliance.md) — non-negotiable rules
+* [GB_50009_Loads_CS.md](../../../cn_s_reference/MOHURD/summaries/GB_50009_Loads_CS.md) — actions, not member sizes
 * [operational.md](../../references/operational.md) — intake and escalation
 * [domain_terms.json](../../references/domain_terms.json) — vocabulary
 * [templates/](../../references/templates/) — output structures

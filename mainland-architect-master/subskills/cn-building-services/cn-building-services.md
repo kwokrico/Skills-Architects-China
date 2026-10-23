@@ -22,6 +22,8 @@ Use this skill to structure MEP system strategy and ensure cross-discipline cons
 
 ## 2. HVAC Strategy Checklist
 
+Natural and mixed-mode ventilation is a coordination item for housing, schools, and any floor that claims openable windows as the cooling strategy. Record whether it is the system or only a backup, and check it against the smoke strategy before the window schedule is frozen. Weak-current routes stay in `cn-telecom-coordination`.
+
 | Topic | Design Output |
 |---|---|
 | Load baseline | Cooling/heating and fresh-air assumptions by function |

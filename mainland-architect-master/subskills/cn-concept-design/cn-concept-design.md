@@ -62,7 +62,26 @@ Concept design should lock planning viability, technical route, and delivery fea
 
 ---
 
-## 6. Required Inputs (ask if missing)
+## 6. Floor plate and massing tests
+
+Floor-plate layout belongs here. 控规 indicators stay in `cn-spatial-planning`.
+
+| Plate | Use when | Watch |
+|---|---|---|
+| 板式 | East-west or south-facing residential slabs | Daylight depth and party-wall fire |
+| 点式 | A small footprint tower | Core ratio and corner units |
+| 核心筒 | Office or hotel typical floors | Lease depth from core to glass; stairs are a fire check in `cn-fire-life-safety` |
+| 庭院 | Low-rise courts and schools | Sunlight into the court, and cross-ventilation |
+| 中庭 | Deep commercial or public plans | Smoke control with `cn-fire-life-safety` before the void is frozen |
+
+Massing tests to run before an option is frozen. Each test halts for the city. None of them is a pass/fail number from this skill:
+
+- 日照包络, using GB 50180 and the city sunlight rule (`cn-spatial-planning`)
+- Podium wind comfort at entrances and walkways
+- View corridor named in the 控规 or urban-design guide
+- Contextual height against 限高, neighbours, and any aviation or heritage cap
+
+## 7. Required Inputs (ask if missing)
 
 - City and district
 - Control-plan indicator extract
@@ -78,7 +97,7 @@ Concept design should lock planning viability, technical route, and delivery fea
 
 | Question type | This skill | Use instead |
 |---------------|------------|-------------|
-| Scheme massing and concept | `cn-concept-design` | `cn-spatial-planning` |
+| Scheme massing, floor plate, core | `cn-concept-design` | `cn-spatial-planning` for 控规 and 日照间距 |
 | Design theory critique | `cn-concept-design` | `cn-design-theory` |
 ## References
 

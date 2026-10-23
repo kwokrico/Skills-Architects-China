@@ -59,7 +59,13 @@ Always state project city and climate zone before final envelope recommendation.
 
 ---
 
-## 5. Required Inputs (ask if missing)
+## 5. Layer order and glazing
+
+State the climate zone from GB 50176 before choosing a build-up. Digest: [GB_50176_Thermal_CS.md](../../../cn_s_reference/MOHURD/summaries/GB_50176_Thermal_CS.md). Energy limits that conflict with GB 55015 follow GB 55015. Waterproofing continuity follows GB 55030.
+
+Name the layer order in the wall and roof: structure, waterproofing, insulation, air barrier, and the finish. Do not publish a U-value table from this skill. Confirm U and shading coefficient in the official climate-zone table for the project city.
+
+## 6. Required Inputs (ask if missing)
 
 - City and climate zone
 - Building type and height band
@@ -82,6 +88,8 @@ Always state project city and climate zone before final envelope recommendation.
 Load from parent `references/` when needed (one hop):
 
 * [compliance.md](../../references/compliance.md) — non-negotiable rules
+* [GB_50176_Thermal_CS.md](../../../cn_s_reference/MOHURD/summaries/GB_50176_Thermal_CS.md) — climate zones
+* [cn-atlas-topic-index.md](../../references/cn-atlas-topic-index.md) — roof, waterproofing, and curtain-wall details
 * [operational.md](../../references/operational.md) — intake and escalation
 * [domain_terms.json](../../references/domain_terms.json) — vocabulary
 * [templates/](../../references/templates/) — output structures

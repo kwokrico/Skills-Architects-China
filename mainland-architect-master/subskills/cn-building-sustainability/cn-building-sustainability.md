@@ -21,9 +21,10 @@ If city is not specified, treat guidance as national baseline pre-check and requ
 
 | Layer | Reference |
 |---|---|---|
-| National green standard | `GB/T 50378` |
+| Mandatory energy floor | `GB 55015`. Climate zone from GB 50176. See [GB_50176_Thermal_CS.md](../../../cn_s_reference/MOHURD/summaries/GB_50176_Thermal_CS.md) |
+| National green rating | `GB/T 50378` stars, above the GB 55015 floor |
 | Carbon strategy | 双碳目标 related construction-sector policy |
-| Building energy pathway | Near-zero/low-energy standards and local implementation |
+| Near-zero pathway | GB/T 51350 where a project targets it. Confirm the edition. Not a substitute for GB 55015 |
 | Market expectation | ESG disclosure and REIT/institutional investor reporting requirements |
 
 ---
@@ -96,6 +97,8 @@ If city is not specified, treat guidance as national baseline pre-check and requ
 Load from parent `references/` when needed (one hop):
 
 * [compliance.md](../../references/compliance.md) — non-negotiable rules
+* [GB_50176_Thermal_CS.md](../../../cn_s_reference/MOHURD/summaries/GB_50176_Thermal_CS.md) — climate zones under GB 55015
+* [cn-code-catalog.md](../../references/cn-code-catalog.md) — JGJ 26 / 75 / 134 and GB/T 51350
 * [operational.md](../../references/operational.md) — intake and escalation
 * [domain_terms.json](../../references/domain_terms.json) — vocabulary
 * [templates/](../../references/templates/) — output structures

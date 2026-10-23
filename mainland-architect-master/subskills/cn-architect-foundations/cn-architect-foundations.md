@@ -96,6 +96,18 @@ Metrics: 容积率, 建筑密度, 绿地率, 建筑限高, setbacks, and 日照.
 - Levels in metres. State the vertical datum the survey uses.
 - If the city is unknown: national baseline only, and list the local supplement as a gap.
 
+## 4.1 Where the next check lives
+
+These are pointers, not a second numeric catalog. Do not quote a width from this list.
+
+| Check | Open |
+|---|---|
+| Structural bay | `cn-structural-systems`. No member size from a span table |
+| Net-to-gross and room list | `cn-building-programming` |
+| Floor plate and core | `cn-concept-design` |
+| Parking and loading | The current garage and site standards for the city. Confirm the edition. Clear height is not a Hong Kong figure |
+| Doors, stairs, ramps, lifts | [cn-human-scale-dimensions.md](../../references/cn-human-scale-dimensions.md), then GB 55031 and GB 55019 |
+
 ## 5. Routing Reminder
 
 Load the specialist with `load_sub_skill` per master §8. This file is not a second router.

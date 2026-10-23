@@ -1,16 +1,17 @@
 ---
 name: cn-fire-life-safety
-description: Mainland China fire and life safety skill using GB 50016 baseline with local fire-review supplements, including egress strategy, fire compartmentation, smoke control, and acceptance workflow.
+description: Mainland China fire and life safety skill. GB 55037-2022 is the mandatory floor; GB 50016 applies only where it does not conflict. Covers egress, compartmentation, smoke control, refuge, fire lift, and acceptance workflow.
 user-invocable: true
 disable-model-invocation: true
 ---
 
 # Mainland Fire Life Safety
 
-Primary baseline: `GB 50016` plus municipal supplements and local fire review practice.
+Primary baseline: `GB 55037-2022`. Use `GB 50016` only where it does not conflict. Fire-facility systems sit under `GB 55036-2022`. Municipal supplements may be stricter. They cannot weaken the general code.
 
 Regulatory hierarchy:
-- National baseline first: `GB / GB-T / JGJ`
+- Mandatory general code first: `GB 55037`, then `GB 55036` for facilities
+- Detailed standards next, only where they do not conflict
 - Then local supplements: `DB / DGJ / DBJ` (city/province)
 
 If city is not specified, treat guidance as national baseline pre-check and request local supplement confirmation.
@@ -44,7 +45,11 @@ If city is not specified, treat guidance as national baseline pre-check and requ
 | Egress layout | Route, distance, and stair capacity table |
 | Fire compartmentation | Fire zone partition schedule |
 | Fire resistance | Structural/fireproofing strategy |
-| Smoke management | Mechanical and natural smoke control basis |
+| Smoke management | Mechanical and natural smoke control basis. Detailed standard is GB 51251 where GB 55037 does not conflict. Open [GB_51251_Smoke_CS.md](../../../cn_s_reference/Fire%20and%20Rescue/summaries/GB_51251_Smoke_CS.md) |
+| Sprinklers | Where a sprinkler system is required, and that the design standard is GB 50084 under GB 55036. Do not quote a threshold from memory |
+| Refuge floor | Whether a refuge floor is in the strategy, and which general-code clause is being used |
+| Fire lift | Whether a fire lift is in the strategy, kept separate from a passenger lift |
+| Exterior insulation combustibility | Facade and insulation reaction-to-fire class for the height and use. A 图集 detail does not set the class |
 | Firefighting access | Fire engine and rescue operations interface |
 | System integration | Alarm, hydrant, sprinkler, smoke control consistency |
 
@@ -84,13 +89,13 @@ If city is not specified, treat guidance as national baseline pre-check and requ
 
 ---
 
-*Baseline reference: GB 50016 and applicable local fire supplements; performance-based design to follow current MOHURD and emergency-management technical requirements where adopted.*
+*Baseline reference: GB 55037-2022 first, GB 55036-2022 for facilities, GB 50016 only where it does not conflict. Smoke detail: GB 51251. Sprinkler detail: GB 50084. Performance-based design follows current MOHURD and emergency-management technical requirements where adopted.*
 
 ## When to Use This Skill
 
 | Question type | This skill | Use instead |
 |---------------|------------|-------------|
-| Fire strategy and GB 50016 | `cn-fire-life-safety` | `cn-building-codes` |
+| Fire strategy, GB 55037, GB 50016 where it does not conflict | `cn-fire-life-safety` | `cn-building-codes` |
 | Egress numeric pre-check | `cn-fire-life-safety` | `cn-architect-calculator` |
 | Acceptance commissioning | `cn-fire-life-safety` | `cn-fire-acceptance-closeout` |
 ## References
@@ -98,6 +103,10 @@ If city is not specified, treat guidance as national baseline pre-check and requ
 Load from parent `references/` when needed (one hop):
 
 * [compliance.md](../../references/compliance.md) — non-negotiable rules
+* [GB_55037_2022_Building_Fire_CS.md](../../../cn_s_reference/Fire%20and%20Rescue/summaries/GB_55037_2022_Building_Fire_CS.md) — mandatory fire floor
+* [GB_50016_Fire_Code_Relationship_CS.md](../../../cn_s_reference/Fire%20and%20Rescue/summaries/GB_50016_Fire_Code_Relationship_CS.md) — what remains of GB 50016
+* [GB_51251_Smoke_CS.md](../../../cn_s_reference/Fire%20and%20Rescue/summaries/GB_51251_Smoke_CS.md) — smoke-control routing
+* [cn-code-catalog.md](../../references/cn-code-catalog.md) — standards that still need a digest
 * [operational.md](../../references/operational.md) — intake and escalation
 * [domain_terms.json](../../references/domain_terms.json) — vocabulary
 * [templates/](../../references/templates/) — output structures

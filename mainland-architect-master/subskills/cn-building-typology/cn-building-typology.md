@@ -13,6 +13,15 @@ Use this skill to choose appropriate design and delivery logic by typology and c
 
 ## 1. High-Rise Residential Communities
 
+Organization, before product mix:
+
+| Type | What it is | First check |
+|---|---|---|
+| 单元式 | Stairs and lifts shared by a handful of flats per floor | Party walls and the number of flats on the public corridor |
+| 通廊 | A long shared corridor serving many flats | Corridor smoke and daylight to the units |
+| 板式 | A slab, usually with a preferred orientation | Sunlight spacing and end-unit wind |
+| 点式 | A tower on a small plate | Core ratio and corner rooms |
+
 Key focus:
 - Product mix versus market position
 - Core efficiency and sellable/usable balance
@@ -70,7 +79,19 @@ Key focus:
 
 ---
 
-## 7. Typology Selection Matrix
+## 7. School, hospital, and hotel
+
+Civic section 4 stays the general public-building note. These three need their own organization:
+
+| Use | Organization to settle first | Do not collapse into |
+|---|---|---|
+| School | Teaching cluster, separate student and service entries, outdoor play next to classrooms | An office plate with classrooms renamed |
+| Hospital | Department adjacency, clean and soiled routes, outpatient versus inpatient vertical split | A 综合体 with a clinic on the ground floor |
+| Hotel | Guest floor efficiency, back-of-house spine, and a separate service core where the star level needs it | A residential tower with a lobby |
+
+Room areas for each use go to `cn-building-programming` and the current sector code under GB 55031.
+
+## 8. Typology Selection Matrix
 
 | If the project priority is... | Prioritize typology strategy... |
 |---|---|
@@ -81,7 +102,7 @@ Key focus:
 
 ---
 
-## 8. Required Inputs (ask if missing)
+## 9. Required Inputs (ask if missing)
 
 - City and district
 - Target typology and business model
