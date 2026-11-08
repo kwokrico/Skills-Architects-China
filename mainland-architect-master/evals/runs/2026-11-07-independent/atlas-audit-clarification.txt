@@ -1,0 +1,1 @@
+Post-run audit clarification from blind_final_original: 确认：原始运行中未读取 references/cn-atlas-topic-index.md。工具历史仅在分技能正文中出现该文件链接，没有读取该文件的调用证据。 No response or source-read history was retroactively changed.

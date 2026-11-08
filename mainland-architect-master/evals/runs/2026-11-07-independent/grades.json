@@ -1,0 +1,551 @@
+{
+  "grader": "Primary editing agent; manual review of independently generated blind responses",
+  "baseline": [
+    {
+      "id": 15,
+      "result": "partial",
+      "evidence": "baseline-a.md",
+      "note": "Corrected the wrong local authority using an official source; omitted the separate public-gathering opening-check distinction required by the rubric."
+    },
+    {
+      "id": 16,
+      "result": "pass",
+      "evidence": "baseline-a.md",
+      "note": "Meets the corresponding expected_output criteria; no unsupported project conclusion."
+    },
+    {
+      "id": 17,
+      "result": "pass",
+      "evidence": "baseline-a.md",
+      "note": "Meets the corresponding expected_output criteria; no unsupported project conclusion."
+    },
+    {
+      "id": 18,
+      "result": "pass",
+      "evidence": "baseline-a.md",
+      "note": "Meets the corresponding expected_output criteria; no unsupported project conclusion."
+    },
+    {
+      "id": 19,
+      "result": "pass",
+      "evidence": "baseline-b.md",
+      "note": "Meets the corresponding expected_output criteria; no unsupported project conclusion."
+    },
+    {
+      "id": 20,
+      "result": "pass",
+      "evidence": "baseline-b.md",
+      "note": "Meets the corresponding expected_output criteria; no unsupported project conclusion."
+    },
+    {
+      "id": 21,
+      "result": "pass",
+      "evidence": "baseline-b.md",
+      "note": "Meets the corresponding expected_output criteria; no unsupported project conclusion."
+    },
+    {
+      "id": 22,
+      "result": "pass",
+      "evidence": "baseline-b.md",
+      "note": "Meets the corresponding expected_output criteria; no unsupported project conclusion."
+    },
+    {
+      "id": 23,
+      "result": "pass",
+      "evidence": "baseline-c.md",
+      "note": "Meets the corresponding expected_output criteria; no unsupported project conclusion."
+    },
+    {
+      "id": 24,
+      "result": "pass",
+      "evidence": "baseline-c.md",
+      "note": "Meets the corresponding expected_output criteria; no unsupported project conclusion."
+    },
+    {
+      "id": 25,
+      "result": "pass",
+      "evidence": "baseline-c.md",
+      "note": "Meets the corresponding expected_output criteria; no unsupported project conclusion."
+    },
+    {
+      "id": 26,
+      "result": "partial",
+      "evidence": "baseline-c.md",
+      "note": "Safe and useful sequence, but no single primary skill was identified among the five loaded subskills."
+    }
+  ],
+  "first_full_regression": [
+    {
+      "id": 1,
+      "result": "fail",
+      "evidence": "regression-a.md",
+      "note": "Factual answer acceptable, but actual audit loads cn-building-codes and cn-fire-life-safety despite the master-only quick-reference requirement."
+    },
+    {
+      "id": 2,
+      "result": "pass",
+      "evidence": "regression-a.md",
+      "note": "Calculator actually executed; proxy limits and all model-only numeric assumptions explicitly withheld as code conclusions."
+    },
+    {
+      "id": 3,
+      "result": "pass",
+      "evidence": "regression-a.md",
+      "note": "Meets the corresponding expected_output criteria; see actual response and per-case tool/source audit."
+    },
+    {
+      "id": 4,
+      "result": "pass",
+      "evidence": "regression-a.md",
+      "note": "Meets the corresponding expected_output criteria; see actual response and per-case tool/source audit."
+    },
+    {
+      "id": 5,
+      "result": "pass",
+      "evidence": "regression-a.md",
+      "note": "Legacy alias actually executed and resolved to cn-fire-acceptance-closeout."
+    },
+    {
+      "id": 6,
+      "result": "pass",
+      "evidence": "regression-a.md",
+      "note": "Meets the corresponding expected_output criteria; see actual response and per-case tool/source audit."
+    },
+    {
+      "id": 7,
+      "result": "pass",
+      "evidence": "regression-a.md",
+      "note": "Meets the corresponding expected_output criteria; see actual response and per-case tool/source audit."
+    },
+    {
+      "id": 8,
+      "result": "pass",
+      "evidence": "regression-a.md",
+      "note": "Meets the corresponding expected_output criteria; see actual response and per-case tool/source audit."
+    },
+    {
+      "id": 9,
+      "result": "pass",
+      "evidence": "regression-a.md",
+      "note": "Meets the corresponding expected_output criteria; see actual response and per-case tool/source audit."
+    },
+    {
+      "id": 10,
+      "result": "pass",
+      "evidence": "regression-b.md",
+      "note": "Meets the corresponding expected_output criteria; see actual response and per-case tool/source audit."
+    },
+    {
+      "id": 11,
+      "result": "pass",
+      "evidence": "regression-b.md",
+      "note": "Meets the corresponding expected_output criteria; see actual response and per-case tool/source audit."
+    },
+    {
+      "id": 12,
+      "result": "pass",
+      "evidence": "regression-b.md",
+      "note": "Official attachment fetch failed; correctly withheld unverified clause and dimensions rather than fabricating them."
+    },
+    {
+      "id": 13,
+      "result": "pass",
+      "evidence": "regression-b.md",
+      "note": "Meets the corresponding expected_output criteria; see actual response and per-case tool/source audit."
+    },
+    {
+      "id": 14,
+      "result": "pass",
+      "evidence": "regression-b.md",
+      "note": "Meets the corresponding expected_output criteria; see actual response and per-case tool/source audit."
+    },
+    {
+      "id": 15,
+      "result": "pass",
+      "evidence": "regression-b.md",
+      "note": "Meets the corresponding expected_output criteria; see actual response and per-case tool/source audit."
+    },
+    {
+      "id": 16,
+      "result": "pass",
+      "evidence": "regression-b.md",
+      "note": "Meets the corresponding expected_output criteria; see actual response and per-case tool/source audit."
+    },
+    {
+      "id": 17,
+      "result": "pass",
+      "evidence": "regression-b.md",
+      "note": "Meets the corresponding expected_output criteria; see actual response and per-case tool/source audit."
+    },
+    {
+      "id": 18,
+      "result": "pass",
+      "evidence": "regression-b.md",
+      "note": "Meets the corresponding expected_output criteria; see actual response and per-case tool/source audit."
+    },
+    {
+      "id": 19,
+      "result": "pass",
+      "evidence": "regression-c.md",
+      "note": "Meets the corresponding expected_output criteria; see actual response and per-case tool/source audit."
+    },
+    {
+      "id": 20,
+      "result": "pass",
+      "evidence": "regression-c.md",
+      "note": "Meets the corresponding expected_output criteria; see actual response and per-case tool/source audit."
+    },
+    {
+      "id": 21,
+      "result": "pass",
+      "evidence": "regression-c.md",
+      "note": "Meets the corresponding expected_output criteria; see actual response and per-case tool/source audit."
+    },
+    {
+      "id": 22,
+      "result": "pass",
+      "evidence": "regression-c.md",
+      "note": "Meets the corresponding expected_output criteria; see actual response and per-case tool/source audit."
+    },
+    {
+      "id": 23,
+      "result": "pass",
+      "evidence": "regression-c.md",
+      "note": "Meets the corresponding expected_output criteria; see actual response and per-case tool/source audit."
+    },
+    {
+      "id": 24,
+      "result": "pass",
+      "evidence": "regression-c.md",
+      "note": "Meets the corresponding expected_output criteria; see actual response and per-case tool/source audit."
+    },
+    {
+      "id": 25,
+      "result": "pass",
+      "evidence": "regression-c.md",
+      "note": "Meets the corresponding expected_output criteria; see actual response and per-case tool/source audit."
+    },
+    {
+      "id": 26,
+      "result": "pass",
+      "evidence": "regression-c.md",
+      "note": "Meets the corresponding expected_output criteria; see actual response and per-case tool/source audit."
+    }
+  ],
+  "second_full_regression": [
+    {
+      "id": 1,
+      "result": "pass",
+      "evidence": "final-quick.md",
+      "note": "Meets expected_output; response and actual source/tool audit reviewed."
+    },
+    {
+      "id": 2,
+      "result": "pass",
+      "evidence": "final-original.md",
+      "note": "Meets expected_output; response and actual source/tool audit reviewed."
+    },
+    {
+      "id": 3,
+      "result": "pass",
+      "evidence": "final-original.md",
+      "note": "Meets expected_output; response and actual source/tool audit reviewed."
+    },
+    {
+      "id": 4,
+      "result": "pass",
+      "evidence": "final-original.md",
+      "note": "Meets expected_output; response and actual source/tool audit reviewed."
+    },
+    {
+      "id": 5,
+      "result": "pass",
+      "evidence": "final-original.md",
+      "note": "Meets expected_output; response and actual source/tool audit reviewed."
+    },
+    {
+      "id": 6,
+      "result": "pass",
+      "evidence": "final-original.md",
+      "note": "Meets expected_output; response and actual source/tool audit reviewed."
+    },
+    {
+      "id": 7,
+      "result": "pass",
+      "evidence": "final-original.md",
+      "note": "Meets expected_output; response and actual source/tool audit reviewed."
+    },
+    {
+      "id": 8,
+      "result": "pass",
+      "evidence": "final-original.md",
+      "note": "Meets expected_output; response and actual source/tool audit reviewed."
+    },
+    {
+      "id": 9,
+      "result": "pass",
+      "evidence": "final-original.md",
+      "note": "Meets expected_output; response and actual source/tool audit reviewed."
+    },
+    {
+      "id": 10,
+      "result": "pass",
+      "evidence": "final-original.md",
+      "note": "Meets expected_output; response and actual source/tool audit reviewed."
+    },
+    {
+      "id": 11,
+      "result": "pass",
+      "evidence": "final-original.md",
+      "note": "Meets expected_output; response and actual source/tool audit reviewed."
+    },
+    {
+      "id": 12,
+      "result": "fail",
+      "evidence": "final-original.md",
+      "note": "Safe answer, but required atlas index was not read. Post-run audit clarification confirmed no prior read; seeing a link did not satisfy the source-read criterion."
+    },
+    {
+      "id": 13,
+      "result": "pass",
+      "evidence": "final-original.md",
+      "note": "Meets expected_output; response and actual source/tool audit reviewed."
+    },
+    {
+      "id": 14,
+      "result": "pass",
+      "evidence": "final-original.md",
+      "note": "Meets expected_output; response and actual source/tool audit reviewed."
+    },
+    {
+      "id": 15,
+      "result": "pass",
+      "evidence": "final-new.md",
+      "note": "Meets expected_output; response and actual source/tool audit reviewed."
+    },
+    {
+      "id": 16,
+      "result": "pass",
+      "evidence": "final-new.md",
+      "note": "Meets expected_output; response and actual source/tool audit reviewed."
+    },
+    {
+      "id": 17,
+      "result": "pass",
+      "evidence": "final-new.md",
+      "note": "Meets expected_output; response and actual source/tool audit reviewed."
+    },
+    {
+      "id": 18,
+      "result": "pass",
+      "evidence": "final-new.md",
+      "note": "Meets expected_output; response and actual source/tool audit reviewed."
+    },
+    {
+      "id": 19,
+      "result": "pass",
+      "evidence": "final-new.md",
+      "note": "Meets expected_output; response and actual source/tool audit reviewed."
+    },
+    {
+      "id": 20,
+      "result": "pass",
+      "evidence": "final-new.md",
+      "note": "Meets expected_output; response and actual source/tool audit reviewed."
+    },
+    {
+      "id": 21,
+      "result": "pass",
+      "evidence": "final-new.md",
+      "note": "Meets expected_output; response and actual source/tool audit reviewed."
+    },
+    {
+      "id": 22,
+      "result": "pass",
+      "evidence": "final-new.md",
+      "note": "Meets expected_output; response and actual source/tool audit reviewed."
+    },
+    {
+      "id": 23,
+      "result": "pass",
+      "evidence": "final-new.md",
+      "note": "Meets expected_output; response and actual source/tool audit reviewed."
+    },
+    {
+      "id": 24,
+      "result": "pass",
+      "evidence": "final-new.md",
+      "note": "Meets expected_output; response and actual source/tool audit reviewed."
+    },
+    {
+      "id": 25,
+      "result": "pass",
+      "evidence": "final-new.md",
+      "note": "Meets expected_output; response and actual source/tool audit reviewed."
+    },
+    {
+      "id": 26,
+      "result": "pass",
+      "evidence": "final-new.md",
+      "note": "Meets expected_output; response and actual source/tool audit reviewed."
+    }
+  ],
+  "final_full_regression": [
+    {
+      "id": 1,
+      "result": "pass",
+      "evidence": "verified-a.md",
+      "note": "Master-only routing confirmed. GB 55036 URL variant ending .html37 was reproduced in official-domain search results; standard announcement URL supplied in report citation check."
+    },
+    {
+      "id": 2,
+      "result": "pass",
+      "evidence": "verified-a.md",
+      "note": "Actual dispatcher execution; proxy numbers and stair recommendations explicitly unverified, not statutory conclusions."
+    },
+    {
+      "id": 3,
+      "result": "pass",
+      "evidence": "verified-a.md",
+      "note": "Meets corresponding expected_output; response and actual routing/source/tool audit reviewed."
+    },
+    {
+      "id": 4,
+      "result": "pass",
+      "evidence": "verified-a.md",
+      "note": "Meets corresponding expected_output; response and actual routing/source/tool audit reviewed."
+    },
+    {
+      "id": 5,
+      "result": "pass",
+      "evidence": "verified-a.md",
+      "note": "Actual legacy-alias execution returned canonical cn-fire-acceptance-closeout."
+    },
+    {
+      "id": 6,
+      "result": "pass",
+      "evidence": "verified-a.md",
+      "note": "Meets corresponding expected_output; response and actual routing/source/tool audit reviewed."
+    },
+    {
+      "id": 7,
+      "result": "pass",
+      "evidence": "verified-a.md",
+      "note": "Meets corresponding expected_output; response and actual routing/source/tool audit reviewed."
+    },
+    {
+      "id": 8,
+      "result": "pass",
+      "evidence": "verified-a.md",
+      "note": "Meets corresponding expected_output; response and actual routing/source/tool audit reviewed."
+    },
+    {
+      "id": 9,
+      "result": "pass",
+      "evidence": "verified-a.md",
+      "note": "Meets corresponding expected_output; response and actual routing/source/tool audit reviewed."
+    },
+    {
+      "id": 10,
+      "result": "pass",
+      "evidence": "verified-b.md",
+      "note": "Meets corresponding expected_output; response and actual routing/source/tool audit reviewed."
+    },
+    {
+      "id": 11,
+      "result": "pass",
+      "evidence": "verified-b.md",
+      "note": "Meets corresponding expected_output; response and actual routing/source/tool audit reviewed."
+    },
+    {
+      "id": 12,
+      "result": "pass",
+      "evidence": "verified-b.md",
+      "note": "Atlas index and waterproofing digest actually read; withheld clause-specific conclusion when official PDF was unreadable."
+    },
+    {
+      "id": 13,
+      "result": "pass",
+      "evidence": "verified-b.md",
+      "note": "Meets corresponding expected_output; response and actual routing/source/tool audit reviewed."
+    },
+    {
+      "id": 14,
+      "result": "pass",
+      "evidence": "verified-b.md",
+      "note": "Meets corresponding expected_output; response and actual routing/source/tool audit reviewed."
+    },
+    {
+      "id": 15,
+      "result": "pass",
+      "evidence": "verified-b.md",
+      "note": "Correct construction authority, acceptance/filing distinction and separate public-gathering opening check."
+    },
+    {
+      "id": 16,
+      "result": "pass",
+      "evidence": "verified-b.md",
+      "note": "Meets corresponding expected_output; response and actual routing/source/tool audit reviewed."
+    },
+    {
+      "id": 17,
+      "result": "pass",
+      "evidence": "verified-b.md",
+      "note": "Meets corresponding expected_output; response and actual routing/source/tool audit reviewed."
+    },
+    {
+      "id": 18,
+      "result": "pass",
+      "evidence": "verified-b.md",
+      "note": "Meets corresponding expected_output; response and actual routing/source/tool audit reviewed."
+    },
+    {
+      "id": 19,
+      "result": "pass",
+      "evidence": "verified-c.md",
+      "note": "Meets corresponding expected_output; response and actual routing/source/tool audit reviewed."
+    },
+    {
+      "id": 20,
+      "result": "pass",
+      "evidence": "verified-c.md",
+      "note": "Meets corresponding expected_output; response and actual routing/source/tool audit reviewed."
+    },
+    {
+      "id": 21,
+      "result": "pass",
+      "evidence": "verified-c.md",
+      "note": "Meets corresponding expected_output; response and actual routing/source/tool audit reviewed."
+    },
+    {
+      "id": 22,
+      "result": "pass",
+      "evidence": "verified-c.md",
+      "note": "Meets corresponding expected_output; response and actual routing/source/tool audit reviewed."
+    },
+    {
+      "id": 23,
+      "result": "pass",
+      "evidence": "verified-c.md",
+      "note": "Meets corresponding expected_output; response and actual routing/source/tool audit reviewed."
+    },
+    {
+      "id": 24,
+      "result": "pass",
+      "evidence": "verified-c.md",
+      "note": "Meets corresponding expected_output; response and actual routing/source/tool audit reviewed."
+    },
+    {
+      "id": 25,
+      "result": "pass",
+      "evidence": "verified-c.md",
+      "note": "Meets corresponding expected_output; response and actual routing/source/tool audit reviewed."
+    },
+    {
+      "id": 26,
+      "result": "pass",
+      "evidence": "verified-c.md",
+      "note": "Explicit primary cn-building-codes with fire/daylight/planning secondaries; hard constraints before optimization."
+    }
+  ]
+}

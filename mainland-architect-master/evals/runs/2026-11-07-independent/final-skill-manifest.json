@@ -1,0 +1,534 @@
+[
+  {
+    "path": "cn_s_reference/_CS_INVENTORY.md",
+    "sha256": "ef5b6c124a6517400f3f773dc111eaf93e50ffbccf4d85fee45c89326ff18ffe"
+  },
+  {
+    "path": "cn_s_reference/ASC/ASC_Table_English.md",
+    "sha256": "6faef7739250fcaeffe19a75e3b166cdb217438a92ff76fd2b1cb69e780396db"
+  },
+  {
+    "path": "cn_s_reference/ASC/summaries/Architect_Seal_and_Liability_CS.md",
+    "sha256": "2bd0b2b9670b67f3930684c0725d8f45fa12dd4e52fa7a4ac8bc72ec8a3c6e6a"
+  },
+  {
+    "path": "cn_s_reference/ASC/summaries/Registered_Architect_Regulation_CS.md",
+    "sha256": "8c2c2f9bf734b6bba3c425a2235d0dde15eb007a6f19eb4e0e847539450b58a2"
+  },
+  {
+    "path": "cn_s_reference/CAAC/CAAC_Table_English.md",
+    "sha256": "3ec889c66fc221ef56d611330f755af0f0aa5bceab01beeb8d18b72a7002c0b2"
+  },
+  {
+    "path": "cn_s_reference/CAAC/summaries/Airport_Obstacle_Limitation_CS.md",
+    "sha256": "f0be92efd9a421f3654a7225e0319de9f753736e9b500672b6c4661e2e770cff"
+  },
+  {
+    "path": "cn_s_reference/Fire and Rescue/Fire_and_Rescue_Table_English.md",
+    "sha256": "f937987fdbe459a91f5b093477520699b8b4d77c1c06812a72a1eb34cb8b5db7"
+  },
+  {
+    "path": "cn_s_reference/Fire and Rescue/summaries/Fire_Design_Review_and_Acceptance_Provisions_CS.md",
+    "sha256": "a2a4917c6d450b098cdc75a15ce70df84e816e31d209c552d081855f0f3b578b"
+  },
+  {
+    "path": "cn_s_reference/Fire and Rescue/summaries/Fire_Protection_Law_CS.md",
+    "sha256": "c3b08acf5ffd341343008219355fb287218ea4528c991becd4602500c18b9c3e"
+  },
+  {
+    "path": "cn_s_reference/Fire and Rescue/summaries/GB_50016_Fire_Code_Relationship_CS.md",
+    "sha256": "5cde1e3537c11eb19695cb0bcd7238e9d0c6ea45d65bcc1b5087fcc970d41a25"
+  },
+  {
+    "path": "cn_s_reference/Fire and Rescue/summaries/GB_51251_Smoke_CS.md",
+    "sha256": "e9098c24d8e3ba1ee4842e2208005ffd9e00d1cac79b6735fbeca1a325523b8c"
+  },
+  {
+    "path": "cn_s_reference/Fire and Rescue/summaries/GB_55036_2022_Fire_Facilities_CS.md",
+    "sha256": "e23bc133aab70d9e5828c4156b0d20cd10d4557b5f304b5f721765383ca58ad8"
+  },
+  {
+    "path": "cn_s_reference/Fire and Rescue/summaries/GB_55037_2022_Building_Fire_CS.md",
+    "sha256": "d9ddae1c7dcc22199762f1c266575d04b6026aa22fc656e27871d98863d489d9"
+  },
+  {
+    "path": "cn_s_reference/Green Building/Green_Building_Table_English.md",
+    "sha256": "add449ca9031f7fd11e5f06344d3ea00fc6c414c2d8fd701a190a0e10392c915"
+  },
+  {
+    "path": "cn_s_reference/Green Building/summaries/GB_50189_Public_Building_Energy_CS.md",
+    "sha256": "62d19645a0fb4457350841fec917d7cd0555a4f53a192dbb743de3574df26f06"
+  },
+  {
+    "path": "cn_s_reference/Green Building/summaries/GB_T_50378_Green_Building_CS.md",
+    "sha256": "2ea4022ce4b50a775624d5ab7e1093fbb237efc8b5ce600f33147d34cc938ce8"
+  },
+  {
+    "path": "cn_s_reference/MEE/MEE_Table_English.md",
+    "sha256": "3f16751c3104eb666f80d277ed26bd83fae082d17a4d231a91d19799281d16a2"
+  },
+  {
+    "path": "cn_s_reference/MEE/summaries/Construction_Dust_and_Noise_Interface_CS.md",
+    "sha256": "0a273288fa0b8b5819dc8ea820f16d36feeb2efe88b92feb0e66d827ba9de4dd"
+  },
+  {
+    "path": "cn_s_reference/MEE/summaries/Environmental_Impact_Assessment_Law_CS.md",
+    "sha256": "1a6da316caba53a42fae1b3cc1c7509fbed030dbb546531312760cb4de4c2d5c"
+  },
+  {
+    "path": "cn_s_reference/MEM/MEM_Table_English.md",
+    "sha256": "d017310772c1447829ce5eb19e88e10ec20fdbbe2db2ee8e208701a176fe9fb3"
+  },
+  {
+    "path": "cn_s_reference/MEM/summaries/Hazardous_Divisional_Works_CS.md",
+    "sha256": "84e4d9cd930b78b1bb09d869caca78ad8850cfa8b9f07c88483fb555ddd91422"
+  },
+  {
+    "path": "cn_s_reference/MEM/summaries/Work_Safety_Law_CS.md",
+    "sha256": "25cc1aaec90b0f3f84fa8e9c10cfb7be48e95a6a19797899efebc2177a875bd9"
+  },
+  {
+    "path": "cn_s_reference/MNR/MNR_Table_English.md",
+    "sha256": "8bb5d0a6c1340f089968af7ed3cd2da82803e7992acb772ab4e49b99202f27d1"
+  },
+  {
+    "path": "cn_s_reference/MNR/summaries/Planning_Permits_CS.md",
+    "sha256": "bb1d46db09565683a58e4414067fba0c41b252cbf61742912c97d8fe9af203ef"
+  },
+  {
+    "path": "cn_s_reference/MNR/summaries/Planning_Verification_CS.md",
+    "sha256": "5f165cad7af4fd396c7570da6945f6b219225745f586c9e1c353e6963397091d"
+  },
+  {
+    "path": "cn_s_reference/MNR/summaries/Regulatory_Plan_and_Land_Grant_CS.md",
+    "sha256": "5377f886aaed27342453f25582cdadbfca04e0521b036dbf07235bc45e1acd63"
+  },
+  {
+    "path": "cn_s_reference/MNR/summaries/Urban_Rural_Planning_Law_CS.md",
+    "sha256": "e65456a1823940a79174627e206d57a3ef458447fad91b58bf46b7513e253f4a"
+  },
+  {
+    "path": "cn_s_reference/MOHURD/MOHURD_Table_English.md",
+    "sha256": "611361c3bb8cefd97f3c39ab585dc9fb42b67d12ec8a04e0d2b32fc901fa2b52"
+  },
+  {
+    "path": "cn_s_reference/MOHURD/summaries/Barrier_Free_Environment_Law_CS.md",
+    "sha256": "bab40ed6288179970e1bebd39ef2acd5f9e55c88acd15f310822fb7cafc02774"
+  },
+  {
+    "path": "cn_s_reference/MOHURD/summaries/Construction_Drawing_Review_Measures_CS.md",
+    "sha256": "f8c84024700cbf4f7df9d85f68fe30e3ece5db98f4bd44caedc5eda21c97a365"
+  },
+  {
+    "path": "cn_s_reference/MOHURD/summaries/Construction_Law_CS.md",
+    "sha256": "98010c2439877fc9ac5a0ace47b232f3b54f3fc99d7d4f3451d2570ab72cfff7"
+  },
+  {
+    "path": "cn_s_reference/MOHURD/summaries/Construction_Permit_CS.md",
+    "sha256": "f4b3d2b76a0960fc5c8a4ba71fa403516bdb89292e6e726a57b0b247c70a6ddf"
+  },
+  {
+    "path": "cn_s_reference/MOHURD/summaries/Construction_Quality_Regulation_CS.md",
+    "sha256": "7a29456f85f71a8427034472cb49c3d9aae9b40e3e2595d4723d5d7683a779d8"
+  },
+  {
+    "path": "cn_s_reference/MOHURD/summaries/Construction_Safety_Regulation_CS.md",
+    "sha256": "a45f4dc0f7b48682575721df179f97efcbb50d18084fad3d4db93f9179039a3b"
+  },
+  {
+    "path": "cn_s_reference/MOHURD/summaries/GB_50009_Loads_CS.md",
+    "sha256": "06f6770cd03ff425279e79c7ea723513e1c3a989b8d43a31db48585b949713d3"
+  },
+  {
+    "path": "cn_s_reference/MOHURD/summaries/GB_50176_Thermal_CS.md",
+    "sha256": "25f41681c93390f9e98be54b565f01a251b4dee8c937266c875f3763d17fe723"
+  },
+  {
+    "path": "cn_s_reference/MOHURD/summaries/GB_50180_Sunlight_CS.md",
+    "sha256": "f0f2046c1bea02b4a59e033282717b298c8ee4594c8c25962e599f6ce032ebb7"
+  },
+  {
+    "path": "cn_s_reference/MOHURD/summaries/GB_50352_Civil_Design_Unified_Standard_CS.md",
+    "sha256": "ad78e5df63b0eed83af1aefcff544c314061afd7cb265d5e570f22bd90690240"
+  },
+  {
+    "path": "cn_s_reference/MOHURD/summaries/GB_50763_Accessibility_Detail_CS.md",
+    "sha256": "1b5d3ff28256f9ffbc7d714990a575a443bf9cdb8c006033efcaff06128ce644"
+  },
+  {
+    "path": "cn_s_reference/MOHURD/summaries/GB_55015_2021_Energy_CS.md",
+    "sha256": "0fea803cf97a8d0f3514f70dd855b8cb59afda6d1d4f50abb31cd0626a1f347b"
+  },
+  {
+    "path": "cn_s_reference/MOHURD/summaries/GB_55016_2021_Building_Environment_CS.md",
+    "sha256": "005500ce0261ad76792df77bca0589e48661b9993a0b0ee51d045a2631ffb99d"
+  },
+  {
+    "path": "cn_s_reference/MOHURD/summaries/GB_55019_2021_Accessibility_CS.md",
+    "sha256": "1f7fc07473cd2e68cea5a186543681e15a48a67f66500aa8a492c1bc24320b8f"
+  },
+  {
+    "path": "cn_s_reference/MOHURD/summaries/GB_55030_2022_Waterproofing_CS.md",
+    "sha256": "04e13a6ad38355bdc4552c1cc0be7f06840736e68782a0a25160b519e455c19a"
+  },
+  {
+    "path": "cn_s_reference/MOHURD/summaries/GB_55031_2022_Civil_Buildings_CS.md",
+    "sha256": "2bb248a704db2bf746bfcfed386227d2f535531a2ee0e504b9e6e069b82098cf"
+  },
+  {
+    "path": "cn_s_reference/MOHURD/summaries/GB_T_50326_Project_Management_CS.md",
+    "sha256": "d1829cc91bd7f9caedeae60ac43f15a67fda7ec401ee858a8589190480a1e805"
+  },
+  {
+    "path": "cn_s_reference/MOHURD/summaries/GB_T_50353_Building_Area_CS.md",
+    "sha256": "8f3561fd95ddd09ee6affa3ea23fc76bf5103ebc1089e3f4d8c78ad5ae514032"
+  },
+  {
+    "path": "cn_s_reference/MOHURD/summaries/Survey_and_Design_Regulation_CS.md",
+    "sha256": "915ab026b12843ec1249ae672f464ab1b7bca36816fc0c76befc34dd7a27db4f"
+  },
+  {
+    "path": "cn_s_reference/MOHURD/summaries/Tendering_and_Bidding_Law_CS.md",
+    "sha256": "c4e53c38bbdc893d926e2b61bf67b080129e9d82f0aaf3da749f3ea23f527320"
+  },
+  {
+    "path": "cn_s_reference/NCHA/NCHA_Table_English.md",
+    "sha256": "f6811f63a28f3666330e4b4d60759cd5bc1e6d6d79da8aa85dc7a40cc6059d64"
+  },
+  {
+    "path": "cn_s_reference/NCHA/summaries/Cultural_Relics_Protection_Law_CS.md",
+    "sha256": "8054615c3e410bb659fdf62e3d44858ac679a11bd4c044325a6fd742339be162"
+  },
+  {
+    "path": "cn_s_reference/NCHA/summaries/Historic_Building_Interface_CS.md",
+    "sha256": "4860d3211f9816e89de5c2713e936a3d27ebb60efb3f7fbbbb281c8144670eee"
+  },
+  {
+    "path": "cn_s_reference/README.md",
+    "sha256": "51b6ebd27a55b430d470e33e0e5c8fc4d5479a2d99be9e6a08397639f81f1338"
+  },
+  {
+    "path": "cn_s_reference/SAMR/SAMR_Table_English.md",
+    "sha256": "d70cadf451d45a60e5e03f20125696c12dd70a391d51ca023fdb65f0563f8c38"
+  },
+  {
+    "path": "cn_s_reference/SAMR/summaries/Lift_Inspection_Interface_CS.md",
+    "sha256": "84021b9aed8fe088a735bad2cdc5691c0005cea63b724bb52b745e070270a08e"
+  },
+  {
+    "path": "cn_s_reference/SAMR/summaries/Special_Equipment_Safety_Law_CS.md",
+    "sha256": "939453008f1f9ebeff585e1173801418aa6a09156017fc93e1850d784d9ac341"
+  },
+  {
+    "path": "mainland-architect-master/references/cn-adverse-weather-eot.md",
+    "sha256": "b52a1db2a9cf07e3e858c407abb6594127c03701eeb0e42c82cc551818d31cd3"
+  },
+  {
+    "path": "mainland-architect-master/references/cn-atlas-topic-index.md",
+    "sha256": "1ba5d7ae2e4dc642593f23d93e913b2b22959f1592c14cc424c99f70f226d8e5"
+  },
+  {
+    "path": "mainland-architect-master/references/cn-code-catalog.md",
+    "sha256": "f2cf5e8844d4274015750a83ecc527f014d0f62e3d147538eb55f401b311ab0e"
+  },
+  {
+    "path": "mainland-architect-master/references/cn-common-material-modules.md",
+    "sha256": "9ee48a73eb15d2c6d5cc8a1fa74806ed3ee752c19a5ebb7002b304c47ea25389"
+  },
+  {
+    "path": "mainland-architect-master/references/cn-construction-sequence-swimlanes.md",
+    "sha256": "fa99abb384a4a41724259f57447dacd4725874c10aff98ec4ae79a50ddda9529"
+  },
+  {
+    "path": "mainland-architect-master/references/cn-construction-stakeholder-register.md",
+    "sha256": "4d951456dbbb0ba9d8e5d2c900fe1631c082f1fb0b61cc402b6520fe8f5af394"
+  },
+  {
+    "path": "mainland-architect-master/references/cn-human-scale-dimensions.md",
+    "sha256": "fa49e1b3f9d7ba1805c5a0483efe7634a1fad07e0a36c6437b1a1395f0c77401"
+  },
+  {
+    "path": "mainland-architect-master/references/cn-pow-stages.md",
+    "sha256": "fb09fabb238f4b73405df9b8c73069c9b04f98b6faf6eb4ca016e6c4c1a9727d"
+  },
+  {
+    "path": "mainland-architect-master/references/cn-procurement-routes-comparison.md",
+    "sha256": "14645a5a34eb0fa2f372a4f76f5deebcc9e8f226779893cce4db438116774dcf"
+  },
+  {
+    "path": "mainland-architect-master/references/cn-site-establishment-checklist.md",
+    "sha256": "657742cce5783a774194096024b04a594879d7efa1a81e9f0c7ed23baf1e187b"
+  },
+  {
+    "path": "mainland-architect-master/references/cn-telecom-coordination-guide.md",
+    "sha256": "8c9b34541042a76821dcf3ab6c85836c8df8f3eb3b49b1a19bbd3201abc4b24a"
+  },
+  {
+    "path": "mainland-architect-master/references/cn-traffic-submission-types.md",
+    "sha256": "9f73a4befe5bf0c167b248ec9f3d4b23ff514fc3e325b4699b3953cf66a50678"
+  },
+  {
+    "path": "mainland-architect-master/references/compliance.md",
+    "sha256": "d449eaf222e5278e499d19486879360c36f1a860b147c52fae235d7d6828297c"
+  },
+  {
+    "path": "mainland-architect-master/references/config.json",
+    "sha256": "6c17a54610595a890220bde31755780ffe9f6fb55a637e6cc4fc6b5a39756358"
+  },
+  {
+    "path": "mainland-architect-master/references/domain_terms.json",
+    "sha256": "2f803e6ae0120e7087f82f18f5cbfcbaab567dedf09f560464b56ae9bc015db5"
+  },
+  {
+    "path": "mainland-architect-master/references/heritage-impact-checklist.md",
+    "sha256": "fd6c44287b82326d970e5ef3d0f03c68cc271d51465bc070a9cef3c2875e142f"
+  },
+  {
+    "path": "mainland-architect-master/references/operational.md",
+    "sha256": "8d76920c6415b02b8235f71830ba835b4cdd900f42c369ad89d3ad9f9e46e5ea"
+  },
+  {
+    "path": "mainland-architect-master/references/templates/compliance-memo.md",
+    "sha256": "e5868556c7e90f15d0dbf84e5a7560eaaa806fd7b8d3f14ce81dd973e214ede8"
+  },
+  {
+    "path": "mainland-architect-master/references/templates/construction-look-ahead.md",
+    "sha256": "59d36bc6fea444acbdd8147760e14fa22b554f7c79b417fb92c318a0c12b9477"
+  },
+  {
+    "path": "mainland-architect-master/references/templates/deliverables.md",
+    "sha256": "acf75e4171db10848fda35efcd3297b70420bfd433d46a345e9eafdc08e3c0df"
+  },
+  {
+    "path": "mainland-architect-master/references/templates/fire-acceptance-index.md",
+    "sha256": "baf0c63b49ec2c72e5a9b427047c6ec9d78027d8c9954007f94e7fd8c6ed3476"
+  },
+  {
+    "path": "mainland-architect-master/references/templates/joint-acceptance-index.md",
+    "sha256": "b1b6b0bec45b5d9e9b3227372aa8f335bdb3cce1d25c0f9b5ec5ab2d5c77801a"
+  },
+  {
+    "path": "mainland-architect-master/references/templates/planning-indicator-check.md",
+    "sha256": "0dc43c02bb6b73b3fcae6c0cd66aa940eaaf90d683cad131b1a40c98353638af"
+  },
+  {
+    "path": "mainland-architect-master/references/templates/review-comment-response.md",
+    "sha256": "1cb162bbf018be088779374ed3929955ad8161157b148c1a1718da59d004a4b5"
+  },
+  {
+    "path": "mainland-architect-master/references/templates/stage-gate-checklist.md",
+    "sha256": "f575debd6cc5aa89ff36fc9d327f39633a850017ed99ee1a52c4ce1cd09fdcb2"
+  },
+  {
+    "path": "mainland-architect-master/references/templates/tender-route-recommendation.md",
+    "sha256": "4a2382b99e3bdaa71ef37ec4abb347fbb0a01f892ecf835e1b60816315f5583d"
+  },
+  {
+    "path": "mainland-architect-master/scripts/calculators.py",
+    "sha256": "f96857ae080e02c2d3f1c2a97108af93c409146581632fe2c8eeae29ca692565"
+  },
+  {
+    "path": "mainland-architect-master/scripts/config/area_rules.json",
+    "sha256": "566c870ac5396459aa49f461da6ca00c1d896be973fb06c5944138d658a067a7"
+  },
+  {
+    "path": "mainland-architect-master/scripts/config/egress_rules.json",
+    "sha256": "b5e44178c9d53c0c48b26ded53b4409aa130569ed3a5a55c59f80b0538669114"
+  },
+  {
+    "path": "mainland-architect-master/scripts/config/translation_map.json",
+    "sha256": "c4c3c2deaac345ac9dc55dfff2aee66f1977911f1f2af75e5efa202f8acd8727"
+  },
+  {
+    "path": "mainland-architect-master/scripts/config/translation_map.schema.json",
+    "sha256": "12730ac070b044d06a5456f7e1bcb08a0a71f89daad797a687ba1bde9eaad9d9"
+  },
+  {
+    "path": "mainland-architect-master/scripts/dispatcher.py",
+    "sha256": "c2a0f2336725d926e52192a67ab13359621b6ac7cd6dcd96a28cf8327fa99683"
+  },
+  {
+    "path": "mainland-architect-master/SKILL.md",
+    "sha256": "2821067a3bcf30f2ea9db3d632cac6098c4e0d332c9a8e46c5eef97c61345991"
+  },
+  {
+    "path": "mainland-architect-master/subskills/cn-accessibility-design/cn-accessibility-design.md",
+    "sha256": "194892f29d55462a440180b0f94851693eefa0dc8416304ebe8276a35b45c761"
+  },
+  {
+    "path": "mainland-architect-master/subskills/cn-acoustic-design/cn-acoustic-design.md",
+    "sha256": "c6a7a7214bba98acf52cf17a125c29495cb1ac0b6dcd708e0d9b69ee0eed5cda"
+  },
+  {
+    "path": "mainland-architect-master/subskills/cn-alterations-additions/cn-alterations-additions.md",
+    "sha256": "622cdb0cc0155fefb9628cbb2a9cc1de2ea45bf801073df5405796e26e9da5e5"
+  },
+  {
+    "path": "mainland-architect-master/subskills/cn-architect-calculator/cn-architect-calculator.md",
+    "sha256": "9e2105558de80a10800432c528b8b2ff0523a8af74ed18763f81bc90bf5864d8"
+  },
+  {
+    "path": "mainland-architect-master/subskills/cn-architect-foundations/cn-architect-foundations.md",
+    "sha256": "fa040de335a772904c0ac7da2e0c84bea1130961c9128232dc16f41b87b4af76"
+  },
+  {
+    "path": "mainland-architect-master/subskills/cn-building-codes/cn-building-codes.md",
+    "sha256": "f07da526a14a2ef4d187b17e3441fc025c2ee98b63872f26d4e3acada0438d2c"
+  },
+  {
+    "path": "mainland-architect-master/subskills/cn-building-envelope/cn-building-envelope.md",
+    "sha256": "11a8259c5d22f233b76dad496fd49c5acb575966609c001eb35026c4b5f79251"
+  },
+  {
+    "path": "mainland-architect-master/subskills/cn-building-programming/cn-building-programming.md",
+    "sha256": "5cf09aeafe1cf3494c3fd4a5a8314cc20972eecd2d671f4acfee138294510c8a"
+  },
+  {
+    "path": "mainland-architect-master/subskills/cn-building-services/cn-building-services.md",
+    "sha256": "0fe9926cff76400235ccdc46cffe99c1112e5d1db11ec13a6eed5fb8691db9ca"
+  },
+  {
+    "path": "mainland-architect-master/subskills/cn-building-sustainability/cn-building-sustainability.md",
+    "sha256": "fc544fefbdd9d3dc1a73f0aa14baa5835461c4c957c088686e87fac893b1183f"
+  },
+  {
+    "path": "mainland-architect-master/subskills/cn-building-typology/cn-building-typology.md",
+    "sha256": "fa9c0dd584f459047ce192f2ba6319edf1ccc312701c1e810e588c173a4e5dff"
+  },
+  {
+    "path": "mainland-architect-master/subskills/cn-cashflow-debt-recovery/cn-cashflow-debt-recovery.md",
+    "sha256": "3e2de80cf6d3126ef5fe9c52d3342158814a36683f866ca4a82546064987261b"
+  },
+  {
+    "path": "mainland-architect-master/subskills/cn-certificate-of-compliance/cn-certificate-of-compliance.md",
+    "sha256": "fcf2a0a2d064e94f59340eda6a9bf7a6ecd9b1aaca8fa9249f041cfba2aee518"
+  },
+  {
+    "path": "mainland-architect-master/subskills/cn-concept-design/cn-concept-design.md",
+    "sha256": "2a686cedfe5aa57a5f9405266fe357c7b1950a679501094db4b164843fbfc149"
+  },
+  {
+    "path": "mainland-architect-master/subskills/cn-consent-scheduling/cn-consent-scheduling.md",
+    "sha256": "b1e7250b35bd616fe36f39ae218985ac2fa9548bb9fa9a56d53e4af843adeb7a"
+  },
+  {
+    "path": "mainland-architect-master/subskills/cn-construction-documentation/cn-construction-documentation.md",
+    "sha256": "fd4bf890dc4020a0f0bd1b3b5a9f45d34205537334e1756bc0392ac4f10020f1"
+  },
+  {
+    "path": "mainland-architect-master/subskills/cn-construction-health-safety/cn-construction-health-safety.md",
+    "sha256": "73bea5791ebdc4aa1e7308c2b3f89dee470280a196bdcbdf8bd618856bf73c23"
+  },
+  {
+    "path": "mainland-architect-master/subskills/cn-construction-programme/cn-construction-programme.md",
+    "sha256": "05d5728e83c74951ba842277503086e6d3dc6a3a9c9af4cdc33679c838990417"
+  },
+  {
+    "path": "mainland-architect-master/subskills/cn-cost-consultancy/cn-cost-consultancy.md",
+    "sha256": "821eb9b373495f95f3cff36cd02b9ec1554eb34deb8ca0c5121765af7879fe10"
+  },
+  {
+    "path": "mainland-architect-master/subskills/cn-daylighting-design/cn-daylighting-design.md",
+    "sha256": "d16d3a5e39ef91637c6013665c3723f9aff2bd872cf85d31ac35812678e0dd93"
+  },
+  {
+    "path": "mainland-architect-master/subskills/cn-deliverables-workstages/cn-deliverables-workstages.md",
+    "sha256": "2f008d43498223bd3d5e623867e1b9a7d0d80324d93eac6673dabf26f88e9de0"
+  },
+  {
+    "path": "mainland-architect-master/subskills/cn-design-theory/cn-design-theory.md",
+    "sha256": "3d567e1391f67a1cff702fa3276ffa4c825d79bb6fbc4df63c14d8fd057d41b1"
+  },
+  {
+    "path": "mainland-architect-master/subskills/cn-fee-proposal-strategy/cn-fee-proposal-strategy.md",
+    "sha256": "df7566a40f6cd46b67c7748b15805db1932d65517596abf8898b19c92d3ab95d"
+  },
+  {
+    "path": "mainland-architect-master/subskills/cn-fire-acceptance-closeout/cn-fire-acceptance-closeout.md",
+    "sha256": "56de68ef58ba5a11ba16f4659df8603d5658094287bd0346a75aee7fb90d7fdf"
+  },
+  {
+    "path": "mainland-architect-master/subskills/cn-fire-life-safety/cn-fire-life-safety.md",
+    "sha256": "fe56fd858f72ef1b4ba9462214b095c4769d15af20afd0c253df3486497c5320"
+  },
+  {
+    "path": "mainland-architect-master/subskills/cn-heritage-conservation/cn-heritage-conservation.md",
+    "sha256": "45d4d44ccb5357319ee03b3fbab4f20b61bcdfde2ea0e5aa6707cea3a426ee23"
+  },
+  {
+    "path": "mainland-architect-master/subskills/cn-lease-compliance/cn-lease-compliance.md",
+    "sha256": "69c5de3a85388c3cb927289d19ba005f2d3221d20bf30f0cc32bbf01cf0135bd"
+  },
+  {
+    "path": "mainland-architect-master/subskills/cn-material-selection/cn-material-selection.md",
+    "sha256": "d10050ef69847d4aeb8628772550e2cfc025dc9ce22130523e23d7948991891d"
+  },
+  {
+    "path": "mainland-architect-master/subskills/cn-mic-dfma/cn-mic-dfma.md",
+    "sha256": "3f73094df1900fa94f1dd08a18907cfa9abac7e6547dc884bfcd237cb808c6d5"
+  },
+  {
+    "path": "mainland-architect-master/subskills/cn-minor-works/cn-minor-works.md",
+    "sha256": "ef401b413fda323f461543b7655fc32654e319db25820dc11c7fabcb5888f982"
+  },
+  {
+    "path": "mainland-architect-master/subskills/cn-op-submission-strategy/cn-op-submission-strategy.md",
+    "sha256": "84a8c5b5e9d582959fe774f807c93fa00234a821fcb0e349ccf332512c80c7fb"
+  },
+  {
+    "path": "mainland-architect-master/subskills/cn-plan-of-work/cn-plan-of-work.md",
+    "sha256": "b1a23e9862ef764224d6250302231238f58bad6d9359a6800b8c4cdb952cba24"
+  },
+  {
+    "path": "mainland-architect-master/subskills/cn-practical-completion-snagging/cn-practical-completion-snagging.md",
+    "sha256": "e55b47b3c158345fdc1893585138ec7de112bf4bf5ecf79d6e4abe7a738cf066"
+  },
+  {
+    "path": "mainland-architect-master/subskills/cn-procurement-strategy/cn-procurement-strategy.md",
+    "sha256": "629b0304cd1bcf502dd82b7b5e26cb03d3c66aeb5b16d80b2980c8ea1da325ef"
+  },
+  {
+    "path": "mainland-architect-master/subskills/cn-professional-indemnity/cn-professional-indemnity.md",
+    "sha256": "1f1e6c9af362e44a64e3ee6512e30a878ce01f4c8f93209e2d40b6364d6552a0"
+  },
+  {
+    "path": "mainland-architect-master/subskills/cn-project-management/cn-project-management.md",
+    "sha256": "52c7e4fb93210e7c95702cb7d4a1921e7cdb09232dfde1a52069ec4816e2d93b"
+  },
+  {
+    "path": "mainland-architect-master/subskills/cn-project-resource-levelling/cn-project-resource-levelling.md",
+    "sha256": "1b6ae11f37301a26c29a7f1055270e5f9cdbf3b6d6a8849877cb99acf2ac85f3"
+  },
+  {
+    "path": "mainland-architect-master/subskills/cn-site-establishment/cn-site-establishment.md",
+    "sha256": "67fa9c15626ae2444b532d4bc684961f0f3a27e43829c530ef120418cd162f3f"
+  },
+  {
+    "path": "mainland-architect-master/subskills/cn-site-supervision/cn-site-supervision.md",
+    "sha256": "7850426490fa11840f28b648e474e83e024f5dc809098ea26d546ccfb61b964e"
+  },
+  {
+    "path": "mainland-architect-master/subskills/cn-spatial-planning/cn-spatial-planning.md",
+    "sha256": "6489ca1795271260d9c9301d014b5ca2874703c54853171abf7bc752ade6717a"
+  },
+  {
+    "path": "mainland-architect-master/subskills/cn-structural-systems/cn-structural-systems.md",
+    "sha256": "6abb1d56e963d76ae3bde47d031bd309b6ba26bd218903cb47b2b35c5d292b28"
+  },
+  {
+    "path": "mainland-architect-master/subskills/cn-telecom-coordination/cn-telecom-coordination.md",
+    "sha256": "166a3d19c2d9a758120a64b32fa15328326b04b5cf9b657541011c1f8f0a4d07"
+  },
+  {
+    "path": "mainland-architect-master/subskills/cn-tender-contract-administration/cn-tender-contract-administration.md",
+    "sha256": "242576027bff8f8ed0872b701ee226054e08936f732940e43cf50ffb3eeb6975"
+  },
+  {
+    "path": "mainland-architect-master/subskills/cn-traffic-coordination/cn-traffic-coordination.md",
+    "sha256": "b3205bfd2457e7855b2e2f016590cf71f44539038ce13ccf51e10adf2ed2edae"
+  },
+  {
+    "path": "mainland-architect-master/subskills/cn-unauthorised-building-works/cn-unauthorised-building-works.md",
+    "sha256": "f244b719229a4e69721100fcb14a7661100e27f5cc796146df11862ba799d30e"
+  }
+]
