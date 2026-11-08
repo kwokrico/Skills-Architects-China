@@ -78,7 +78,8 @@ Phase 1: Ingestion --> Phase 2: Compliance validation --> Phase 3: Domain analys
 
 - `自然资源局/规自局`: planning permits and control plan compliance.
 - `住建局`: construction permit and quality/safety supervision.
-- `消防救援局`: fire acceptance.
+- `住房城乡建设主管部门/当地消防设计审查验收主管部门`: construction fire design review, acceptance, filing and spot checks; confirm the local service window.
+- `消防救援机构`: fire-safety supervision and public-gathering premises' pre-use/opening fire-safety checks where applicable; distinct from construction fire acceptance.
 - `审图机构`: mandatory third-party construction drawing review.
 
 ### 4.3 Role Model (Mainland)
@@ -103,7 +104,7 @@ Answer routine lookups from this table without loading sub-skills. For depth or 
 
 | # | Category | Mainland baseline | Depth skill |
 |---|----------|-------------------|-------------|
-| C.1 | **Floor-to-floor heights** | 住宅 ~2.9–3.0 m; 办公 ~4.0–4.5 m slab-to-slab; min headroom per GB 50352 | `cn-building-codes`, `cn-building-programming` |
+| C.1 | **Floor-to-floor heights** | Residential: check applicable GB 55038-2025 and transition rules; other uses: applicable general/sector codes. Do not treat typical design heights as statutory minima | `cn-building-codes`, `cn-building-programming` |
 | C.2 | **Development intensity** | 容积率、建筑密度、绿地率、限高 — 控规/出让条件 | `cn-spatial-planning`, `cn-building-codes`, `cn-lease-compliance` |
 | C.3 | **GFA / 计容** | GB/T 50353 + 地方计容规则；不计容部位查地方规定 | `cn-building-codes`, `cn-architect-calculator` |
 | C.4 | **Guidance index** | GB/JGJ national; DB/DGJ/DBJ local; 审查口径 | `cn-architect-foundations`, `cn-building-codes` |
@@ -120,6 +121,8 @@ Answer routine lookups from this table without loading sub-skills. For depth or 
 ## 5B. Multi-Skill Priority (overlapping topics)
 
 When multiple skills apply, use **one primary** and cite secondaries:
+
+For a core/layout change spanning fire, daylight and FAR, state the primary and secondary routing explicitly. Use `cn-building-codes` to coordinate a compliance-led question, or `cn-concept-design` for a layout-led comparison; involve fire, daylight and planning skills for their respective checks. Check mandatory constraints before optimizing the layout.
 
 1. **Regulatory:** `cn-building-codes` › `cn-spatial-planning` › `cn-fire-life-safety` › `cn-accessibility-design` › `cn-minor-works` › `cn-consent-scheduling` › `cn-alterations-additions` › `cn-lease-compliance`
 2. **Performance:** `cn-building-sustainability` › `cn-building-envelope` › `cn-daylighting-design` › `cn-acoustic-design`
@@ -149,6 +152,8 @@ When multiple skills apply, use **one primary** and cite secondaries:
 ## 5D. Routing Decision Tree
 
 **Answer from §5A first** if the question can be resolved there. Route to a sub-skill only when deeper expertise is required. When a cited GB or statute needs clause-level depth, read the matching file under `cn_s_reference/` (§7A). Do not invent clause numbers.
+
+For a routine question asking only which code hierarchy applies (including an office fire-code hierarchy), answer from §§4, 5A and 7 without loading sub-skills. Verify official editions as needed. A missing local document alone does not require a specialist load: state the national baseline and identify the local verification needed. Escalate when the user requests project-specific thresholds, calculations, layouts or a binding compliance conclusion.
 
 ```
 START
@@ -314,6 +319,8 @@ START
 
 Mandatory general codes prevail where they conflict with older standards:
 
+- `GB 55038-2025` 住宅项目规范 (in force 2025-05-01). For residential projects, verify scope and project transition arrangements before using older residential or daylight provisions; see the [residential applicability note](../cn_s_reference/MOHURD/summaries/GB_50180_Sunlight_CS.md).
+
 - `GB 55031-2022` 民用建筑通用规范 (in force 2023-03-01)
 - `GB 55037-2022` 建筑防火通用规范 (in force 2023-06-01; supersedes conflicting mandatory clauses, including many in GB 50016)
 - `GB 55036-2022` 消防设施通用规范
@@ -352,7 +359,7 @@ Open these digests by number when the question needs them:
 | GB 50180 sunlight spacing | `cn_s_reference/MOHURD/summaries/GB_50180_Sunlight_CS.md` |
 | GB 50009 structural actions | `cn_s_reference/MOHURD/summaries/GB_50009_Loads_CS.md` |
 
-Standards with no digest yet are listed in [references/cn-code-catalog.md](references/cn-code-catalog.md). 图集 numbers are in [references/cn-atlas-topic-index.md](references/cn-atlas-topic-index.md).
+Standards with no digest yet are listed in [references/cn-code-catalog.md](references/cn-code-catalog.md). For questions using a 图集 as compliance evidence, read [references/cn-atlas-topic-index.md](references/cn-atlas-topic-index.md) together with the relevant code digest before answering, per compliance rule 6.
 
 ---
 

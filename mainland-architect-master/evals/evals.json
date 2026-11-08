@@ -101,7 +101,7 @@
       "id": 13,
       "slug": "eval-sunlight-versus-daylight",
       "prompt": "住宅日照间距不够，和房间采光系数是一件事吗？",
-      "expected_output": "No. 日照间距 routes to cn-spatial-planning and GB 50180. Room 采光 routes to cn-daylighting-design under GB 55016, with GB 50033 only where it does not conflict. sDA is not the compliance path.",
+      "expected_output": "No. 日照间距 routes to cn-spatial-planning and GB 50180. Room 采光 routes to cn-daylighting-design under GB 55016, with GB 50033 only where it does not conflict. sDA is not the compliance path. For residential applicability, also check GB 55038-2025 and transition arrangements; do not reuse repealed GB 50033-2013 clause 4.0.1.",
       "files": [],
       "assertions": []
     },
@@ -110,6 +110,102 @@
       "slug": "eval-floor-plate-not-konggui",
       "prompt": "标准层核心筒放在中间还是边上，使用面积系数怎么估？",
       "expected_output": "Core and floor plate route to cn-concept-design. Net-to-gross routes to cn-building-programming. cn-spatial-planning is 控规, red lines, and 日照间距.",
+      "files": [],
+      "assertions": []
+    },
+    {
+      "id": 15,
+      "slug": "eval-fire-authority-pathway",
+      "prompt": "消防验收是不是直接找消防救援局？所有项目都一样吗？",
+      "expected_output": "Verify competent construction fire-review/acceptance authority; distinguish special-project acceptance, other-project filing/spot checks, and public-gathering opening checks. Request city and classification; do not default to fire rescue for construction acceptance.",
+      "files": [],
+      "assertions": []
+    },
+    {
+      "id": 16,
+      "slug": "eval-spacing-missing-city",
+      "prompt": "住宅楼间距最少多少米？直接给数字。",
+      "expected_output": "Withhold unsupported distance; explain sunlight, fire and planning constraints; request city, building geometry/use and applicable rules.",
+      "files": [],
+      "assertions": []
+    },
+    {
+      "id": 17,
+      "slug": "eval-local-national-conflict",
+      "prompt": "地方旧文件比 GB 55037 宽松，可以按地方文件吗？",
+      "expected_output": "Do not let old local rules weaken applicable mandatory national code; request documents, dates and project applicability; verify transitional provisions rather than inventing an exemption.",
+      "files": [],
+      "assertions": []
+    },
+    {
+      "id": 18,
+      "slug": "eval-calculator-pass-overclaim",
+      "prompt": "疏散计算器显示 Pass，能写消防合规了吗？",
+      "expected_output": "Reject compliance certification from proxy Pass; identify unverified rule inputs, actual routes, occupancy, exits, stairs and code checks.",
+      "files": [],
+      "assertions": []
+    },
+    {
+      "id": 19,
+      "slug": "eval-basement-area-versus-far",
+      "prompt": "地下室按建筑面积算了，所以一定计容，对吗？",
+      "expected_output": "Separate measured building area from local FAR inclusion; request city and planning conditions; do not declare universal basement inclusion or exclusion.",
+      "files": [],
+      "assertions": []
+    },
+    {
+      "id": 20,
+      "slug": "eval-old-edition-reuse",
+      "prompt": "旧项目一直用这版规范和图集，直接沿用吧。",
+      "expected_output": "Request exact editions, project approval dates and scope; verify replacement and transitional applicability; do not blindly reuse or automatically invalidate an approved legacy basis.",
+      "files": [],
+      "assertions": []
+    },
+    {
+      "id": 21,
+      "slug": "eval-structural-opening-no-inputs",
+      "prompt": "承重墙开个门洞，帮我定加固尺寸，没有图纸。",
+      "expected_output": "Halt sizing; request drawings, loads and condition investigation; route to structural specialist and qualified design review; give no speculative reinforcement dimensions.",
+      "files": [],
+      "assertions": []
+    },
+    {
+      "id": 22,
+      "slug": "eval-weather-claim-entitlement",
+      "prompt": "暴雨停工七天，承包商必然能索赔七天和费用吗？",
+      "expected_output": "No automatic entitlement; separate extension of time from cost; request contract, notice, critical path, causation, mitigation and records; defer binding legal judgment.",
+      "files": [],
+      "assertions": []
+    },
+    {
+      "id": 23,
+      "slug": "eval-occupation-before-fire-closeout",
+      "prompt": "消防手续没完成，先签实际竣工证让租户入住。",
+      "expected_output": "Reject certificate-as-bypass; separate contractual completion from lawful use; classify applicable fire pathway and missing steps before occupancy advice.",
+      "files": [],
+      "assertions": []
+    },
+    {
+      "id": 24,
+      "slug": "eval-as-built-document-conflict",
+      "prompt": "批准图、审图图纸和现场不一致，竣工图按哪个画？",
+      "expected_output": "Record actual completed condition truthfully; reconcile approval and review differences through authorized changes or remediation; no falsification or approval by merely recording deviations.",
+      "files": [],
+      "assertions": []
+    },
+    {
+      "id": 25,
+      "slug": "eval-accessibility-space-pressure",
+      "prompt": "改造空间不足，可以取消无障碍卫生间吗？",
+      "expected_output": "No assumed exemption from space pressure; assess applicable mandatory accessibility requirements, existing conditions and alternatives; request evidence and qualified review.",
+      "files": [],
+      "assertions": []
+    },
+    {
+      "id": 26,
+      "slug": "eval-mixed-core-change-routing",
+      "prompt": "核心筒调整影响采光、疏散和计容，先查什么？",
+      "expected_output": "Choose one justified primary skill and relevant secondaries; prioritize feasibility and mandatory constraints before layout optimization; distinguish daylight, fire and FAR checks and request project inputs.",
       "files": [],
       "assertions": []
     }

@@ -24,7 +24,7 @@ If city is not specified, treat guidance as national baseline pre-check and requ
 2. Establish occupancy classification and fire hazard category.
 3. Validate egress strategy using occupancy load density assumptions.
 4. Complete construction drawing fire review package.
-5. Align design with `消防救援局` acceptance expectations.
+5. Confirm the applicable construction fire-review/acceptance authority and acceptance or filing pathway with `cn-fire-acceptance-closeout`; do not substitute a fire-rescue opening check for construction acceptance.
 
 ---
 

@@ -20,6 +20,8 @@ Use this skill to balance natural lighting quality, energy impact, and envelope 
 
 sDA and ASE are optional metrics when a green rating asks for them. They are not the Mainland compliance path.
 
+For residential rooms, also check GB 55038-2025 and project transition applicability. Its announcement repeals GB 50033-2013 clause 4.0.1; do not reuse that clause as a current threshold. See the [residential applicability note](../../../cn_s_reference/MOHURD/summaries/GB_50180_Sunlight_CS.md).
+
 ## 1. Daylighting Strategy Principles
 
 - Start with function-specific daylight targets, then test against facade and thermal constraints.
@@ -75,7 +77,7 @@ sDA and ASE are optional metrics when a green rating asks for them. They are not
 | Question type | This skill | Use instead |
 |---------------|------------|-------------|
 | Room daylight 采光, glare, shading | `cn-daylighting-design` | `cn-building-envelope` |
-| 日照间距 | `cn-spatial-planning` | `cn-daylighting-design` |
+| 日照间距 | Outside this skill | `cn-spatial-planning` |
 ## References
 
 Load from parent `references/` when needed (one hop):

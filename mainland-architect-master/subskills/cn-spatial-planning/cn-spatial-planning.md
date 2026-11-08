@@ -35,6 +35,8 @@ If city is not specified, treat guidance as national baseline pre-check and requ
 - `道路红线`: road planning boundary influencing access and retreat distance.
 
 Core indicator checks:
+
+For residential projects, check GB 55038-2025 applicability and local transition arrangements before applying older sunlight provisions; see the residential applicability note in the linked GB 50180 digest. No city-independent spacing number follows from a code title alone.
 - `容积率`
 - `建筑密度`
 - `绿地率`

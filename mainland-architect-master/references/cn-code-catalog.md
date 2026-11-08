@@ -8,6 +8,7 @@ Force ranking and citation rules: [compliance.md](compliance.md).
 
 | Standard | Topic | Owning skill | Digest |
 |---|---|---|---|
+| GB 55038-2025 | Mandatory residential project code; check transition applicability | `cn-building-codes`, `cn-spatial-planning`, `cn-daylighting-design` | [Residential applicability note](../../cn_s_reference/MOHURD/summaries/GB_50180_Sunlight_CS.md); verify original clauses before quoting numbers |
 | GB 51251 | Smoke control for buildings | `cn-fire-life-safety` | [GB_51251_Smoke_CS.md](../../cn_s_reference/Fire%20and%20Rescue/summaries/GB_51251_Smoke_CS.md). Sits under GB 55037 where they conflict |
 | GB 50084 | Automatic sprinkler design | `cn-fire-life-safety` | None. Confirm the official edition. Mandatory floor for facilities is GB 55036 |
 | GB 50176 | Five climate zones for civil buildings | `cn-building-envelope`, `cn-building-sustainability` | [GB_50176_Thermal_CS.md](../../cn_s_reference/MOHURD/summaries/GB_50176_Thermal_CS.md) |

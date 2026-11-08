@@ -184,7 +184,7 @@ Controls:
 
 ---
 
-*Apply this framework alongside the executed HKIA/contract conditions, project specifications, and legal/professional advice where certificate entitlement or defect liability is disputed.*
+*Apply this framework alongside the executed project contract, project specifications, and applicable Mainland requirements. Do not assume a Hong Kong contract form. Obtain legal/professional advice where certificate entitlement or defect liability is disputed.*
 
 
 ## When to Use This Skill

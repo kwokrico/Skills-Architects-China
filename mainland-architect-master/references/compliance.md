@@ -14,8 +14,9 @@
 3. Separate **code citation** from **engineering judgment** in every deliverable.
 4. Calculator outputs are pre-checks only; document assumptions (occupancy, sprinkler status, geometry proxy) before stating Pass/Fail.
 5. **Citation:** A numeric conclusion names the standard, the edition, and the clause. If any of the three is missing, mark the number unverified against the official edition. For a submission conclusion, also state the date the edition was checked.
-6. **图集:** A 图集 or CAD detail shows one construction method. It does not discharge a mandatory clause. Cite the clause first. Attach the atlas number only as the detail source, and confirm that number is still current.
+6. **图集:** A 图集 or CAD detail shows one construction method. It does not discharge a mandatory clause. When asked whether an atlas/detail satisfies mandatory requirements, open [cn-atlas-topic-index.md](cn-atlas-topic-index.md) and the relevant code digest before answering; seeing their links is not reading them. Cite the applicable clause when verified; otherwise withhold the clause-specific conclusion rather than inventing a clause. Attach the atlas number only as the detail source, and confirm its current status externally before issue; the index is not proof of currency.
 7. **Local supplements:** A DB, DGJ, or DBJ may be stricter than the national general code. It cannot be used to weaken a GB 550xx requirement.
+8. **Fire pathway:** Before applying the halt rule, distinguish required special-project acceptance from other-project filing/spot checks and any separate public-gathering opening check. Reject bypassing applicable duties, without imposing the wrong category's certificate. See [authority and pathway digest](../../cn_s_reference/Fire%20and%20Rescue/summaries/Fire_Design_Review_and_Acceptance_Provisions_CS.md).
 
 ## Hard stop conditions
 

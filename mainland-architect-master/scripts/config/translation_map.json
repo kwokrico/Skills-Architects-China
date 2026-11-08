@@ -96,16 +96,16 @@
       "id": "tm-003",
       "category": "authority",
       "hk_term": "Fire Services Department (FSD)",
-      "mainland_term": "消防救援局",
+      "mainland_term": "消防设计审查验收主管部门 / 消防救援机构（按事项区分）",
       "discipline_context": "fire",
       "city_scope": [
         "national"
       ],
-      "mapping_status": "canonical",
-      "confidence_flag": "high",
-      "confidence_score": 0.95,
-      "review_required": false,
-      "notes": ""
+      "mapping_status": "contextual",
+      "confidence_flag": "medium",
+      "confidence_score": 0.8,
+      "review_required": true,
+      "notes": "Construction acceptance belongs to the competent housing-and-construction authority; fire-rescue opening checks are separate. Verify the local service window."
     },
     {
       "id": "tm-004",

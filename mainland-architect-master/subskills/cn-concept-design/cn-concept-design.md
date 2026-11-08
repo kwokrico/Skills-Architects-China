@@ -66,6 +66,8 @@ Concept design should lock planning viability, technical route, and delivery fea
 
 Floor-plate layout belongs here. 控规 indicators stay in `cn-spatial-planning`.
 
+Compare central and side cores on the same floor envelope and programme. A central core can serve perimeter spaces with balanced circulation; a side core can release a larger continuous floor area but may lengthen routes and occupy useful facade frontage. Neither is automatically more efficient. Compare usable depth, daylight, tenant subdivision, structural layout, service shafts, and fire egress before selecting an option. Use `cn-building-programming` for a consistently defined net-to-gross comparison; without a dimensioned plan, give the method rather than a project-specific percentage.
+
 | Plate | Use when | Watch |
 |---|---|---|
 | 板式 | East-west or south-facing residential slabs | Daylight depth and party-wall fire |

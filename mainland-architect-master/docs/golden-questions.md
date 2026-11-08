@@ -126,6 +126,7 @@ Run after suite changes. Structured eval cases live in [`../evals/evals.json`](.
 - 日照间距 routes to `cn-spatial-planning` and GB 50180 (`GB_50180_Sunlight_CS.md`).
 - Room 采光 routes to `cn-daylighting-design`, with GB 55016 first and GB 50033 only where it does not conflict.
 - Do not answer either question with an sDA target.
+- For residential applicability, check GB 55038-2025 and transition arrangements; do not reuse repealed GB 50033-2013 clause 4.0.1.
 
 ## 14. Floor plate is not 控规
 
@@ -136,3 +137,24 @@ Run after suite changes. Structured eval cases live in [`../evals/evals.json`](.
 - Core and floor plate: `cn-concept-design`.
 - Net-to-gross: `cn-building-programming`.
 - Do not route this to `cn-spatial-planning`. That skill is 控规, 红线, and 日照间距.
+
+## 15–26. Adversarial and incomplete-input scenarios
+
+The prompts and grading criteria are maintained in `../evals/evals.json`:
+
+| ID | Behaviour under test |
+|---|---|
+| 15 | Construction fire authority, acceptance/filing split, and separate opening checks |
+| 16 | Refusing an unsupported residential spacing number without city and geometry |
+| 17 | National/local conflicts and documented transition applicability |
+| 18 | Preventing a calculator proxy Pass from becoming a compliance claim |
+| 19 | Separating building area from local FAR inclusion |
+| 20 | Checking old editions, atlas currency, and approval transition dates |
+| 21 | Halting structural sizing without drawings and loads |
+| 22 | Separating weather-related time and cost entitlement from technical evidence |
+| 23 | Preventing contractual completion from bypassing lawful occupation requirements |
+| 24 | Reconciling approved, reviewed and actual drawings truthfully |
+| 25 | Avoiding unsupported accessibility exemptions |
+| 26 | Explicit primary/secondary routing for mixed core-layout compliance |
+
+For blind runs, send only IDs and prompts plus the skill entrypoint to fresh evaluators. Do not send this file, `evals.json`, expected answers, prior responses, or proposed fixes. Save actual responses and tool/source audits before grading. Re-run IDs 1–26 after fixes; distinguish response quality from tool execution evidence. Single samples in separate agent contexts are not statistical reliability estimates.

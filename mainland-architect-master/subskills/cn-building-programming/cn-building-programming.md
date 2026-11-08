@@ -58,6 +58,8 @@ Use this skill to convert business/program goals into area schedules and discipl
 
 Net-to-gross belongs in this skill. It is not a 控规 question.
 
+For an early 使用面积系数 estimate, first agree what counts as usable/net area and the gross-area boundary. Calculate `usable area / gross area × 100%` for the same floor or project scope. Reconcile gross area into usable rooms, circulation, stairs/lifts, service rooms/shafts, and walls/structure without overlaps; record which categories the agreed net definition includes. Compare core options using the same definitions. This programme ratio is not 容积率, a saleable-area ratio, or a statutory compliance threshold. Without geometry and an area schedule, provide the method and request inputs rather than inventing a typical percentage.
+
 ## 6. Required Inputs (ask if missing)
 
 - City and project typology

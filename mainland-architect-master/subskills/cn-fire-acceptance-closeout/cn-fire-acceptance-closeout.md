@@ -3,7 +3,7 @@ name: cn-fire-acceptance-closeout
 description: >
   Closes Mainland fire acceptance (消防验收) with commissioning evidence, integrated testing,
   authority inspection readiness, and comment-closure governance. Use for fire system handover,
-  test records, and 消防救援局 inspection prep. Legacy alias: cn-fsd-licensing-compliance.
+  test records, and construction fire-review/acceptance authority inspection prep. Legacy alias: cn-fsd-licensing-compliance.
 user-invocable: true
 disable-model-invocation: true
 ---
@@ -18,12 +18,14 @@ Execution guide for closing out fire systems and achieving `消防验收` readin
 - It centers on:
   - Integrated fire-system commissioning and evidence governance.
   - Hydrant/sprinkler/alarm/smoke-control tests and associated records.
-  - `消防救援局` inspection readiness and follow-up.
+  - Local `消防设计审查验收主管部门` inspection readiness and follow-up.
   - Acceptance filing package quality and traceability.
 
 ---
 
 ## 2. Typical Handover Sequence
+First classify the project using the current rules and local service guide. Special construction projects follow fire design review and fire acceptance; other applicable construction projects follow fire acceptance filing and spot checks. Do not require every project to obtain a special-project acceptance opinion. Construction fire procedures belong to the housing-and-construction authority under its assigned responsibilities, not automatically to 消防救援局. Public-gathering premises may separately need a pre-use/opening fire-safety check by 消防救援机构. Read [the authority and pathway digest](../../../cn_s_reference/Fire%20and%20Rescue/summaries/Fire_Design_Review_and_Acceptance_Provisions_CS.md).
+
 1. Confirm as-built fire services installation matches approved submissions.
 2. Complete pre-test and witness test planning with specialist contractor.
 3. Prepare acceptance evidence pack (as-built, test logs, commissioning evidence).
@@ -52,7 +54,7 @@ Minimum evidence set is city-dependent, but should always include:
 - Pump room and critical controls are accessible, labeled, and safe for inspection walkdown.
 - Cause-and-effect matrix matches functional test outcomes.
 - Defect log is closed or reduced to non-safety cosmetic issues only.
-- Competent representatives (AP/main contractor/fire services contractor) attend inspection.
+- Authorized representatives of 建设、设计、施工、监理 and relevant specialist units attend as required by the local procedure.
 
 ---
 
@@ -81,7 +83,7 @@ Minimum evidence set is city-dependent, but should always include:
 
 ## 7. Fast Escalation Model
 ### Stage A: Pre-inspection (internal)
-- Resolve all high-risk non-conformities before booking FSD inspection.
+- Resolve all high-risk non-conformities before the applicable authority inspection.
 - Hold a 30-minute closeout meeting with named owners and deadlines.
 
 ### Stage B: During inspection
@@ -117,6 +119,7 @@ When responding to project teams, provide:
 ## 10. Required Inputs (ask if missing)
 
 - City and district
+- Building use, scale, height, project classification and existing fire review/filing records
 - Fire system scope (sprinkler/hydrant/alarm/smoke control)
 - Current stage and target acceptance date
 - Existing inspection comments (if any)
