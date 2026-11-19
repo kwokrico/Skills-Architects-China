@@ -106,6 +106,9 @@ Load from parent `references/` when needed (one hop):
 * [compliance.md](../../references/compliance.md) — non-negotiable rules
 * [GB_50180_Sunlight_CS.md](../../../cn_s_reference/MOHURD/summaries/GB_50180_Sunlight_CS.md) — sunlight spacing
 * [cn-code-catalog.md](../../references/cn-code-catalog.md) — city DB series to ask for
+* [cn-statutory-source-register.md](../../references/cn-statutory-source-register.md) — instruments not yet ingested
+* [City_Planning_Technical_Rules_CS.md](../../../cn_s_reference/MNR/summaries/City_Planning_Technical_Rules_CS.md) — six practice cities, no copied ratios
+* [GB_55038_2025_Residential_CS.md](../../../cn_s_reference/MOHURD/summaries/GB_55038_2025_Residential_CS.md) — residential announcement and repeal list
 * [operational.md](../../references/operational.md) — intake and escalation
 * [domain_terms.json](../../references/domain_terms.json) — vocabulary
 * [templates/](../../references/templates/) — output structures

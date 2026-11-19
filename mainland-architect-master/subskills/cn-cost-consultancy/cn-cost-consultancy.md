@@ -148,3 +148,4 @@ Load from parent `references/` when needed (one hop):
 * [domain_terms.json](../../references/domain_terms.json) — vocabulary
 * [templates/](../../references/templates/) — output structures
 * [Construction_Quality_Regulation_CS.md](../../../cn_s_reference/MOHURD/summaries/Construction_Quality_Regulation_CS.md) — quality-regulation digest
+* [GB_T_50500_Bill_of_Quantities_CS.md](../../../cn_s_reference/MOHURD/summaries/GB_T_50500_Bill_of_Quantities_CS.md) — no measurement rule is recorded

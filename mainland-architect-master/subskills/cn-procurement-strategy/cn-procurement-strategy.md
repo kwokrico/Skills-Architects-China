@@ -107,3 +107,5 @@ Load from parent `references/` when needed (one hop):
 * [cn-adverse-weather-eot.md](../../references/cn-adverse-weather-eot.md) — weather delay
 * [tender-route-recommendation.md](../../references/templates/tender-route-recommendation.md) — output shell
 * [Tendering_and_Bidding_Law_CS.md](../../../cn_s_reference/MOHURD/summaries/Tendering_and_Bidding_Law_CS.md) — bidding-law digest
+* [EPC_Measures_CS.md](../../../cn_s_reference/MOHURD/summaries/EPC_Measures_CS.md) — general-contracting measures, not a risk split
+* [cn-statutory-source-register.md](../../references/cn-statutory-source-register.md) — GF-2020-0216 is not ingested

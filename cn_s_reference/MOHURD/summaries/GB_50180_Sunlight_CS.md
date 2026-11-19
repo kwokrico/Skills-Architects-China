@@ -12,7 +12,7 @@ National method for residential district layout, including sunlight spacing (日
 
 ## Critical topics
 
-- Residential applicability check: GB 55038-2025 took effect on 2025-05-01 as a mandatory residential project code. Check its applicable requirements before relying on GB 50180 or older residential provisions; preserve the distinction between sunlight and room daylight. The announcement also repeals GB 50033-2013 clause 4.0.1. Do not silently reuse that clause. For existing approvals, verify local transition arrangements and approval dates rather than assuming either blanket exemption or retrospective redesign.
+- Residential applicability check: GB 55038-2025 took effect on 2025-05-01 as a mandatory residential project code. The repeal list, including GB 50033-2013 clause 4.0.1 and the residential clauses of GB 50118-2010, is in [GB_55038_2025_Residential_CS.md](GB_55038_2025_Residential_CS.md). That file does not record a performance number. For existing approvals, verify local transition arrangements and approval dates rather than assuming either blanket exemption or retrospective redesign.
 
 - 日照 answers whether a residential window receives the required sun. 采光 (GB 55016, and GB 50033 where it does not conflict) answers whether a room is lit. Do not swap the two.
 - Do not quote a sunlight hour or a spacing coefficient from memory. Open the official table and the city rule, or mark the number unverified.

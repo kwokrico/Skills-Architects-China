@@ -80,6 +80,7 @@ Load from parent `references/` when needed (one hop):
 
 * [compliance.md](../../references/compliance.md) — non-negotiable rules
 * [cn-atlas-topic-index.md](../../references/cn-atlas-topic-index.md) — detail source, not a clause
+* [cn-statutory-source-register.md](../../references/cn-statutory-source-register.md) — GB 8624 is not ingested
 * [operational.md](../../references/operational.md) — intake and escalation
 * [domain_terms.json](../../references/domain_terms.json) — vocabulary
 * [templates/](../../references/templates/) — output structures

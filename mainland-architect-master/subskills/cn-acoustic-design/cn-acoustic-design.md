@@ -13,7 +13,7 @@ Use this skill to manage acoustic performance from planning stage through constr
 
 ## 1. Acoustic Design Scope
 
-Reverberation time for school, assembly, and hotel public rooms is part of this skill. Route it to GB 50118 where GB 55016 does not conflict. Confirm the GB 50118 edition in [cn-code-catalog.md](../../references/cn-code-catalog.md). Do not quote a second from memory.
+Reverberation time for school, assembly, and hotel public rooms is part of this skill. Route it to GB 50118 where GB 55016 does not conflict. Confirm the GB 50118 edition in [cn-code-catalog.md](../../references/cn-code-catalog.md). Do not quote a second from memory. For a residential room, GB 55038-2025's announcement repeals GB 50118-2010 clauses 4.2.1, 4.2.2, and 4.2.5. Open [GB_55038_2025_Residential_CS.md](../../../cn_s_reference/MOHURD/summaries/GB_55038_2025_Residential_CS.md) before reusing those clauses.
 
 Airborne separation, impact noise, and flanking are already in the controls below.
 
@@ -79,6 +79,7 @@ Load from parent `references/` when needed (one hop):
 
 * [compliance.md](../../references/compliance.md) — non-negotiable rules
 * [cn-code-catalog.md](../../references/cn-code-catalog.md) — GB 50118 under GB 55016
+* [GB_55038_2025_Residential_CS.md](../../../cn_s_reference/MOHURD/summaries/GB_55038_2025_Residential_CS.md) — residential clauses the announcement repealed
 * [operational.md](../../references/operational.md) — intake and escalation
 * [domain_terms.json](../../references/domain_terms.json) — vocabulary
 * [templates/](../../references/templates/) — output structures

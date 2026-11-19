@@ -358,8 +358,10 @@ Open these digests by number when the question needs them:
 | GB 50176 climate zones | `cn_s_reference/MOHURD/summaries/GB_50176_Thermal_CS.md` |
 | GB 50180 sunlight spacing | `cn_s_reference/MOHURD/summaries/GB_50180_Sunlight_CS.md` |
 | GB 50009 structural actions | `cn_s_reference/MOHURD/summaries/GB_50009_Loads_CS.md` |
+| GB 55038 residential project code | `cn_s_reference/MOHURD/summaries/GB_55038_2025_Residential_CS.md` (announcement and repeal list only) |
+| Six-city planning rules | `cn_s_reference/MNR/summaries/City_Planning_Technical_Rules_CS.md` |
 
-Standards with no digest yet are listed in [references/cn-code-catalog.md](references/cn-code-catalog.md). For questions using a 图集 as compliance evidence, read [references/cn-atlas-topic-index.md](references/cn-atlas-topic-index.md) together with the relevant code digest before answering, per compliance rule 6.
+Standards with no digest yet, and the six practice cities, are listed in [references/cn-statutory-source-register.md](references/cn-statutory-source-register.md) and [references/cn-code-catalog.md](references/cn-code-catalog.md). For questions using a 图集 as compliance evidence, read [references/cn-atlas-topic-index.md](references/cn-atlas-topic-index.md) together with the relevant code digest before answering, per compliance rule 6.
 
 ---
 

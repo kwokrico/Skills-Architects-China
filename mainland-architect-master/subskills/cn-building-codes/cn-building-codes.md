@@ -128,6 +128,8 @@ Load from parent `references/` when needed (one hop):
 
 * [compliance.md](../../references/compliance.md) — non-negotiable rules
 * [cn-code-catalog.md](../../references/cn-code-catalog.md) — standards still missing a digest, and city series
+* [cn-statutory-source-register.md](../../references/cn-statutory-source-register.md) — collection list; do not quote a row as a clause
+* [GB_55038_2025_Residential_CS.md](../../../cn_s_reference/MOHURD/summaries/GB_55038_2025_Residential_CS.md) — residential announcement and repeal list
 * [operational.md](../../references/operational.md) — intake and escalation
 * [domain_terms.json](../../references/domain_terms.json) — vocabulary
 * [templates/](../../references/templates/) — output structures

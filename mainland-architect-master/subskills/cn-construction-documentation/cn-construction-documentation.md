@@ -98,6 +98,7 @@ Load from parent `references/` when needed (one hop):
 
 * [compliance.md](../../references/compliance.md) — non-negotiable rules
 * [cn-atlas-topic-index.md](../../references/cn-atlas-topic-index.md) — 图集 numbers that are not code citations
+* [Design_File_Depth_Provisions_CS.md](../../../cn_s_reference/MOHURD/summaries/Design_File_Depth_Provisions_CS.md) — 2016 depth provisions; drawing lists are not copied
 * [operational.md](../../references/operational.md) — intake and escalation
 * [domain_terms.json](../../references/domain_terms.json) — vocabulary
 * [templates/](../../references/templates/) — output structures

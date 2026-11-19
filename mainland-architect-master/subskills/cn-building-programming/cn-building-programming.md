@@ -54,7 +54,7 @@ Use this skill to convert business/program goals into area schedules and discipl
 - Build an adjacency matrix before drawing a plan: required, preferred, and must-separate pairs. Vertical stacking of wet rooms and plant is part of the matrix.
 - Issue a room data sheet for every repeated room: net area, occupants, daylight, acoustic target, and services. The sheet is a brief, not a code quotation.
 - Capacity check: programme gross area against 计容建筑面积 from the 控规 and the land contract. If the programme does not fit, say so before massing options multiply. 计容 rules are `cn-spatial-planning` and `cn-building-codes`.
-- Area standards by use (住宅, 办公, 中小学, 医院, 旅馆) come from the current sector code under GB 55031. Confirm the edition in [cn-code-catalog.md](../../references/cn-code-catalog.md). Do not invent a square-metre allowance.
+- Area standards by use (住宅, 办公, 中小学, 医院, 旅馆) come from the current sector code under GB 55031. Housing uses GB 55038-2025, not a pre-2025 GB 50096 floor. Hotel and dormitory use GB 55025-2022 once its announcement is confirmed. Office, school, and hospital editions are named but not ingested. Confirm them in [cn-statutory-source-register.md](../../references/cn-statutory-source-register.md). Do not invent a square-metre allowance.
 
 Net-to-gross belongs in this skill. It is not a 控规 question.
 
@@ -83,6 +83,8 @@ For an early 使用面积系数 estimate, first agree what counts as usable/net 
 Load from parent `references/` when needed (one hop):
 
 * [compliance.md](../../references/compliance.md) — non-negotiable rules
+* [cn-statutory-source-register.md](../../references/cn-statutory-source-register.md) — sector codes not yet ingested
+* [GB_55038_2025_Residential_CS.md](../../../cn_s_reference/MOHURD/summaries/GB_55038_2025_Residential_CS.md) — residential announcement and repeal list
 * [operational.md](../../references/operational.md) — intake and escalation
 * [domain_terms.json](../../references/domain_terms.json) — vocabulary
 * [templates/](../../references/templates/) — output structures

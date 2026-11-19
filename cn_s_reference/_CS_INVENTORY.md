@@ -2,19 +2,19 @@
 
 Digests for routing. They are not copies of the official texts.
 
-Total: **39** files
+Total: **52** files
 
 | Folder | CS |
 |---|---:|
 | ASC | 2 |
 | CAAC | 1 |
-| Fire and Rescue | 5 |
+| Fire and Rescue | 6 |
 | Green Building | 2 |
 | MEE | 2 |
 | MEM | 2 |
-| MNR | 4 |
-| MOHURD | 17 |
-| NCHA | 2 |
+| MNR | 7 |
+| MOHURD | 25 |
+| NCHA | 3 |
 | SAMR | 2 |
 
 ## ASC (2)
@@ -30,13 +30,14 @@ Total: **39** files
 |---|
 | [Airport Obstacle Limitation](CAAC/summaries/Airport_Obstacle_Limitation_CS.md) |
 
-## Fire and Rescue (5)
+## Fire and Rescue (6)
 
 | CS |
 |---|
 | [Interim Provisions on Fire Design Review and Acceptance](Fire and Rescue/summaries/Fire_Design_Review_and_Acceptance_Provisions_CS.md) |
 | [Fire Protection Law (消防法)](Fire and Rescue/summaries/Fire_Protection_Law_CS.md) |
 | [GB 50016 Code for Fire Protection Design of Buildings — relationship note](Fire and Rescue/summaries/GB_50016_Fire_Code_Relationship_CS.md) |
+| [GB 51251 Smoke-control technical standard (建筑防烟排烟系统技术标准)](Fire and Rescue/summaries/GB_51251_Smoke_CS.md) |
 | [GB 55036-2022 General Code for Fire Facilities (消防设施通用规范)](Fire and Rescue/summaries/GB_55036_2022_Fire_Facilities_CS.md) |
 | [GB 55037-2022 General Code for Building Fire Protection (建筑防火通用规范)](Fire and Rescue/summaries/GB_55037_2022_Building_Fire_CS.md) |
 
@@ -61,16 +62,19 @@ Total: **39** files
 | [Hazardous Divisional Works (危大工程)](MEM/summaries/Hazardous_Divisional_Works_CS.md) |
 | [Work Safety Law (安全生产法)](MEM/summaries/Work_Safety_Law_CS.md) |
 
-## MNR (4)
+## MNR (7)
 
 | CS |
 |---|
+| [City planning technical rules — six practice cities](MNR/summaries/City_Planning_Technical_Rules_CS.md) |
+| [Land Administration Law (土地管理法)](MNR/summaries/Land_Administration_Law_CS.md) |
 | [Planning Permits (规划许可)](MNR/summaries/Planning_Permits_CS.md) |
 | [Planning Verification (规划核实)](MNR/summaries/Planning_Verification_CS.md) |
 | [Regulatory Plan and Land-Grant Conditions (控规与出让条件)](MNR/summaries/Regulatory_Plan_and_Land_Grant_CS.md) |
+| [Urban Real Estate Administration Law (城市房地产管理法)](MNR/summaries/Urban_Real_Estate_Law_CS.md) |
 | [Urban and Rural Planning Law (城乡规划法)](MNR/summaries/Urban_Rural_Planning_Law_CS.md) |
 
-## MOHURD (17)
+## MOHURD (25)
 
 | CS |
 |---|
@@ -80,6 +84,11 @@ Total: **39** files
 | [Construction Permit (施工许可证)](MOHURD/summaries/Construction_Permit_CS.md) |
 | [Construction Quality Management Regulation (建设工程质量管理条例)](MOHURD/summaries/Construction_Quality_Regulation_CS.md) |
 | [Construction Work Safety Management Regulation (建设工程安全生产管理条例)](MOHURD/summaries/Construction_Safety_Regulation_CS.md) |
+| [Design file depth provisions (建筑工程设计文件编制深度规定, 2016)](MOHURD/summaries/Design_File_Depth_Provisions_CS.md) |
+| [Measures for general contracting of building and municipal works (房屋建筑和市政基础设施项目工程总承包管理办法)](MOHURD/summaries/EPC_Measures_CS.md) |
+| [GB 50009 Load code for the design of building structures (建筑结构荷载规范)](MOHURD/summaries/GB_50009_Loads_CS.md) |
+| [GB 50176 Thermal design code for civil buildings (民用建筑热工设计规范)](MOHURD/summaries/GB_50176_Thermal_CS.md) |
+| [GB 50180 Urban residential planning standard (城市居住区规划设计标准)](MOHURD/summaries/GB_50180_Sunlight_CS.md) |
 | [GB 50352 Standard for Design of Civil Buildings (民用建筑设计统一标准)](MOHURD/summaries/GB_50352_Civil_Design_Unified_Standard_CS.md) |
 | [GB 50763 Codes for Accessibility Design (无障碍设计规范)](MOHURD/summaries/GB_50763_Accessibility_Detail_CS.md) |
 | [GB 55015-2021 General Code for Energy Efficiency and Renewable Energy (建筑节能与可再生能源利用通用规范)](MOHURD/summaries/GB_55015_2021_Energy_CS.md) |
@@ -87,17 +96,21 @@ Total: **39** files
 | [GB 55019-2021 General Code for Accessibility (建筑与市政工程无障碍通用规范)](MOHURD/summaries/GB_55019_2021_Accessibility_CS.md) |
 | [GB 55030-2022 General Code for Waterproofing (建筑与市政工程防水通用规范)](MOHURD/summaries/GB_55030_2022_Waterproofing_CS.md) |
 | [GB 55031-2022 Code for Civil Buildings (民用建筑通用规范)](MOHURD/summaries/GB_55031_2022_Civil_Buildings_CS.md) |
+| [GB 55038-2025 Residential project code (住宅项目规范)](MOHURD/summaries/GB_55038_2025_Residential_CS.md) |
 | [GB/T 50326 Code for Construction Project Management (建设工程项目管理规范)](MOHURD/summaries/GB_T_50326_Project_Management_CS.md) |
 | [GB/T 50353 Calculation Code for Construction Area (建筑工程建筑面积计算规范)](MOHURD/summaries/GB_T_50353_Building_Area_CS.md) |
+| [GB/T 50500 bill-of-quantities standard (建设工程工程量清单计价标准)](MOHURD/summaries/GB_T_50500_Bill_of_Quantities_CS.md) |
+| [Construction seismic administration regulation (建设工程抗震管理条例)](MOHURD/summaries/Seismic_Administration_Regulation_CS.md) |
 | [Construction Survey and Design Management Regulation (建设工程勘察设计管理条例)](MOHURD/summaries/Survey_and_Design_Regulation_CS.md) |
 | [Tendering and Bidding Law (招标投标法)](MOHURD/summaries/Tendering_and_Bidding_Law_CS.md) |
 
-## NCHA (2)
+## NCHA (3)
 
 | CS |
 |---|
 | [Cultural Relics Protection Law (文物保护法)](NCHA/summaries/Cultural_Relics_Protection_Law_CS.md) |
 | [Historic Buildings and Character Areas — architect interface](NCHA/summaries/Historic_Building_Interface_CS.md) |
+| [Regulation on famous historic cities, towns, and villages (历史文化名城名镇名村保护条例)](NCHA/summaries/Historic_City_Protection_Regulation_CS.md) |
 
 ## SAMR (2)
 

@@ -173,3 +173,4 @@ Load from parent `references/` when needed (one hop):
 * [domain_terms.json](../../references/domain_terms.json) — vocabulary
 * [templates/](../../references/templates/) — output structures
 * [heritage-impact-checklist.md](../../references/heritage-impact-checklist.md) — impact assessment checklist
+* [Historic_City_Protection_Regulation_CS.md](../../../cn_s_reference/NCHA/summaries/Historic_City_Protection_Regulation_CS.md) — famous historic cities, towns, and villages

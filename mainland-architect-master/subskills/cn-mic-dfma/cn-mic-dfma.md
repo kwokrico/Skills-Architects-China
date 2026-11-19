@@ -100,6 +100,7 @@ Covers modular/offsite construction and DfMA implementation in Mainland China pr
 Load from parent `references/` when needed (one hop):
 
 * [compliance.md](../../references/compliance.md) — non-negotiable rules
+* [cn-statutory-source-register.md](../../references/cn-statutory-source-register.md) — prefabrication standards and the 2016 review points are not ingested
 * [operational.md](../../references/operational.md) — intake and escalation
 * [domain_terms.json](../../references/domain_terms.json) — vocabulary
 * [templates/](../../references/templates/) — output structures

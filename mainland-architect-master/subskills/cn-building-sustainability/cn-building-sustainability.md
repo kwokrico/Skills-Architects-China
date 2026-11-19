@@ -99,6 +99,7 @@ Load from parent `references/` when needed (one hop):
 * [compliance.md](../../references/compliance.md) — non-negotiable rules
 * [GB_50176_Thermal_CS.md](../../../cn_s_reference/MOHURD/summaries/GB_50176_Thermal_CS.md) — climate zones under GB 55015
 * [cn-code-catalog.md](../../references/cn-code-catalog.md) — JGJ 26 / 75 / 134 and GB/T 51350
+* [cn-statutory-source-register.md](../../references/cn-statutory-source-register.md) — those four energy standards are not ingested
 * [operational.md](../../references/operational.md) — intake and escalation
 * [domain_terms.json](../../references/domain_terms.json) — vocabulary
 * [templates/](../../references/templates/) — output structures

@@ -90,6 +90,7 @@ Load from parent `references/` when needed (one hop):
 * [compliance.md](../../references/compliance.md) — non-negotiable rules
 * [GB_50176_Thermal_CS.md](../../../cn_s_reference/MOHURD/summaries/GB_50176_Thermal_CS.md) — climate zones
 * [cn-atlas-topic-index.md](../../references/cn-atlas-topic-index.md) — roof, waterproofing, and curtain-wall details
+* [cn-statutory-source-register.md](../../references/cn-statutory-source-register.md) — JGJ 102, JGJ 133, GB/T 21086, and GB 8624 are not ingested
 * [operational.md](../../references/operational.md) — intake and escalation
 * [domain_terms.json](../../references/domain_terms.json) — vocabulary
 * [templates/](../../references/templates/) — output structures

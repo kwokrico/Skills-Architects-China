@@ -1,0 +1,201 @@
+{
+  "version": 2,
+  "title": "Statutory document relationships",
+  "description": "How the instruments in the statutory source register relate. GB is Guobiao (国家标准, national standard). GB/T is a recommended national standard (推荐性国家标准). JGJ is a Ministry of Housing and Urban-Rural Development (住房和城乡建设部) professional standard (行业标准). A thick arrow starts at the instrument that repeals the other or prevails where they conflict. A solid arrow is the order to read them. A dotted arrow is a limit: that document does not decide the number at the arrowhead. A plain line means the two sit side by side. Clause numbers below are the repeal facts already recorded from the public announcements. They are not a substitute for opening the saved file.",
+  "diagrams": [
+    {
+      "id": "planning-read-order",
+      "title": "How a planning number is read",
+      "description": "Plot ratio (容积率), site coverage (建筑密度), green ratio (绿地率), spacing, and parking come from one city's technical rules, then from that site's own documents. GB/T 50353 measures construction area. It does not decide what counts toward plot ratio.",
+      "accessibility": "Construction-area measurement does not set plot ratio. Read one city's technical rules, then that site's regulatory plan and land-grant conditions. Do not reuse another city's number.",
+      "kind": "flowchart",
+      "data": {
+        "direction": "TB",
+        "nodes": [
+          {"id": "areaMeasure", "label": "GB/T 50353 construction-area measurement"},
+          {"id": "cityRules", "label": "One city's planning technical rules"},
+          {"id": "siteDocs", "label": "That site's regulatory plan and land-grant conditions"},
+          {"id": "otherCity", "label": "Another city's technical rules"}
+        ],
+        "edges": [
+          {"from": "areaMeasure", "to": "cityRules", "arrow": "-.->", "label": "does not decide plot ratio"},
+          {"from": "cityRules", "to": "siteDocs", "arrow": "-->", "label": "then the site documents"},
+          {"from": "otherCity", "to": "cityRules", "arrow": "-.->", "label": "do not reuse a number"}
+        ]
+      }
+    },
+    {
+      "id": "city-instruments",
+      "title": "Six city instruments, kept apart",
+      "description": "Beijing, Shanghai, Guangzhou, and Hangzhou are saved under reference/statutory-sources/cities/. Shenzhen's 2025 notice returned HTTP 403. Chengdu's adopted 2024 text has no confirmed bureau URL. None of these cities lends a number to another.",
+      "accessibility": "Six independent city chains. Beijing's 2020 notice keeps the 2003 rules in force except a later reform. Shanghai Order 52 reissues Order 12. Guangzhou Order 168 revises Order 71. Shenzhen and Chengdu are named but not saved. Hangzhou's 2026 rules cover the urban built-up area.",
+      "kind": "flowchart",
+      "data": {
+        "direction": "LR",
+        "nodes": [
+          {"id": "beijingNotice", "label": "Beijing 2020-07-27 continuance notice"},
+          {"id": "beijingTongze", "label": "市规发〔2003〕514号 北京地区建设工程规划设计通则"},
+          {"id": "beijingRepeal", "label": "京规自发〔2018〕11号 repeal notice"},
+          {"id": "shanghai52", "label": "Shanghai Government Order No. 52 (2010)"},
+          {"id": "shanghaiRules", "label": "上海市城市规划管理技术规定（土地使用、建筑管理）"},
+          {"id": "shenzhenNotice", "label": "Shenzhen notice 2025-11-03, page not saved"},
+          {"id": "shenzhenRules", "label": "深圳市城市规划标准与准则（修订汇总版）"},
+          {"id": "guangzhou168", "label": "Guangzhou Government Order No. 168 (2019)"},
+          {"id": "guangzhouRules", "label": "广州市城乡规划技术规定"},
+          {"id": "chengduLetter", "label": "成府函〔2024〕41号, adopted text not saved"},
+          {"id": "chengduRules", "label": "成都市城市规划管理技术规定（2024）"},
+          {"id": "hangzhouNotice", "label": "Hangzhou bureau notice 2026-02-05"},
+          {"id": "hangzhouRules", "label": "杭州市城市规划管理技术规定"}
+        ],
+        "edges": [
+          {"from": "beijingNotice", "to": "beijingTongze", "arrow": "-->", "label": "still in force, except a later reform"},
+          {"from": "beijingRepeal", "to": "beijingTongze", "arrow": "-->", "label": "attached repeal list"},
+          {"from": "shanghai52", "to": "shanghaiRules", "arrow": "-->", "label": "reissues Order No. 12 (2003)"},
+          {"from": "shenzhenNotice", "to": "shenzhenRules", "arrow": "-->", "label": "reissue, file not stored"},
+          {"from": "guangzhou168", "to": "guangzhouRules", "arrow": "-->", "label": "third revision of Order No. 71"},
+          {"from": "chengduLetter", "to": "chengduRules", "arrow": "-->", "label": "approval letter, text not stored"},
+          {"from": "hangzhouNotice", "to": "hangzhouRules", "arrow": "-->", "label": "urban built-up area"}
+        ]
+      }
+    },
+    {
+      "id": "residential-repeals",
+      "title": "GB 55038 and what its announcement repeals",
+      "description": "GB 55038-2025 住宅项目规范 is the mandatory residential floor from 2025-05-01. The repeal facts are the ones named in the saved announcement. Open that announcement before using any remaining clause of the older standards. Sunlight spacing stays with GB 50180 and the city rules. Room daylight and residential sound stay with GB 55016, then with GB 50033 or GB 50118 only where those clauses still apply.",
+      "accessibility": "GB 55038 repeals GB 50368 in full and named clauses of the older residential, fit-out, daylight, and sound standards. GB 55016 remains the daylight and acoustic floor. GB 50180 and the city rules still govern sunlight spacing.",
+      "kind": "flowchart",
+      "data": {
+        "direction": "LR",
+        "nodes": [
+          {"id": "gb55038", "label": "GB 55038-2025 住宅项目规范"},
+          {"id": "gb50368", "label": "GB 50368-2005 住宅建筑规范"},
+          {"id": "gb50096", "label": "GB 50096-2011 住宅设计规范"},
+          {"id": "gb50327", "label": "GB 50327-2001"},
+          {"id": "gb50631", "label": "GB 50631-2010"},
+          {"id": "jgj242", "label": "JGJ 242-2011"},
+          {"id": "jgj367", "label": "JGJ 367-2015"},
+          {"id": "jgj286", "label": "JGJ 286-2013"},
+          {"id": "gb50033", "label": "GB 50033-2013 daylight"},
+          {"id": "gb50118", "label": "GB 50118-2010 sound"},
+          {"id": "gb55016", "label": "GB 55016 environmental general code"},
+          {"id": "gb50180", "label": "GB 50180 sunlight standard"},
+          {"id": "citySun", "label": "That city's planning technical rules"}
+        ],
+        "edges": [
+          {"from": "gb55038", "to": "gb50368", "arrow": "==>", "label": "repeals in full"},
+          {"from": "gb55038", "to": "gb50096", "arrow": "==>", "label": "named mandatory clauses"},
+          {"from": "gb55038", "to": "gb50327", "arrow": "==>", "label": "named mandatory clauses"},
+          {"from": "gb55038", "to": "gb50631", "arrow": "==>", "label": "named mandatory clauses"},
+          {"from": "gb55038", "to": "jgj242", "arrow": "==>", "label": "named mandatory clauses"},
+          {"from": "gb55038", "to": "jgj367", "arrow": "==>", "label": "named mandatory clauses"},
+          {"from": "gb55038", "to": "jgj286", "arrow": "==>", "label": "named mandatory clauses"},
+          {"from": "gb55038", "to": "gb50033", "arrow": "==>", "label": "clause 4.0.1"},
+          {"from": "gb55038", "to": "gb50118", "arrow": "==>", "label": "clauses 4.2.1, 4.2.2, 4.2.5"},
+          {"from": "gb55016", "to": "gb50033", "arrow": "-->", "label": "daylight floor, then remaining clauses"},
+          {"from": "gb55016", "to": "gb50118", "arrow": "-->", "label": "acoustic floor, then remaining clauses"},
+          {"from": "gb50180", "to": "citySun", "arrow": "-->", "label": "sunlight spacing uses both"}
+        ]
+      }
+    },
+    {
+      "id": "fire-floor",
+      "title": "Fire codes: general floor, then the detailed standard",
+      "description": "The saved GB 55037-2022 announcement is the repeal list for GB 50016-2014 (2018 edition). The full GB 55037 text was not downloaded. GB 50016 still covers arrangements the announcement did not repeal and that do not conflict with GB 55037. Sprinkler design stays under GB 55036; GB 50084 is not saved. Curtain-wall fire class comes from GB 55037 and GB 8624, not from GB/T 21086.",
+      "accessibility": "Read GB 55037 before GB 50016. GB 55036 is the sprinkler floor. Facade fire class comes from GB 55037 and GB 8624.",
+      "kind": "flowchart",
+      "data": {
+        "direction": "LR",
+        "nodes": [
+          {"id": "gb55037", "label": "GB 55037-2022 建筑防火通用规范"},
+          {"id": "gb50016", "label": "GB 50016-2014 (2018 edition)"},
+          {"id": "gb55036", "label": "GB 55036 facilities general code"},
+          {"id": "gb50084", "label": "GB 50084 sprinkler design, not saved"},
+          {"id": "gb8624", "label": "GB 8624 combustion classification"},
+          {"id": "gbt21086", "label": "GB/T 21086 curtain wall, not saved"},
+          {"id": "facadeFire", "label": "Facade fire class"}
+        ],
+        "edges": [
+          {"from": "gb55037", "to": "gb50016", "arrow": "==>", "label": "repealed mandatory clauses"},
+          {"from": "gb50016", "to": "gb55037", "arrow": "-.->", "label": "remaining clauses only, if no conflict"},
+          {"from": "gb55036", "to": "gb50084", "arrow": "==>", "label": "sprinkler floor"},
+          {"from": "gb55037", "to": "facadeFire", "arrow": "-->", "label": "fire class"},
+          {"from": "gb8624", "to": "facadeFire", "arrow": "-->", "label": "combustion class"},
+          {"from": "gbt21086", "to": "facadeFire", "arrow": "-.->", "label": "does not set the fire class"}
+        ]
+      }
+    },
+    {
+      "id": "specialist-floors",
+      "title": "General codes above the older specialist standards",
+      "description": "These general codes are named in the register and are not saved in this folder, except the State Council seismic administration regulation (建设工程抗震管理条例, Order No. 744), which is an administration statute and not a design table. Each older standard sits under the general code named here where the two conflict. JGJ climate-zone energy standards sit under GB 55015. GB/T 51350 is a higher target, not a replacement for GB 55015.",
+      "accessibility": "GB 55002 prevails over GB 50011, GB 55003 over GB 50007, GB 55008 over GB 50010, GB 55015 over the three residential energy standards, GB 55020 over GB 50015, and GB 55024 over GB 51348. Order 744 administers seismic work beside GB 55002. GB/T 51350 does not replace GB 55015.",
+      "kind": "flowchart",
+      "data": {
+        "direction": "LR",
+        "nodes": [
+          {"id": "order744", "label": "State Council Order No. 744 seismic administration"},
+          {"id": "gb55002", "label": "GB 55002-2021 建筑与市政工程抗震通用规范"},
+          {"id": "gb50011", "label": "GB 50011 建筑抗震设计规范"},
+          {"id": "gb55003", "label": "GB 55003-2021 建筑与市政地基基础通用规范"},
+          {"id": "gb50007", "label": "GB 50007 建筑地基基础设计规范"},
+          {"id": "gb55008", "label": "GB 55008-2021 混凝土结构通用规范"},
+          {"id": "gb50010", "label": "GB 50010 concrete design standard"},
+          {"id": "gb55015", "label": "GB 55015 energy general code"},
+          {"id": "jgj26", "label": "JGJ 26 severe-cold and cold residential energy"},
+          {"id": "jgj134", "label": "JGJ 134 hot-summer cold-winter residential energy"},
+          {"id": "jgj75", "label": "JGJ 75 hot-summer warm-winter residential energy"},
+          {"id": "gbt51350", "label": "GB/T 51350 near-zero energy"},
+          {"id": "gb55020", "label": "GB 55020-2021 建筑给水排水与节水通用规范"},
+          {"id": "gb50015", "label": "GB 50015 建筑给水排水设计标准"},
+          {"id": "gb55024", "label": "GB 55024-2022 建筑电气与智能化通用规范"},
+          {"id": "gb51348", "label": "GB 51348 民用建筑电气设计标准"}
+        ],
+        "edges": [
+          {"from": "order744", "to": "gb55002", "arrow": "---", "label": "administration, not a design table"},
+          {"from": "gb55002", "to": "gb50011", "arrow": "==>", "label": "prevails on conflict"},
+          {"from": "gb55003", "to": "gb50007", "arrow": "==>", "label": "prevails on conflict"},
+          {"from": "gb55008", "to": "gb50010", "arrow": "==>", "label": "prevails on conflict"},
+          {"from": "gb55015", "to": "jgj26", "arrow": "==>", "label": "prevails on conflict"},
+          {"from": "gb55015", "to": "jgj134", "arrow": "==>", "label": "prevails on conflict"},
+          {"from": "gb55015", "to": "jgj75", "arrow": "==>", "label": "prevails on conflict"},
+          {"from": "gbt51350", "to": "gb55015", "arrow": "-.->", "label": "a higher target, not a substitute"},
+          {"from": "gb55020", "to": "gb50015", "arrow": "==>", "label": "prevails on conflict"},
+          {"from": "gb55024", "to": "gb51348", "arrow": "==>", "label": "prevails on conflict"}
+        ]
+      }
+    },
+    {
+      "id": "non-planning-instruments",
+      "title": "Statutes that do not set a planning number",
+      "description": "The Land Administration Law (土地管理法), the Urban Real Estate Administration Law (城市房地产管理法), and the historic-city regulation are saved statute pages. The 2016 design-file depth document replaces the 2008 edition and lists drawing depth. It is not a planning code. The GB/T 50500-2024 announcement repeals GB 50500-2013 and sets measurement and pricing, not a drawing rule. The standard PDF was not downloaded. EPC (Engineering, Procurement, and Construction, 工程总承包) measures are 建市规〔2019〕12号. GF-2020-0216 is the model EPC contract and is not that measure. GF-2017-0201, the construction model contract, is the same kind of document and is not shown here.",
+      "accessibility": "Land, real estate, heritage, drawing-depth, measurement, and EPC measures do not set plot ratio. The 2016 depth document replaces the 2008 edition. GB/T 50500-2024 repeals GB 50500-2013. The EPC model contract is not the EPC measures.",
+      "kind": "flowchart",
+      "data": {
+        "direction": "TB",
+        "nodes": [
+          {"id": "landLaw", "label": "土地管理法, 2019 amendment"},
+          {"id": "realEstate", "label": "城市房地产管理法, 2019 amendment"},
+          {"id": "historic", "label": "历史文化名城名镇名村保护条例, Order No. 524"},
+          {"id": "depth2016", "label": "建质函〔2016〕247号 design-file depth"},
+          {"id": "depth2008", "label": "2008 design-file depth edition"},
+          {"id": "gbt50500", "label": "GB/T 50500-2024 bill of quantities"},
+          {"id": "gb50500old", "label": "GB 50500-2013 计价规范"},
+          {"id": "epc", "label": "建市规〔2019〕12号 EPC measures"},
+          {"id": "gf2020", "label": "GF-2020-0216 model EPC contract, not saved"},
+          {"id": "noDim", "label": "Does not set plot ratio, coverage, or green ratio"}
+        ],
+        "edges": [
+          {"from": "landLaw", "to": "noDim", "arrow": "-->", "label": "no plan dimension"},
+          {"from": "realEstate", "to": "noDim", "arrow": "-->", "label": "no plan dimension"},
+          {"from": "historic", "to": "noDim", "arrow": "-->", "label": "2008 text, confirm a later consolidation"},
+          {"from": "depth2016", "to": "noDim", "arrow": "-->", "label": "drawing depth, not a planning code"},
+          {"from": "depth2016", "to": "depth2008", "arrow": "==>", "label": "replaces, in force 2017-01-01"},
+          {"from": "gbt50500", "to": "noDim", "arrow": "-->", "label": "measurement and pricing"},
+          {"from": "gbt50500", "to": "gb50500old", "arrow": "==>", "label": "repeals, in force 2025-09-01"},
+          {"from": "epc", "to": "noDim", "arrow": "-->", "label": "procurement route"},
+          {"from": "epc", "to": "gf2020", "arrow": "-.->", "label": "model contract is not this measure"}
+        ]
+      }
+    }
+  ]
+}

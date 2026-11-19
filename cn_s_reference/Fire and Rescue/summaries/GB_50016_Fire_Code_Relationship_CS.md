@@ -15,6 +15,7 @@ GB 50016 remains the detailed fire code for provisions that were not repealed an
 - Read GB 55037 first.
 - Use GB 50016 for remaining detailed arrangements, still checking the repeal list in the GB 55037 announcement.
 - Sprinkler and alarm detailed design also sits under the facilities general code and the specialist standards it did not repeal.
+- Travel distance, compartment area, stair width, and fire-resistance tables are not in this file. Do not quote them from memory. The collection status is in `mainland-architect-master/references/cn-statutory-source-register.md`.
 - Local fire-review guides may be stricter. Ask for the city.
 
 ## Schematic-design takeaway

@@ -95,6 +95,8 @@ Key point: indicator definitions and measurement scope may differ between planni
 Load from parent `references/` when needed (one hop):
 
 * [compliance.md](../../references/compliance.md) — non-negotiable rules
+* [Land_Administration_Law_CS.md](../../../cn_s_reference/MNR/summaries/Land_Administration_Law_CS.md) — land-use right and purpose
+* [Urban_Real_Estate_Law_CS.md](../../../cn_s_reference/MNR/summaries/Urban_Real_Estate_Law_CS.md) — grant and allocation on urban state land
 * [operational.md](../../references/operational.md) — intake and escalation
 * [domain_terms.json](../../references/domain_terms.json) — vocabulary
 * [templates/](../../references/templates/) — output structures

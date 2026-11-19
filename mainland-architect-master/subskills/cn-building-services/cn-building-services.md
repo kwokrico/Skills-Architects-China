@@ -85,6 +85,7 @@ Natural and mixed-mode ventilation is a coordination item for housing, schools, 
 Load from parent `references/` when needed (one hop):
 
 * [compliance.md](../../references/compliance.md) — non-negotiable rules
+* [cn-statutory-source-register.md](../../references/cn-statutory-source-register.md) — GB 55020, GB 55024, and the detailed services standards are not ingested
 * [operational.md](../../references/operational.md) — intake and escalation
 * [domain_terms.json](../../references/domain_terms.json) — vocabulary
 * [templates/](../../references/templates/) — output structures

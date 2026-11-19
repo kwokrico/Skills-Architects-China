@@ -85,6 +85,8 @@ Load from parent `references/` when needed (one hop):
 
 * [compliance.md](../../references/compliance.md) — non-negotiable rules
 * [GB_50009_Loads_CS.md](../../../cn_s_reference/MOHURD/summaries/GB_50009_Loads_CS.md) — actions, not member sizes
+* [Seismic_Administration_Regulation_CS.md](../../../cn_s_reference/MOHURD/summaries/Seismic_Administration_Regulation_CS.md) — legal duty, not a member size
+* [cn-statutory-source-register.md](../../references/cn-statutory-source-register.md) — GB 55001, GB 55002, GB 55003, GB 55008, GB 50011, GB 50010, and GB 50007 are not ingested
 * [operational.md](../../references/operational.md) — intake and escalation
 * [domain_terms.json](../../references/domain_terms.json) — vocabulary
 * [templates/](../../references/templates/) — output structures

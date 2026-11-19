@@ -214,3 +214,4 @@ Load from parent `references/` when needed (one hop):
 * [stage-gate-checklist.md](../../references/templates/stage-gate-checklist.md) — gate shell
 * [deliverables.md](../../references/templates/deliverables.md) — transmittal shell
 * [Construction_Drawing_Review_Measures_CS.md](../../../cn_s_reference/MOHURD/summaries/Construction_Drawing_Review_Measures_CS.md) — drawing-review digest
+* [Design_File_Depth_Provisions_CS.md](../../../cn_s_reference/MOHURD/summaries/Design_File_Depth_Provisions_CS.md) — stage depth; sheet lists are not copied

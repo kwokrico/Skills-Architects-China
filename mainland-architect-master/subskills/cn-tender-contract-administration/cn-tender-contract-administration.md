@@ -199,3 +199,4 @@ Load from parent `references/` when needed (one hop):
 * [cn-procurement-routes-comparison.md](../../references/cn-procurement-routes-comparison.md) — route comparison
 * [cn-adverse-weather-eot.md](../../references/cn-adverse-weather-eot.md) — weather delay by route
 * [招标投标法_CS.md](../../../cn_s_reference/MOHURD/summaries/Tendering_and_Bidding_Law_CS.md) — bidding-law digest
+* [cn-statutory-source-register.md](../../references/cn-statutory-source-register.md) — GF-2017-0201 and GF-2020-0216 are not ingested

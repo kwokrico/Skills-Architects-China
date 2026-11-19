@@ -107,6 +107,7 @@ Load from parent `references/` when needed (one hop):
 * [GB_50016_Fire_Code_Relationship_CS.md](../../../cn_s_reference/Fire%20and%20Rescue/summaries/GB_50016_Fire_Code_Relationship_CS.md) — what remains of GB 50016
 * [GB_51251_Smoke_CS.md](../../../cn_s_reference/Fire%20and%20Rescue/summaries/GB_51251_Smoke_CS.md) — smoke-control routing
 * [cn-code-catalog.md](../../references/cn-code-catalog.md) — standards that still need a digest
+* [cn-statutory-source-register.md](../../references/cn-statutory-source-register.md) — GB 50016 tables, GB 50084, GB 50974, GB 50116, GB 50067, and GB 50222 are not ingested
 * [operational.md](../../references/operational.md) — intake and escalation
 * [domain_terms.json](../../references/domain_terms.json) — vocabulary
 * [templates/](../../references/templates/) — output structures

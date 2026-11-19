@@ -113,6 +113,7 @@ When asked to advise on PI and contract risk:
 Load from parent `references/` when needed (one hop):
 
 * [compliance.md](../../references/compliance.md) — non-negotiable rules
+* [cn-statutory-source-register.md](../../references/cn-statutory-source-register.md) — the architect-registration implementation rules are not ingested
 * [operational.md](../../references/operational.md) — intake and escalation
 * [domain_terms.json](../../references/domain_terms.json) — vocabulary
 * [templates/](../../references/templates/) — output structures
